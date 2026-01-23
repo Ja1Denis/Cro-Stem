@@ -1,3 +1,6 @@
+[![PyPI version](https://badge.fury.io/py/cro-stem.svg)](https://badge.fury.io/py/cro-stem)
+[![Downloads](https://static.pepy.tech/badge/cro-stem)](https://pepy.tech/project/cro-stem)
+
 # Cro-Stem: Lagani hrvatski stemmer
 
 [![Rust](https://img.shields.io/badge/rust-1.x-orange.svg)](https://www.rust-lang.org/)
