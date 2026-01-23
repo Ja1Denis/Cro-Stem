@@ -1,6 +1,6 @@
 [package]
 name = "cro_stem"  # Ovo će biti ime za pip install cro-stem
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Denis Sakač <sdenis.vr@gmailcom>"]
 description = "A lightning-fast, zero-dependency Croatian stemming library written in Rust."
