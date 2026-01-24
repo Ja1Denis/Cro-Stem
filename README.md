@@ -5,7 +5,7 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.x-orange.svg)](https://www.rust-lang.org/)
 
-**Cro-Stem** je brza, lagana i od ovisnosti neovisna Rust biblioteka za stemizaciju hrvatskih riječi. Njegova svrha je svesti inflektirane ili izvedene riječi na njihov korijen, bazu ili osnovni oblik.
+**KorijenX** je brza, lagana i od ovisnosti neovisna Rust biblioteka za stemizaciju hrvatskih riječi. Njegova svrha je svesti inflektirane ili izvedene riječi na njihov korijen, bazu ili osnovni oblik.
 
 Ova biblioteka je dizajnirana za brzinu i minimalnu potrošnju memorije, što je čini idealnom alternativom velikim, resursno intenzivnim AI modelima za zadatke predprocesiranja u obradi prirodnog jezika (NLP), poput indeksiranja pretraga i tekstualne analize.
 
