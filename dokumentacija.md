@@ -79,4 +79,4 @@ Ova faza označava prijelaz iz eksperimenta u proizvod.
 CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
 *   **Trenutna točnost:** >91% na reprezentativnom uzorku.
 *   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
-*   **Idući koraci:** Objava verzije 0.1.3 na crates.io, ažuriranje Python bindinga i potencijalna komercijalizacija podrške.
+*   **Idući koraci:** Verzija 0.1.4 je objavljena na crates.io i PyPI. Plan je pratiti feedback korisnika i eventualno dodati rječnik iznimaka za onih zadnjih 5-8% točnosti.
