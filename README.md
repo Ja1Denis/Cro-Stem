@@ -7,7 +7,7 @@
 
 **Cro-Stem** je moderna, munjevit brz Rust biblioteka za morfološku normalizaciju (stemming) hrvatskog jezika. S točnošću od **>91%**, idealna je zamjena za spore i teške AI modele u produkcijskim sustavima.
 
-> 🏆 **Novo u v0.1.3:** Uveden `StemMode` (Agresivni/Konzervativni mod) i postignuta točnost od 91.4% na testnom korpusu od 1000 riječi.
+> 🏆 **Novo u v0.1.4:** Uveden `StemMode` (Agresivni/Konzervativni mod) i postignuta točnost od 91.4% na testnom korpusu od 1000 riječi.
 
 ### 🎮 [Pogledaj Interaktivni Demo](https://ja1denis.github.io/Cro-Stem/)
 Isprobajte Cro-Stem izravno u pregledniku. Demo omogućuje testiranje pojedinačnih riječi, masovnu obradu teksta i usporedbu modova rada.
@@ -27,7 +27,7 @@ Isprobajte Cro-Stem izravno u pregledniku. Demo omogućuje testiranje pojedinač
 
 ## 🚀 Usporedba
 
-| Značajka | Cro-Stem v0.1.3 | Veliki AI Modeli (spaCy/CLASSLA) |
+| Značajka | Cro-Stem v0.1.4 | Veliki AI Modeli (spaCy/CLASSLA) |
 | :--- | :--- | :--- |
 | **Veličina** | **< 0.5 MB** | ~800 MB+ |
 | **Brzina** | **>1M riječi/sek** | ~10k riječi/sek |
@@ -46,7 +46,7 @@ pip install cro-stem
 U vašem `Cargo.toml`:
 ```toml
 [dependencies]
-cro_stem = "0.1.3"
+cro_stem = "0.1.4"
 ```
 
 ## 📖 Korištenje

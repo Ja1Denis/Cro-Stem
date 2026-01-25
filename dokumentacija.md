@@ -65,7 +65,7 @@ Da bismo podigli točnost, u `src/lib.rs` smo uveli sljedeće promjene:
     *   **Glagolske imenice:** Dodani sufiksi `-anje` i `-enje`.
     *   **Djeteta/Vremena:** Preciznije rukovanje proširenjem osnove.
 
-### e) Iteracija v012.3: "Enterprise Ready" (v0.1.3)
+### e) Iteracija v012.3: "Enterprise Ready" (v0.1.4)
 Ova faza označava prijelaz iz eksperimenta u proizvod.
 1.  **Arhitektura:** Uveden `StemMode` (Aggressive za search, Conservative za NLP).
 2.  **Validacija:** Proveden *stress-test* na **1000 riječi**.
@@ -78,7 +78,7 @@ Ova faza označava prijelaz iz eksperimenta u proizvod.
 ## 4. Iteracija v012.4: Interaktivna Prezentacija i Automatizacija
 Ova faza fokusirala se na vidljivost projekta i korisničko iskustvo.
 
-1.  **Integracija Dema:** Interaktivni React/Vite demo premješten je u `demo/` mapu unutar glavnog repozitorija.
+1.  **Integracija Portala:** Interaktivni React/Vite portal premješten je u `portal/` mapu unutar glavnog repozitorija.
 2.  **Deployment:** Implementiran je GitHub Pages hosting.
     *   Podešen `base` put u `vite.config.ts`.
     *   Kreiran GitHub Action (`deploy-demo.yml`) za automatski build i deploy pri svakom pushu na `master`.
