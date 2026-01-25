@@ -10,6 +10,9 @@
 // that can't be computed at compile time (like a HashMap).
 use lazy_static::lazy_static;
 use std::collections::HashMap;
+
+#[cfg(target_arch = "wasm32")]
+use wasm_bindgen::prelude::*;
 // `Cow` stands for "Clone-on-Write". It's a smart pointer that can hold either
 // a borrowed reference (`&str`) or an owned value (`String`). We use it to
 // avoid allocating a new String if the word hasn't been modified during a
@@ -415,5 +418,16 @@ fn stem(word: &str) -> PyResult<String> {
 fn cro_stem(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(stem, m)?)?;
     Ok(())
+}
+
+#[cfg(target_arch = "wasm32")]
+#[wasm_bindgen]
+pub fn stem_wasm(word: &str, mode_str: &str) -> String {
+    let mode = match mode_str.to_lowercase().as_str() {
+        "conservative" => StemMode::Conservative,
+        _ => StemMode::Aggressive,
+    };
+    let stemmer = CroStem::new(mode);
+    stemmer.stem(word)
 }
 
