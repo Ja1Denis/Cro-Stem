@@ -9,6 +9,12 @@
 
 > 🏆 **Novo u v0.1.3:** Uveden `StemMode` (Agresivni/Konzervativni mod) i postignuta točnost od 91.4% na testnom korpusu od 1000 riječi.
 
+### 🎮 [Pogledaj Interaktivni Demo](https://ja1denis.github.io/Cro-Stem/)
+Isprobajte Cro-Stem izravno u pregledniku. Demo omogućuje testiranje pojedinačnih riječi, masovnu obradu teksta i usporedbu modova rada.
+
+---
+
+
 ## ✨ Ključne Značajke
 
 *   **⚡ Munjevita brzina:** Napisan u Rustu, obrađuje milijune riječi u sekundi.
