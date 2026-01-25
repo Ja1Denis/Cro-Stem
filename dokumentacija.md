@@ -75,7 +75,16 @@ Ova faza označava prijelaz iz eksperimenta u proizvod.
     *   Otvoren put za *Dual Licensing* (besplatno za Open Source, plaćeno za zatvoreni kod).
     *   Motivacija: Već postojeća baza od >4000 korisnika na staroj verziji.
 
-## 4. Zaključak i Daljnji Razvoj
+## 4. Iteracija v012.4: Interaktivna Prezentacija i Automatizacija
+Ova faza fokusirala se na vidljivost projekta i korisničko iskustvo.
+
+1.  **Integracija Dema:** Interaktivni React/Vite demo premješten je u `demo/` mapu unutar glavnog repozitorija.
+2.  **Deployment:** Implementiran je GitHub Pages hosting.
+    *   Podešen `base` put u `vite.config.ts`.
+    *   Kreiran GitHub Action (`deploy-demo.yml`) za automatski build i deploy pri svakom pushu na `master`.
+3.  **README Vizualizacija:** Dodana sekcija s linkom na "Live Demo" kako bi budući korisnici odmah mogli isprobati snagu algoritma.
+
+## 5. Zaključak i Daljnji Razvoj
 CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
 *   **Trenutna točnost:** >91% na reprezentativnom uzorku.
 *   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
