@@ -84,8 +84,13 @@ Ova faza fokusirala se na vidljivost projekta i korisničko iskustvo.
     *   Kreiran GitHub Action (`deploy-demo.yml`) za automatski build i deploy pri svakom pushu na `master`.
 3.  **README Vizualizacija:** Dodana sekcija s linkom na "Live Demo" kako bi budući korisnici odmah mogli isprobati snagu algoritma.
 
-## 5. Zaključak i Daljnji Razvoj
-CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
-*   **Trenutna točnost:** >91% na reprezentativnom uzorku.
-*   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
-*   **Idući koraci:** Verzija 0.1.4 je objavljena na crates.io i PyPI. Plan je pratiti feedback korisnika i eventualno dodati rječnik iznimaka za onih zadnjih 5-8% točnosti.
+92: 
+93: ## 6. Zaključak i Daljnji Razvoj
+94: CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
+95: *   **Trenutna točnost:** >91% na reprezentativnom uzorku.
+96: *   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
+97: *   **Status Portala (v0.1.4):** 
+98:     *   Uspješno deployan na GitHub Pages: [https://ja1denis.github.io/Cro-Stem/](https://ja1denis.github.io/Cro-Stem/)
+99:     *   Riješeni problemi s `base` putanjom i `.gitignore` pravilima za WASM artifakte.
+100:     *   Stari `demo` direktorij je uklonjen u korist `portal` strukture.
+101: *   **Idući koraci:** Integracija Python API-ja i eventualno proširenje rječnika iznimaka.
