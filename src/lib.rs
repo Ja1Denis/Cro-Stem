@@ -395,12 +395,14 @@ mod tests {
 // --- Python Bindings ---
 // This section uses `pyo3` to create a Python module.
 
+#[cfg(feature = "python")]
 use pyo3::prelude::*;
 
 // This is a wrapper function marked with `#[pyfunction]`. It will be exposed
 // to Python. It creates a new stemmer instance for each call, which is simple
 // and safe for multi-threading in Python, although a shared instance could
 // be used for higher performance if needed.
+#[cfg(feature = "python")]
 #[pyfunction]
 fn stem(word: &str) -> PyResult<String> {
     let stemmer = CroStem::new(StemMode::Aggressive);
@@ -408,6 +410,7 @@ fn stem(word: &str) -> PyResult<String> {
 }
 
 /// A Python module implemented in Rust.
+#[cfg(feature = "python")]
 #[pymodule]
 fn cro_stem(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(stem, m)?)?;
