@@ -233,23 +233,49 @@ impl CroStem {
     }
 
     pub fn stem(&self, word: &str) -> String {
+        self.stem_debug(word).last().cloned().unwrap_or_else(|| word.to_string())
+    }
+
+    pub fn stem_debug(&self, word: &str) -> Vec<String> {
+        let mut steps = Vec::new();
+        steps.push(word.to_string());
+
         let is_acronym = word.len() > 1 && word.chars().all(|c| !c.is_lowercase());
-        let mut clean = if is_acronym { word.to_string() } else { word.to_lowercase() };
-        clean.retain(|c: char| !matches!(c, '.' | ',' | ';' | ':' | '!' | '?'));
+        let mut current = if is_acronym { word.to_string() } else { word.to_lowercase() };
+        if current != word { steps.push(current.clone()); }
 
-        if STOP_WORDS.contains_key(clean.as_str()) {
-            return clean;
+        let original_before_punct = current.clone();
+        current.retain(|c: char| !matches!(c, '.' | ',' | ';' | ':' | '!' | '?'));
+        if current != original_before_punct { steps.push(current.clone()); }
+
+        if STOP_WORDS.contains_key(current.as_str()) {
+            return steps;
         }
 
-        if let Some(stem) = self.exceptions.get(&clean) {
-            return stem.clone();
+        if let Some(stem) = self.exceptions.get(&current) {
+            steps.push(stem.clone());
+            return steps;
         }
 
-        let without_suffix = self.remove_suffix(&clean);
-        let without_prefix = self.remove_prefix(&without_suffix);
-        let normalized = self.normalize(&without_prefix);
+        let without_suffix = self.remove_suffix(&current);
+        if without_suffix != current {
+            current = without_suffix;
+            steps.push(current.clone());
+        }
 
-        normalized.to_string()
+        let without_prefix = self.remove_prefix(&current).to_string();
+        if without_prefix != current {
+            current = without_prefix;
+            steps.push(current.clone());
+        }
+
+        let normalized = self.normalize(&current).to_string();
+        if normalized != current {
+            current = normalized;
+            steps.push(current.clone());
+        }
+
+        steps
     }
 
     fn remove_suffix(&self, word: &str) -> String {
@@ -429,5 +455,16 @@ pub fn stem_wasm(word: &str, mode_str: &str) -> String {
     };
     let stemmer = CroStem::new(mode);
     stemmer.stem(word)
+}
+
+#[cfg(target_arch = "wasm32")]
+#[wasm_bindgen]
+pub fn stem_debug_wasm(word: &str, mode_str: &str) -> Vec<String> {
+    let mode = match mode_str.to_lowercase().as_str() {
+        "conservative" => StemMode::Conservative,
+        _ => StemMode::Aggressive,
+    };
+    let stemmer = CroStem::new(mode);
+    stemmer.stem_debug(word)
 }
 

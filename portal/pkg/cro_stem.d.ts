@@ -1,6 +1,8 @@
 /* tslint:disable */
 /* eslint-disable */
 
+export function stem_debug_wasm(word: string, mode_str: string): string[];
+
 export function stem_wasm(word: string, mode_str: string): string;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
@@ -8,6 +10,7 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly stem_wasm: (a: number, b: number, c: number, d: number, e: number) => void;
+    readonly stem_debug_wasm: (a: number, b: number, c: number, d: number, e: number) => void;
     readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
     readonly __wbindgen_export: (a: number, b: number) => number;
     readonly __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;
