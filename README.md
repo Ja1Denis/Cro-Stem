@@ -20,7 +20,7 @@ Dosta je bilo tromih modela koji gutaju RAM i usporavaju tvoju produkciju. **Cro
     - **Conservative**: Čuva lingvističku bit. Idealno za naprednu NLP analizu podataka.
 - **📦 Zero-Bloat Dizajn**: Cijela moć u manje od 1MB. Nema PyTorcha, nema TensorFlow ovisnosti, samo čisti binarni kôd.
 
-## 📉 Formula Vrijednosti (Alex Hormozi Framework)
+## 📉 Formula Vrijednosti
 
 - **Dream Outcome**: Savršeno indeksiran i pretraživ hrvatski tekst bez troškova serverske infrastrukture.
 - **Vjerojatnost Uspjeha**: **91.4%** preciznost + Rust-ova garancija memorijske sigurnosti.
