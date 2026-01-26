@@ -12,5 +12,12 @@ build/
 *.egg-info/
 .idea/
 .vscode/
+
+# Interna dokumentacija i strategija
 MONETIZATION_STRATEGY.md
 dokumentacija.md
+test_results.txt
+
+# Skripte i agenti
+run_tests.py
+.agent/
