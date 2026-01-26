@@ -84,13 +84,44 @@ Ova faza fokusirala se na vidljivost projekta i korisničko iskustvo.
     *   Kreiran GitHub Action (`deploy-demo.yml`) za automatski build i deploy pri svakom pushu na `master`.
 3.  **README Vizualizacija:** Dodana sekcija s linkom na "Live Demo" kako bi budući korisnici odmah mogli isprobati snagu algoritma.
 
-92: 
-93: ## 6. Zaključak i Daljnji Razvoj
-94: CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
-95: *   **Trenutna točnost:** >91% na reprezentativnom uzorku.
-96: *   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
-97: *   **Status Portala (v0.1.4):** 
-98:     *   Uspješno deployan na GitHub Pages: [https://ja1denis.github.io/Cro-Stem/](https://ja1denis.github.io/Cro-Stem/)
-99:     *   Riješeni problemi s `base` putanjom i `.gitignore` pravilima za WASM artifakte.
-100:     *   Stari `demo` direktorij je uklonjen u korist `portal` strukture.
-101: *   **Idući koraci:** Integracija Python API-ja i eventualno proširenje rječnika iznimaka.
+
+## 5. Iteracija v012.5: Čišćenje Repozitorija i Provjera Verzija
+Fokus ove iteracije bio je na osiguravanju čistoće repozitorija i razjašnjavanju verziranja.
+
+1.  **Git Cleanup:**
+    *   Ažuriran `.gitignore` da ispravno ignorira `node_modules`, `.venv`, `.env` i druge artefakte.
+    *   Uklonjeni nepotrebni `demo` folderi koji nisu bili dio projekta.
+    *   Projekt je sada potpuno čist ("clean working tree").
+2.  **Verzija Projekta:**
+    *   Potvrđeno je da je trenutna verzija **0.1.4**.
+    *   Razjašnjeno je odstupanje na vanjskim servisima (PyPI badges, Pepy.tech) koje kasne s ažuriranjem cache-a.
+3.  **Korpusi:** Odlučeno je da se velike JSON datoteke s korpusima (`croatian_stemming_corpus_10k.json` i sl.) zadrže lokalno izvan `cro_stem` git repozitorija kako ne bi opterećivale povijest promjena, dok su manji testni korpusi unutar projekta.
+
+
+## 6. Analiza primjene: Zašto CroStem?
+Pitanje iz prakse: **"Zašto mi treba CroStem ako Njuškalo ili WordPress već imaju svoje tražilice?"**
+
+Odgovor leži u razlici između **"glupe" pretrage** i **jezičnog razumijevanja**:
+
+### 1. Problem "glupe" tražilice
+Većina osnovnih tražilica radi na principu identičnog podudaranja (*exact match*).
+*   **Primjer:** Prodaješ "stolice" na oglasniku.
+*   **Kupac:** Upiše "stolica" (jednina).
+*   **Rezultat:** Nema rezultata. Računalo vidi da "stolica" ≠ "stolice".
+*   **Hrvatski jezik:** Zbog padeža i broja (*pas, psa, psu, psi, psima*), obična tražilica često ne pronalazi relevantne rezultate.
+
+### 2. Rješenje: CroStem kao "motor"
+CroStem se ugrađuje u tražilicu kao prevoditelj:
+1.  **Indeksiranje:** Tvoj oglas "Prodajem stolice" sprema se kao korijen `stolic`.
+2.  **Pretraga:** Kupčev upit "stolica" se pretvara u `stolic`.
+3.  **Pogodak:** Sustav pronalazi tvoj oglas jer se korijeni podudaraju.
+
+Veliki servisi (Njuškalo) vjerojatno koriste interne stemmere (često neoptimizirane za HR), dok manji (WordPress) često nemaju nikakvo rješenje. CroStem služi kao visokoučinkovita komponenta koja tim sustavima daje "naočale" za hrvatsku gramatiku.
+
+## 7. Zaključak i Daljnji Razvoj
+CroStem je sada de facto standard za hrvatski stemming u Rust ekosustavu.
+*   **Trenutna točnost:** >91% na reprezentativnom uzorku.
+*   **Spremnost:** Spreman za produkcijsku upotrebu u tražilicama i NLP pipelineovima.
+*   **Status Portala:**
+    *   Uspješno deployan na GitHub Pages: [https://ja1denis.github.io/Cro-Stem/](https://ja1denis.github.io/Cro-Stem/)
+*   **Idući koraci:** Integracija Python API-ja i eventualno proširenje rječnika iznimaka.
