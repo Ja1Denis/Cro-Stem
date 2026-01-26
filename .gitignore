@@ -12,3 +12,4 @@ build/
 *.egg-info/
 .idea/
 .vscode/
+MONETIZATION_STRATEGY.md
