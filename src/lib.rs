@@ -285,12 +285,6 @@ impl CroStem {
             StemMode::Conservative => SUFFIXES_CONSERVATIVE,
         };
         
-        // Strictness settings
-        let min_root_len = match self.mode {
-            StemMode::Aggressive => 2,
-            StemMode::Conservative => 3,
-        };
-
         loop {
             let original_len = result.len();
             for suffix in suffixes {
