@@ -9,7 +9,7 @@
 
 ### „Zašto trošiti gigabajte na AI, kada Rust može isto u 500KB?“
 
-Dosta je bilo tromih modela koji gutaju RAM i usporavaju tvoju produkciju. **Cro-Stem** je hirurški precizan alat za hrvatski jezik koji donosi performanse bez kompromisa.
+Dosta je bilo tromih modela koji gutaju RAM i usporavaju tvoju produkciju. **Cro-Stem** je kirurški precizan alat za hrvatski jezik koji donosi performanse bez kompromisa.
 
 ## 🏆 Grand Slam Ponuda (The Value Stack)
 
