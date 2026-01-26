@@ -55,6 +55,12 @@ Isprobaj snagu Rust-a izravno u svom pregledniku:
 
 ---
 
+## ☕️ Dev Corner
+
+- **🚀 Brži od konobara na Rivi:** Cro-Stem obrađuje tvoj CSV brže nego što stigneš naručiti kavu s hladnim mlijekom.
+- **🛥️ Bez redova za trajekt:** Naš Rust engine nema kašnjenja. Za razliku od ulaska na trajekt u špici sezone, ovdje nema čekanja u redu — tvoji podaci se procesuiraju odmah.
+- **🏫 Kraj traumama iz škole:** Sjećaš se tablica s padežima? Mi smo ih pretvorili u kod da ti više nikada ne bi morao razmišljati o *instrumentalu množine*.
+
 ## ⚖️ Licenca i Komercijalna Upotreba
 
 Ovaj projekt je pod **AGPL-3.0** licencom — srce mu kuca za Open Source.
