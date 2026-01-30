@@ -5,7 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/cro-stem.svg)](https://badge.fury.io/py/cro-stem)
 [![Rust](https://img.shields.io/badge/language-Rust-orange.svg)](https://www.rust-lang.org/)
 [![WASM](https://img.shields.io/badge/wasm-supported-blueviolet.svg)](https://ja1denis.github.io/Cro-Stem/)
-[![License](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE)
 
 ### „Zašto trošiti gigabajte na AI, kada Rust može isto u 500KB?“
 
@@ -61,12 +61,22 @@ Isprobaj snagu Rust-a izravno u svom pregledniku:
 - **🛥️ Bez redova za trajekt:** Naš Rust engine nema kašnjenja. Za razliku od ulaska na trajekt u špici sezone, ovdje nema čekanja u redu — tvoji podaci se procesuiraju odmah.
 - **🏫 Kraj traumama iz škole:** Sjećaš se tablica s padežima? Mi smo ih pretvorili u kod da ti više nikada ne bi morao razmišljati o *instrumentalu množine*.
 
-## ⚖️ Licenca i Komercijalna Upotreba
+## ⚖️ Licenca i Autorska Prava
 
-Ovaj projekt je pod **AGPL-3.0** licencom — srce mu kuca za Open Source.
+Copyright © 2026 Denis Ja1Denis. Sva prava pridržana osim onih dozvoljenih licencom.
 
-- ✅ **Besplatno** za sve projekte otvorenog koda.
-- 💼 **Komercijalna licenca (Enterprise)**: Ako gradiš zatvoreni softver i želiš Cro-Stem u svojoj produkciji bez obveze dijeljenja koda, kontaktiraj autora za kupnju komercijalne licence.
+Ovaj projekt je licenciran pod **MIT** ili **Apache-2.0** licencom — po vašem izboru.
+
+- 📧 **Email**: sdenis.vr@gmail.com
+- 🔗 **LinkedIn**: [Denis Sakač](https://www.linkedin.com/in/denis-sakac-73a99933/)
+
+***
+
+👨‍💻 **Također od autora:**
+- **[Serb-Stem](https://github.com/Ja1Denis/Serb-Stem)**: Prvi pravi Stemmer za srpski jezik.
+- **[Slov-Stem](https://github.com/Ja1Denis/Slov-Stem)**: Prvi pravi Stemmer za slovenski jezik.
+
+> **Napomena**: Ako koristite ovo komercijalno, javite mi se za suradnju. Uvijek sam otvoren za feedback i nove prilike!
 
 ---
 *Gradiš budućnost hrvatskog jezika? Gradi je s povjerenjem. Gradi je s Cro-Stem-om.*

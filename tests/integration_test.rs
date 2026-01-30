@@ -49,10 +49,6 @@ fn test_aggressive_corpus() {
     println!("AGGRESSIVE SCORE: {}/{}", passed_agg, words.len());
     println!("CONSERVATIVE SCORE: {}/{}", passed_cons, words.len());
     
-    // If it's the 200 corpus, we expect Conservative to shine.
-    if words.len() > 150 {
-         println!("FAILURES (Conservative): {}", failed_cons);
-    } else {
-         println!("FAILURES (Aggressive): {}", failed_agg);
-    }
+    println!("FAILURES (Aggressive): {}", failed_agg);
+    println!("FAILURES (Conservative): {}", failed_cons);
 }

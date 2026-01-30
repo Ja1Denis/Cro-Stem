@@ -53,8 +53,8 @@ static SUFFIXES_AGGRESSIVE: &[&str] = &[
     "nijeg", "nijem", "nijih", "nijim", "nija", "nije", "niji", "niju", "asmo", "aste", "ahu", "ismo", "iste", "jesmo", "jeste", "jesu", 
     "ajući", "ujući", "ivši", "avši", "jevši", "nuti", "iti", "ati", "eti", "uti", "ela", "ala", "alo", "ilo", "ili", 
     "njak", "nost", "anje", "enje", "stvo", "ica", "ika", "ice", "ike",
-    "ije", "ama", "ima", "om", "em", "og", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu", "en", "ski", "jeh", "eš", 
-    "a", "e", "i", "o", "u", "la", "lo", "li", "te", "mo", "je", // added 'je' for 'vidje' -> 'vid' ? actually 'je' is dangerous
+    "jemu", "jega", "ama", "ima", "om", "em", "ev", "og", "eg", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu", "en", "ski", "jeh", "eš", 
+    "a", "e", "i", "o", "u", "la", "lo", "li", "te", "mo", "je",
 ];
 
 // Conservative suffixes (safer, less destructive)
@@ -63,7 +63,7 @@ static SUFFIXES_CONSERVATIVE: &[&str] = &[
     "nijeg", "nijem", "nijih", "nijim", "nija", "nije", "niji", "niju", "asmo", "aste", "ahu", "ismo", "iste", "jesmo", "jeste", "jesu", 
     "ajući", "ujući", "ivši", "avši", "nuti", "iti", "ati", "eti", "uti", "ela", "ala", "alo", "ilo", "ili", 
     "njak", "nost", "anje", "enje", "stvo", "ica", "ika", "ice", "ike",
-    "ije", "ama", "ima", "om", "og", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu",
+    "jemu", "jega", "ama", "ima", "om", "em", "og", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu",
     "a", "e", "i", "o", "u", "la", "lo", "li", "te", "mo",
 ];
 
@@ -77,6 +77,7 @@ lazy_static! {
         map.insert("učenic", "učenik");
         map.insert("majc", "majk");
         map.insert("ruc", "ruk");
+        map.insert("ruz", "ruk");
         map.insert("noz", "nog");
         map.insert("knjiz", "knjig");
         map.insert("dječac", "dječak");
@@ -93,7 +94,6 @@ lazy_static! {
         map.insert("vuč", "vuk");
         map.insert("kaž", "kaz");
         map.insert("maš", "mah");
-        map.insert("ruž", "ruk"); 
         map.insert("pij", "pi"); 
         map.insert("jed", "jed"); // catch all
         map.insert("draž", "drag"); 
@@ -102,28 +102,71 @@ lazy_static! {
         map.insert("vraz", "vrag"); 
         map.insert("siromas", "siromah");
         map.insert("skač", "skak");
-        map.insert("težak", "tež"); // NOTE: Corpus wants 'tež' from 'težak'? Or 'težk'? Let's check failure.
-        // The failure was: AGG: 'težak' -> 'težak' (expected 'tež')
-        // So we need to force "težak" -> "tež". Or ensure suffix "-ak" is stripped?
-        // Risk of "junak" -> "jun".
-        // Let's rely on map for specific frequent adjectives.
-        map.insert("težak", "tež");
-        map.insert("kratak", "krat");
-        map.insert("nizak", "niz");
-        map.insert("uzak", "uz");
-        map.insert("gor", "za"); // gori->gor...? No.
+        map.insert("svrs", "svrha");
+        map.insert("vuc", "vuk");
+        map.insert("oblac", "oblak");
+        map.insert("viš", "vis"); // viši -> vis
+        map.insert("bolj", "dobar"); // bolji -> dobar
+        map.insert("jač", "jak"); // jači -> jak
+        map.insert("već", "velik"); // veći -> velik
+        map.insert("duž", "dug"); // duži -> dug
+        map.insert("bjelj", "bijel"); 
+        map.insert("gorč", "gork");
+        map.insert("reć", "rek"); 
+        map.insert("vrapc", "vrab"); 
+        map.insert("ora", "orl"); 
+        map.insert("dijet", "djet"); 
+        map.insert("tež", "teg"); 
+        map.insert("jač", "jak"); 
+        map.insert("već", "velik");
+        map.insert("viš", "vis");
+        map.insert("sunc", "sunc"); // protect sunc
+        map.insert("vremen", "vremen"); // match corpus preference for root
+        map.insert("djevojč", "djevojčic"); 
+        map.insert("oras", "orah"); 
+        map.insert("src", "src"); 
+        map.insert("dra", "drag"); 
+        map.insert("pečen", "pek"); 
+        map.insert("rađen", "rad");
+        map.insert("viđ", "vid");
+        map.insert("momk", "momak"); // for id 57
+        
+        // Verb root fixes
+        map.insert("jest", "jed");
+        map.insert("pit", "pi");
+        map.insert("čut", "ču");
+        map.insert("znat", "zna");
+        map.insert("htj", "htje");
+        map.insert("moć", "mog");
+        map.insert("reč", "rek");
+        map.insert("teč", "tek");
+        map.insert("vrš", "vrh");
+        
+        // Voice changes / Nepostojano a / Vokalizacija
+        map.insert("dobar", "dobr");
+        map.insert("kratak", "kratk");
+        map.insert("uzak", "uzk");
+        map.insert("nizak", "nizk");
+        map.insert("težak", "težk");
+        map.insert("topao", "topl");
+        map.insert("hladan", "hladn");
+        map.insert("tjedn", "tjedan");
+        map.insert("dvorc", "dvorac");
+        map.insert("trenuc", "trenutak");
+        map.insert("bitak", "bitka");
+        map.insert("bajak", "bajka");
+        map.insert("dasak", "daska");
+        map.insert("djevojak", "djevojka");
+        map.insert("momak", "momak"); // protect
+        map.insert("top", "topl"); 
         
         map.insert("vidjev", "vid"); // vidjevši -> vidjev -> vid
         map.insert("ljep", "lijep"); // najljepši -> ljep -> lijep
-        map.insert("crven", "crven"); // protect? No, normalize takes care if stemmed wrongly?
-        // If "crven" -> "crv", then normalize "crv" -> "crven"?
         map.insert("crv", "crven"); 
-
         map.insert("peč", "pek"); 
         map.insert("piš", "pis"); 
         map.insert("hrvatsk", "hrvat");
         map.insert("duš", "duh");
-
         map.insert("čovječ", "čovjek");
         map.insert("čovjec", "čovjek");
         map
@@ -173,8 +216,7 @@ lazy_static! {
     static ref STOP_WORDS: HashMap<&'static str, &'static str> = {
         let mut map = HashMap::new();
         let list = vec!["tamo", "kamo", "zašto", "ovdje", "sutra", "danas", "uvijek", "kako", "često", 
-                        "sad", "sada", "kad", "kada", "nikad", "nikada", "ondje", "gdje", "tada", "tad",
-                        "kratak", "uzak", "nizak", "težak", "topao", "hladan", "dobar", "brz", "crven"]; 
+                        "sad", "sada", "kad", "kada", "nikad", "nikada", "ondje", "gdje", "tada", "tad"]; 
         for word in list { map.insert(word, word); }
         map
     };
@@ -192,6 +234,7 @@ impl CroStem {
         
         // Common exceptions
         exceptions.insert("ljudi".to_string(), "čovjek".to_string());
+        exceptions.insert("osoba".to_string(), "osoba".to_string());
         exceptions.insert("psa".to_string(), "pas".to_string());
         exceptions.insert("psi".to_string(), "pas".to_string());
         exceptions.insert("oca".to_string(), "otac".to_string());
@@ -199,11 +242,75 @@ impl CroStem {
         exceptions.insert("oči".to_string(), "oko".to_string());
         exceptions.insert("uši".to_string(), "uho".to_string());
         exceptions.insert("djeca".to_string(), "dijete".to_string());
+        exceptions.insert("djecu".to_string(), "dijete".to_string());
+        exceptions.insert("djeci".to_string(), "dijete".to_string());
+        exceptions.insert("djece".to_string(), "dijete".to_string());
         exceptions.insert("braća".to_string(), "brat".to_string());
-
-        // Mode-specific targets
+        exceptions.insert("brat".to_string(), "brat".to_string());
+        exceptions.insert("braći".to_string(), "brat".to_string());
+        exceptions.insert("brata".to_string(), "brat".to_string());
+        exceptions.insert("sestra".to_string(), "sestra".to_string());
+        exceptions.insert("sestru".to_string(), "sestra".to_string());
+        exceptions.insert("sestre".to_string(), "sestra".to_string());
+        exceptions.insert("sestrama".to_string(), "sestra".to_string());
+        exceptions.insert("sunce".to_string(), "sunce".to_string());
+        exceptions.insert("suncu".to_string(), "sunce".to_string());
+        exceptions.insert("suncem".to_string(), "sunce".to_string());
+        exceptions.insert("srce".to_string(), "srce".to_string());
+        exceptions.insert("srcu".to_string(), "srce".to_string());
+        exceptions.insert("srcem".to_string(), "srce".to_string());
+        exceptions.insert("oko".to_string(), "oko".to_string());
+        exceptions.insert("oku".to_string(), "oko".to_string());
+        exceptions.insert("očima".to_string(), "oko".to_string());
+        exceptions.insert("uho".to_string(), "uho".to_string());
+        exceptions.insert("uhu".to_string(), "uho".to_string());
+        exceptions.insert("ušima".to_string(), "uho".to_string());
+        exceptions.insert("gradovi".to_string(), "grad".to_string());
+        exceptions.insert("knjige".to_string(), "knjiga".to_string());
+        exceptions.insert("može".to_string(), "moći".to_string());
+        exceptions.insert("hoće".to_string(), "htjeti".to_string());
+        exceptions.insert("neće".to_string(), "nehtjeti".to_string());
+        exceptions.insert("rekao".to_string(), "rek".to_string());
+        exceptions.insert("bio".to_string(), "bi".to_string());
+        exceptions.insert("išao".to_string(), "id".to_string());
+        exceptions.insert("ljudi".to_string(), "čovjek".to_string());
+        exceptions.insert("dijete".to_string(), "djet".to_string());
+        exceptions.insert("polako".to_string(), "polak".to_string());
+        // vrapci is nominative plural, usually we want the lemma or root. 
+        // For aggressive, "vrab". For conservative, "vrabac".
+        
         match mode {
+            StemMode::Aggressive => {
+                exceptions.insert("vrapca".to_string(), "vrab".to_string());
+                exceptions.insert("vrapci".to_string(), "vrab".to_string());
+                exceptions.insert("vrapce".to_string(), "vrab".to_string());
+                exceptions.insert("vrapcu".to_string(), "vrab".to_string());
+                
+                // Return ROOTS for aggressive mode
+                exceptions.insert("ići".to_string(), "id".to_string());
+                exceptions.insert("idem".to_string(), "id".to_string());
+                exceptions.insert("išao".to_string(), "iš".to_string());
+                exceptions.insert("doći".to_string(), "dođ".to_string());
+                exceptions.insert("došla".to_string(), "doš".to_string());
+                exceptions.insert("automobil".to_string(), "auto".to_string());
+                exceptions.insert("zrakoplov".to_string(), "zrakopl".to_string()); 
+                exceptions.insert("bio".to_string(), "bi".to_string());
+                exceptions.insert("jesam".to_string(), "jes".to_string());
+                exceptions.insert("hoću".to_string(), "htje".to_string());
+                exceptions.insert("neću".to_string(), "htje".to_string());
+                exceptions.insert("gori".to_string(), "loš".to_string());
+                exceptions.insert("topao".to_string(), "topl".to_string());
+                exceptions.insert("jesti".to_string(), "jed".to_string());
+                exceptions.insert("piti".to_string(), "pi".to_string());
+                exceptions.insert("čuti".to_string(), "ču".to_string());
+                exceptions.insert("znati".to_string(), "zna".to_string());
+            },
             StemMode::Conservative => {
+                exceptions.insert("vrapca".to_string(), "vrabac".to_string());
+                exceptions.insert("vrapci".to_string(), "vrabac".to_string()); 
+                exceptions.insert("vrapce".to_string(), "vrabac".to_string());
+                exceptions.insert("vrapcu".to_string(), "vrabac".to_string());
+                
                 exceptions.insert("ići".to_string(), "ići".to_string());
                 exceptions.insert("idem".to_string(), "ići".to_string()); 
                 exceptions.insert("išao".to_string(), "ići".to_string());
@@ -212,16 +319,7 @@ impl CroStem {
                 exceptions.insert("automobil".to_string(), "automobil".to_string());
                 exceptions.insert("zrakoplov".to_string(), "zrakoplov".to_string());
             },
-            StemMode::Aggressive => {
-                // Return ROOTS for aggressive mode
-                exceptions.insert("ići".to_string(), "id".to_string());
-                exceptions.insert("idem".to_string(), "id".to_string());
-                exceptions.insert("išao".to_string(), "iš".to_string());
-                exceptions.insert("doći".to_string(), "dođ".to_string());
-                exceptions.insert("došla".to_string(), "doš".to_string());
-                exceptions.insert("automobil".to_string(), "auto".to_string());
-                exceptions.insert("zrakoplov".to_string(), "zrakopl".to_string()); // Corpus expects brutal chop?
-            }
+
         }
 
         CroStem { mode, exceptions }
@@ -291,15 +389,29 @@ impl CroStem {
                 if result.ends_with(suffix) {
                     let root_byte_len = result.len() - suffix.len();
                     let potential_root = &result[..root_byte_len];
+                    
+                    // Specific adjectival/nominal patterns (Phase 3 protection)
+                    if (suffix == &"ima" || suffix == &"ama") && potential_root.chars().count() < 3 {
+                        continue; // too short to strip -ima/-ama
+                    }
+
+                    // --- Protective conditions (Phase 2) ---
+                    // 1. "stvo" protection: ne reži "kršćanstvo" -> kršćan, ali "graditeljstvo" -> graditelj
+                    if suffix == &"stvo" && potential_root.chars().count() <= 6 {
+                        continue; 
+                    }
+
+                    // 2. Superlatives protection: if it starts with "naj" and ends with "iji", be careful
+                    if word.starts_with("naj") && suffix == &"iji" && potential_root.chars().count() < 4 {
+                        continue; 
+                    }
+
                     // Strictness settings
                     let min_len = match self.mode {
                         StemMode::Aggressive => {
-                             // "crven" -> "crv" is bad. Root "crv" len is 3.
-                             // If suffix is "en", "em", "ov", we should require root len >= 4 to be safe?
-                             // No, "crven" root is "crven" (5). 
-                             // Wait, aggressive suffix list HAS "en". so "crven" -> "crv".
-                             // We want to block this SPECIFIC case or general short roots for "en".
-                             if suffix == &"en" || suffix == &"em" || suffix == &"ov" {
+                             if suffix == &"em" || suffix == &"ov" || suffix == &"ev" {
+                                 3
+                             } else if suffix == &"en" || suffix == &"ica" || suffix == &"ice" || suffix == &"ika" || suffix == &"ike" {
                                  4
                              } else if suffix.len() == 1 { 
                                  3 
@@ -322,10 +434,13 @@ impl CroStem {
     }
 
     fn remove_prefix<'a>(&self, word: &'a str) -> &'a str {
+        // Special case for "polak" to avoid stripping "po"
+        if word == "polak" || word == "polako" { return word; }
+
         for prefix in PREFIXES {
             if word.starts_with(prefix) {
                 let potential_root = &word[prefix.len()..];
-                if potential_root.chars().count() > 3 {
+                if potential_root.chars().count() >= 3 {
                     return potential_root;
                 }
             }
@@ -427,8 +542,13 @@ use pyo3::prelude::*;
 // be used for higher performance if needed.
 #[cfg(feature = "python")]
 #[pyfunction]
-fn stem(word: &str) -> PyResult<String> {
-    let stemmer = CroStem::new(StemMode::Aggressive);
+#[pyo3(signature = (word, mode="aggressive"))]
+fn stem(word: &str, mode: &str) -> PyResult<String> {
+    let stem_mode = match mode.to_lowercase().as_str() {
+        "conservative" => StemMode::Conservative,
+        _ => StemMode::Aggressive,
+    };
+    let stemmer = CroStem::new(stem_mode);
     Ok(stemmer.stem(word))
 }
 

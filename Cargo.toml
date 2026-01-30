@@ -1,13 +1,13 @@
 [package]
 name = "cro_stem"  # Ovo će biti ime za pip install cro-stem
-version = "0.1.4"
+version = "0.1.5"
+edition = "2021"
 
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = false
-edition = "2021"
 authors = ["Denis Sakač <sdenis.vr@gmail.com>"]
 description = "A lightning-fast, zero-dependency Croatian stemming library written in Rust."
-license = "AGPL-3.0"
+license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/Ja1Denis/Cro-Stem" 
 keywords = ["nlp", "croatian", "stemming", "rust", "python"]
