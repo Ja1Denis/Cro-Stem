@@ -80,6 +80,10 @@ assert_eq!(stemmer.stem("najljepših"), "lijep");
 
 ---
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 492cf0cf10514ca7621072eece08c73a1f528b25
 ---
 
 ## ⚖️ Licenca
