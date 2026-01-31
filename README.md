@@ -6,6 +6,8 @@
 [![Rust](https://img.shields.io/badge/language-Rust-orange.svg)](https://www.rust-lang.org/)
 [![WASM](https://img.shields.io/badge/wasm-supported-blueviolet.svg)](https://ja1denis.github.io/Cro-Stem/)
 [![License](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE)
+[![PyPI Downloads](https://static.pepy.tech/badge/cro-stem)](https://pepy.tech/project/cro-stem)
+[![Crates.io Downloads](https://img.shields.io/crates/d/cro_stem)](https://crates.io/crates/cro_stem)
 
 ### „Zašto koristiti išta drugo kada možeš imati 97% preciznosti u 500KB?“
 
