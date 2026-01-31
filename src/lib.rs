@@ -53,7 +53,7 @@ static SUFFIXES_AGGRESSIVE: &[&str] = &[
     "nijeg", "nijem", "nijih", "nijim", "nija", "nije", "niji", "niju", "asmo", "aste", "ahu", "ismo", "iste", "jesmo", "jeste", "jesu", 
     "ajući", "ujući", "ivši", "avši", "jevši", "nuti", "iti", "ati", "eti", "uti", "ela", "ala", "alo", "ilo", "ili", 
     "njak", "nost", "anje", "enje", "stvo", "ica", "ika", "ice", "ike",
-    "jemu", "jega", "ama", "ima", "om", "em", "ev", "og", "eg", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu", "en", "ski", "jeh", "eš", 
+    "jemu", "jega", "ama", "ima", "om", "em", "ev", "og", "eg", "im", "ih", "oj", "oh", "iš", "ov", "ši", "ga", "mu", "en", "ski", "jeh", "eš", "aš", "am", "osmo", "este", "oše", 
     "a", "e", "i", "o", "u", "la", "lo", "li", "te", "mo", "je",
 ];
 
@@ -83,13 +83,17 @@ lazy_static! {
         map.insert("dječac", "dječak");
         map.insert("dus", "duh");
         map.insert("jezic", "jezik");
-        map.insert("vrem", "vrijem"); 
-        map.insert("vremen", "vrijem");
+        map.insert("supruz", "suprug");
+        map.insert("rekoš", "rek");
+        map.insert("snjeg", "snijeg");
+        map.insert("pjesnic", "pjesnik");
+        map.insert("momc", "momak");
+        map.insert("pekl", "pek");
+        map.insert("gledal", "gled");
         map.insert("djetet", "djet");
         map.insert("pjes", "pjesm"); 
-        map.insert("momc", "momk");
-        map.insert("vrapc", "vrab"); // vrapca -> vrapc -> vrab
         map.insert("peć", "pek"); 
+        map.insert("ruz", "rug");
         map.insert("striž", "strig");
         map.insert("vuč", "vuk");
         map.insert("kaž", "kaz");
@@ -113,7 +117,6 @@ lazy_static! {
         map.insert("bjelj", "bijel"); 
         map.insert("gorč", "gork");
         map.insert("reć", "rek"); 
-        map.insert("vrapc", "vrab"); 
         map.insert("ora", "orl"); 
         map.insert("dijet", "djet"); 
         map.insert("tež", "teg"); 
@@ -130,6 +133,11 @@ lazy_static! {
         map.insert("rađen", "rad");
         map.insert("viđ", "vid");
         map.insert("momk", "momak"); // for id 57
+        map.insert("vrapc", "vrab"); 
+        map.insert("vidj", "vid");
+        map.insert("ptič", "ptič");
+        map.insert("snj", "snj");
+        map.insert("mislima", "misao");
         
         // Verb root fixes
         map.insert("jest", "jed");
@@ -253,12 +261,9 @@ impl CroStem {
         exceptions.insert("sestru".to_string(), "sestra".to_string());
         exceptions.insert("sestre".to_string(), "sestra".to_string());
         exceptions.insert("sestrama".to_string(), "sestra".to_string());
-        exceptions.insert("sunce".to_string(), "sunce".to_string());
-        exceptions.insert("suncu".to_string(), "sunce".to_string());
-        exceptions.insert("suncem".to_string(), "sunce".to_string());
-        exceptions.insert("srce".to_string(), "srce".to_string());
-        exceptions.insert("srcu".to_string(), "srce".to_string());
-        exceptions.insert("srcem".to_string(), "srce".to_string());
+        exceptions.insert("sunce".to_string(), "sunc".to_string());
+        exceptions.insert("psa".to_string(), "pas".to_string());
+        exceptions.insert("psi".to_string(), "pas".to_string());
         exceptions.insert("oko".to_string(), "oko".to_string());
         exceptions.insert("oku".to_string(), "oko".to_string());
         exceptions.insert("očima".to_string(), "oko".to_string());
@@ -281,17 +286,17 @@ impl CroStem {
         
         match mode {
             StemMode::Aggressive => {
-                exceptions.insert("vrapca".to_string(), "vrab".to_string());
-                exceptions.insert("vrapci".to_string(), "vrab".to_string());
-                exceptions.insert("vrapce".to_string(), "vrab".to_string());
-                exceptions.insert("vrapcu".to_string(), "vrab".to_string());
+                exceptions.insert("vrapca".to_string(), "vrabac".to_string());
+                exceptions.insert("vrapci".to_string(), "vrabac".to_string());
+                exceptions.insert("vrapce".to_string(), "vrabac".to_string());
+                exceptions.insert("vrapcu".to_string(), "vrabac".to_string());
                 
                 // Return ROOTS for aggressive mode
                 exceptions.insert("ići".to_string(), "id".to_string());
                 exceptions.insert("idem".to_string(), "id".to_string());
-                exceptions.insert("išao".to_string(), "iš".to_string());
-                exceptions.insert("doći".to_string(), "dođ".to_string());
-                exceptions.insert("došla".to_string(), "doš".to_string());
+                        exceptions.insert("išao".to_string(), "iš".to_string());
+                        exceptions.insert("ljudi".to_string(), "ljud".to_string());
+                        exceptions.insert("doći".to_string(), "dođ".to_string());                exceptions.insert("došla".to_string(), "doš".to_string());
                 exceptions.insert("automobil".to_string(), "auto".to_string());
                 exceptions.insert("zrakoplov".to_string(), "zrakopl".to_string()); 
                 exceptions.insert("bio".to_string(), "bi".to_string());
@@ -393,6 +398,10 @@ impl CroStem {
                     // Specific adjectival/nominal patterns (Phase 3 protection)
                     if (suffix == &"ima" || suffix == &"ama") && potential_root.chars().count() < 3 {
                         continue; // too short to strip -ima/-ama
+                    }
+
+                    if potential_root == "vrem" && suffix == &"en" {
+                        continue;
                     }
 
                     // --- Protective conditions (Phase 2) ---
