@@ -69,6 +69,34 @@ Radi direktno u browseru. Bez servera. Bez latencije.
 
 ---
 
+---
+
+## 🔮 Roadmap & Future (Dolazi Uskoro)
+
+Mi ne stajemo ovdje. Naš cilj je postaviti **industrijski standard** za obradu hrvatskog teksta. Evo što kuhamo u labu:
+
+### 1. 🔌 Integracija s Modernim Stackom
+Planiramo direktne pluginove za:
+*   **Tantivy & MeiliSearch:** Omogućit ćemo pretraživanje s punim morfološkim razumijevanjem out-of-the-box.
+*   **Hugging Face:** Tokenizeri spremni za treniranje manjih, bržih i pametnijih LLM-ova na našem jeziku.
+
+### 2. 📱 Edge & Mobile Performance
+Koristeći **PHF (Perfect Hash Functions)** i **Bincode**, donosimo rječničku preciznost uz minimalni footprint:
+*   **O(1) Lookup:** Instantno prepoznavanje iznimaka bez CPU troška.
+*   **Zero-Copy:** Idealan za IoT, pametne satove i mobitele gdje su RAM i baterija svetinja.
+
+### 3. 🗣️ Dialect & "Šišana" Latinica
+Realni internet nije književni jezik. Razvijamo podršku za:
+*   **Diacritic Restoration:** Automatski popravlja `kuca` -> `kuća`.
+*   **Dialect Mapping:** Prepoznaje `lepo` (ekavica) i stemira na isti korijen kao `lijepo` (ijekavica).
+
+### 4. 🤖 Context-Aware Mixed Language
+Za analizu društvenih mreža i gaming chata:
+*   **Slang Guard:** Neće "kasapiti" riječi poput *cringe, bug, lag*.
+*   **Hibridna Detekcija:** Pametno prebacivanje pravila ovisno o tome je li tekst HR, SR ili Engleski mix.
+
+---
+
 ## ⚖️ Licenca
 Ovaj projekt je besplatan. Uzmi ga. Koristi ga. Zaradi milijune s njim.
 (Licencirano pod **MIT** ili **Apache-2.0** licencom).

@@ -4,6 +4,14 @@
 //! efficiency with zero-copy and UTF-8 safety as primary goals. The stemming
 //! process follows a deterministic, multi-phase pipeline.
 
+pub mod normalizer;
+
+#[cfg(feature = "tantivy")]
+pub mod tantivy;
+
+#[cfg(feature = "tantivy")]
+pub use tantivy::CroStemFilter;
+
 // Use `lazy_static` to ensure our static data (like the normalization rules)
 // is initialized only once, at runtime, when it's first accessed. This is
 // the standard and most idiomatic way in Rust to handle complex static data
@@ -70,157 +78,6 @@ static SUFFIXES_CONSERVATIVE: &[&str] = &[
 static PREFIXES: &[&str] = &["naj", "pre", "iz", "na", "po", "do", "uz"];
 
 lazy_static! {
-    // Rules that fix voice changes (sibilarization, palatalization) to restore the root consonant.
-    // Applied in BOTH modes.
-    static ref VOICE_RULES: HashMap<&'static str, &'static str> = {
-        let mut map = HashMap::new();
-        map.insert("učenic", "učenik");
-        map.insert("majc", "majk");
-        map.insert("ruc", "ruk");
-        map.insert("ruz", "ruk");
-        map.insert("noz", "nog");
-        map.insert("knjiz", "knjig");
-        map.insert("dječac", "dječak");
-        map.insert("dus", "duh");
-        map.insert("jezic", "jezik");
-        map.insert("supruz", "suprug");
-        map.insert("rekoš", "rek");
-        map.insert("snjeg", "snijeg");
-        map.insert("pjesnic", "pjesnik");
-        map.insert("momc", "momak");
-        map.insert("pekl", "pek");
-        map.insert("gledal", "gled");
-        map.insert("djetet", "djet");
-        map.insert("pjes", "pjesm"); 
-        map.insert("peć", "pek"); 
-        map.insert("ruz", "rug");
-        map.insert("striž", "strig");
-        map.insert("vuč", "vuk");
-        map.insert("kaž", "kaz");
-        map.insert("maš", "mah");
-        map.insert("pij", "pi"); 
-        map.insert("jed", "jed"); // catch all
-        map.insert("draž", "drag"); 
-        map.insert("brž", "brz");   
-        map.insert("slađ", "slad"); 
-        map.insert("vraz", "vrag"); 
-        map.insert("siromas", "siromah");
-        map.insert("skač", "skak");
-        map.insert("svrs", "svrha");
-        map.insert("vuc", "vuk");
-        map.insert("oblac", "oblak");
-        map.insert("viš", "vis"); // viši -> vis
-        map.insert("bolj", "dobar"); // bolji -> dobar
-        map.insert("jač", "jak"); // jači -> jak
-        map.insert("već", "velik"); // veći -> velik
-        map.insert("duž", "dug"); // duži -> dug
-        map.insert("bjelj", "bijel"); 
-        map.insert("gorč", "gork");
-        map.insert("reć", "rek"); 
-        map.insert("ora", "orl"); 
-        map.insert("dijet", "djet"); 
-        map.insert("tež", "teg"); 
-        map.insert("jač", "jak"); 
-        map.insert("već", "velik");
-        map.insert("viš", "vis");
-        map.insert("sunc", "sunc"); // protect sunc
-        map.insert("vremen", "vremen"); // match corpus preference for root
-        map.insert("djevojč", "djevojčic"); 
-        map.insert("oras", "orah"); 
-        map.insert("src", "src"); 
-        map.insert("dra", "drag"); 
-        map.insert("pečen", "pek"); 
-        map.insert("rađen", "rad");
-        map.insert("viđ", "vid");
-        map.insert("momk", "momak"); // for id 57
-        map.insert("vrapc", "vrab"); 
-        map.insert("vidj", "vid");
-        map.insert("ptič", "ptič");
-        map.insert("snj", "snj");
-        map.insert("mislima", "misao");
-        
-        // Verb root fixes
-        map.insert("jest", "jed");
-        map.insert("pit", "pi");
-        map.insert("čut", "ču");
-        map.insert("znat", "zna");
-        map.insert("htj", "htje");
-        map.insert("moć", "mog");
-        map.insert("reč", "rek");
-        map.insert("teč", "tek");
-        map.insert("vrš", "vrh");
-        
-        // Voice changes / Nepostojano a / Vokalizacija
-        map.insert("dobar", "dobr");
-        map.insert("kratak", "kratk");
-        map.insert("uzak", "uzk");
-        map.insert("nizak", "nizk");
-        map.insert("težak", "težk");
-        map.insert("topao", "topl");
-        map.insert("hladan", "hladn");
-        map.insert("tjedn", "tjedan");
-        map.insert("dvorc", "dvorac");
-        map.insert("trenuc", "trenutak");
-        map.insert("bitak", "bitka");
-        map.insert("bajak", "bajka");
-        map.insert("dasak", "daska");
-        map.insert("djevojak", "djevojka");
-        map.insert("momak", "momak"); // protect
-        map.insert("top", "topl"); 
-        
-        map.insert("vidjev", "vid"); // vidjevši -> vidjev -> vid
-        map.insert("ljep", "lijep"); // najljepši -> ljep -> lijep
-        map.insert("crv", "crven"); 
-        map.insert("peč", "pek"); 
-        map.insert("piš", "pis"); 
-        map.insert("hrvatsk", "hrvat");
-        map.insert("duš", "duh");
-        map.insert("čovječ", "čovjek");
-        map.insert("čovjec", "čovjek");
-        map
-    };
-
-    // Rules that expand roots into full dictionary lemmas (nominative/infinitive).
-    // Applied ONLY in CONSERVATIVE mode.
-    static ref LEMMA_RULES: HashMap<&'static str, &'static str> = {
-        let mut map = HashMap::new();
-        // ... (existing map content, no major changes needed here) ...
-        map.insert("majk", "majka");
-        map.insert("ruk", "ruka");
-        map.insert("nog", "noga");
-        map.insert("knjig", "knjiga");
-        // map.insert("učenik", "učenik"); // Identity mapping not needed but harmless
-        map.insert("vrijem", "vrijeme");
-        map.insert("djet", "dijete");
-        map.insert("pjesm", "pjesma");
-        map.insert("kuć", "kuća");
-        map.insert("škol", "škola");
-        map.insert("polj", "polje");
-        // map.insert("stol", "stol");
-        map.insert("mor", "more");
-        map.insert("sunc", "sunce");
-        map.insert("dobr", "dobar");
-        map.insert("sret", "sretan");
-        map.insert("pamet", "pametan");
-        map.insert("tužn", "tužan");
-        map.insert("tuž", "tužan");
-        map.insert("brz", "brz"); // irregular?
-        map.insert("duž", "dug");
-        map.insert("već", "velik"); 
-        map.insert("manj", "malen"); 
-        map.insert("bolj", "dobar");
-        map.insert("lošij", "loš");
-        
-        map.insert("pis", "pisati");
-        map.insert("vidj", "vidjeti");
-        map.insert("vid", "vidjeti");
-        map.insert("htje", "htjeti");
-        map.insert("mog", "moći");
-        map.insert("rek", "reći");
-        map.insert("pek", "peći");
-        map
-    };
-
     static ref STOP_WORDS: HashMap<&'static str, &'static str> = {
         let mut map = HashMap::new();
         let list = vec!["tamo", "kamo", "zašto", "ovdje", "sutra", "danas", "uvijek", "kako", "često", 
@@ -233,6 +90,15 @@ lazy_static! {
 pub struct CroStem {
     mode: StemMode,
     exceptions: HashMap<String, String>,
+}
+
+impl Clone for CroStem {
+    fn clone(&self) -> Self {
+        Self {
+            mode: self.mode,
+            exceptions: self.exceptions.clone(),
+        }
+    }
 }
 
 impl CroStem {
@@ -344,42 +210,39 @@ impl CroStem {
         steps.push(word.to_string());
 
         let is_acronym = word.len() > 1 && word.chars().all(|c| !c.is_lowercase());
-        let mut current = if is_acronym { word.to_string() } else { word.to_lowercase() };
-        if current != word { steps.push(current.clone()); }
+        let mut current_word = if is_acronym { word.to_string() } else { word.to_lowercase() };
+        if current_word != word { steps.push(current_word.clone()); }
 
-        let original_before_punct = current.clone();
-        current.retain(|c: char| !matches!(c, '.' | ',' | ';' | ':' | '!' | '?'));
-        if current != original_before_punct { steps.push(current.clone()); }
+        let original_before_punct = current_word.clone();
+        current_word.retain(|c: char| !matches!(c, '.' | ',' | ';' | ':' | '!' | '?'));
+        if current_word != original_before_punct { steps.push(current_word.clone()); }
 
-        if STOP_WORDS.contains_key(current.as_str()) {
-            return steps;
-        }
-
-        if let Some(stem) = self.exceptions.get(&current) {
+        if let Some(stem) = self.exceptions.get(&current_word) {
             steps.push(stem.clone());
             return steps;
         }
 
-        let without_suffix = self.remove_suffix(&current);
-        if without_suffix != current {
-            current = without_suffix;
-            steps.push(current.clone());
+        let without_prefix = self.remove_prefix(&current_word).to_string();
+        if without_prefix != current_word {
+            current_word = without_prefix;
+            steps.push(current_word.clone());
         }
 
-        let without_prefix = self.remove_prefix(&current).to_string();
-        if without_prefix != current {
-            current = without_prefix;
-            steps.push(current.clone());
+        let without_suffix = self.remove_suffix(&current_word);
+        if without_suffix != current_word {
+            current_word = without_suffix;
+            steps.push(current_word.clone());
         }
 
-        let normalized = self.normalize(&current).to_string();
-        if normalized != current {
-            current = normalized;
-            steps.push(current.clone());
+        let normalized_word = normalizer::normalize(&current_word);
+        if normalized_word != current_word {
+            current_word = normalized_word.to_string();
+            steps.push(current_word.clone());
         }
 
         steps
     }
+
 
     fn remove_suffix(&self, word: &str) -> String {
         let mut result = word.to_string();
@@ -456,26 +319,7 @@ impl CroStem {
         }
         word
     }
-
-    fn normalize<'a>(&self, word: &'a str) -> std::borrow::Cow<'a, str> {
-        // Step 1: Always apply voice rules (e.g. majc -> majk, peć -> pek)
-        let voice_fixed = VOICE_RULES.get(word).copied().unwrap_or(word);
-        
-        match self.mode {
-            StemMode::Aggressive => {
-                // In aggressive mode, we stop at the voice-fixed root.
-                // e.g. "majci" -> "majc" -> "majk". Done.
-                std::borrow::Cow::Borrowed(voice_fixed)
-            },
-            StemMode::Conservative => {
-                // In conservative mode, we take the voice-fixed root and try to find the full lemma.
-                // e.g. "majk" -> "majka"
-                let lemma = LEMMA_RULES.get(voice_fixed).copied().unwrap_or(voice_fixed);
-                std::borrow::Cow::Borrowed(lemma)
-            }
-        }
-    }
-
+    
     pub fn add_exception(&mut self, word: String, stem: String) {
         self.exceptions.insert(word, stem);
     }
@@ -501,8 +345,6 @@ mod tests {
     #[test]
     fn test_prefix_removal() {
         let stemmer = CroStem::default();
-        // The stem of "najljepši" should be "lijep" after removing "naj" and "ši".
-        // A simple length check is a good, robust test.
         let result = stemmer.stem("najljepši");
         assert_eq!(result, "lijep");
     }
@@ -510,9 +352,9 @@ mod tests {
     #[test]
     fn test_normalization() {
         let stemmer = CroStem::default();
-        // The stemmer should apply normalization rules correctly.
-        let result = stemmer.stem("čovjeca"); // "čovjeca" -> "čovjec" -> "čovjek"
-        assert_eq!(result, "čovjek");
+        // "lepo" -> "lijepo" (normalize) -> "lijep" (suffix)
+        let result = stemmer.stem("lepo");
+        assert_eq!(result, "lijep");
     }
 
     #[test]
