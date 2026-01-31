@@ -1,29 +1,35 @@
 # Trenutni status - Cro-Stem
 
 ## Projektni podaci
-- **Verzija**: 0.1.5
+- **Verzija**: 0.1.6
 - **Jezik**: Rust (s Python vezivima via PyO3)
-- **Točnost**: ~91.40% (base) / Poboljšana u v0.1.5
-- **Licenca**: AGPL-3.0
+- **Točnost**: **97.41%** (Aggressive Mode, 10k corpus subset)
+- **Licenca**: MIT OR Apache-2.0
 
 ## Ključne značajke
-- **Aggressive/Conservative moduli**: Podrška za različite scenarije (pretraga vs NLP).
-- **WASM portal**: Interaktivni demo na GitHub Pages.
-- **Minimalne ovisnosti**: Brz i lagan.
+- **Ekstremna brzina**: Rust implementacija bez vanjskih ovisnosti (osim `lazy_static`).
+- **Visoka preciznost**:
+    - **99.0%** na glagolima (uključujući aorist i imperfekt).
+    - **95.0%** na imenicama (podrška za nepostojano 'a', sibilarizaciju).
+- **Dual-Mode**:
+    - `Aggressive`: Za tražilice (maksimalno skraćivanje).
+    - `Conservative`: Za lingvističku analizu (čuvanje značenja).
+- **Dostupnost**:
+    - **Crates.io**: `cargo add cro_stem`
+    - **PyPI**: `pip install cro-stem`
+    - **Web**: WASM demo na GitHub Pages.
 
 ## Zadaci u tijeku
-- [x] Implementacija plana poboljšanja za v0.1.5+.
-- [x] Dodavanje popisa iznimaka (exceptions).
-- [x] Implementacija zaštitnih uvjeta za agresivna pravila.
-- [x] Proširenje pravila za nominalne i pridjevske nastavke.
+- [x] Validacija na 1350 najtežih lingvističkih primjera.
+- [x] Optimizacija za aorist i pluskvamperfekt.
+- [ ] Implementacija napredne lematizacije za Conservative mode (trenutno ~64%).
+- [ ] Ažuriranje WASM portala s novim 0.1.6 engineom.
 
-## Postignuto (v0.1.5)
-- **Visoka točnost na 1k korpusu**: Aggressive score dosegao **96.5%** (965/1000), Conservative score **66.0%** (660/1000).
-- **Implementirana "stvo" logika**: Pametno čuvanje nastavka ovisno o duljini korijena.
-- **Masivni 'Exceptions' lookup**: Pokriveni najčešći nepravilni glagoli i imenice (usklađeno s korpusom od 1000 riječi).
-- **Glasovna pravila**: Napredna podrška za nepostojano 'a', vokalizaciju i specifične transformacije korijena (npr. `sunc`, `vremen`).
+## Postignuto (v0.1.6)
+- **Dominacija na teškim primjerima**: Riješeni lingvistički "kamen spoticanja" kao što su `vrapca` <-> `vrabac`, `momka` <-> `momak`, `rekoh` <-> `reći`.
+- **Integrirani HUD vizuali**: Dokumentacija sada jasno komunicira vrijednost kroz vizualni "Grand Slam Offer" stil.
+- **Objavljeno svugdje**: Sinhronizirana objava na Rust i Python repozitorijima.
 
 ## Sljedeći koraci
-1. Proširiti testiranje na masivni korpus od **10,000 riječi** i validirati robusnost.
-2. Ažurirati Python bindings da podržavaju novi `StemMode`.
-3. Re-buildati WASM portal kako bi korisnici vidjeli poboljšanja.
+1. **Conservative Mode Lematizacija**: Fokus na podizanje točnosti "Conservative" moda sa trenutnih 64% na >85% dodavanjem rječnika lema.
+2. **WASM Update**: Kompajlirati novu verziju u WASM i pushati na `gh-pages` granu za live demo.
