@@ -1,7 +1,7 @@
 # Trenutni status - Cro-Stem
 
 ## Projektni podaci
-- **Verzija**: 0.1.6
+- **Verzija**: 0.1.7 (Release Candidate)
 - **Jezik**: Rust (s Python vezivima via PyO3)
 - **Točnost**: **97.41%** (Aggressive Mode, 10k corpus subset)
 - **Licenca**: MIT OR Apache-2.0
