@@ -381,6 +381,24 @@ mod tests {
         assert_eq!(stemmer.stem("pjevanje"), "pjev");
         assert_eq!(stemmer.stem("hladnjak"), "hlad");
     }
+
+    #[test]
+    fn test_hybrid_normalization_fixes() {
+        // Helper wrapper to match playground signature logic locally
+        fn process_one(word: &str, mode: &StemMode) -> String {
+            let stemmer = CroStem::new(*mode);
+            let res = stemmer.stem(word);
+            println!("Word: {}, Result: {}", word, res);
+            res
+        }
+
+        assert_eq!(process_one("sasavi", &StemMode::Aggressive), "šašav");
+        assert_eq!(process_one("zutim", &StemMode::Aggressive), "žut");
+        assert_eq!(process_one("zenscic", &StemMode::Aggressive), "ženščić");
+        assert_eq!(process_one("carsaf", &StemMode::Aggressive), "čaršaf");
+        assert_eq!(process_one("koncem", &StemMode::Aggressive), "konc");
+        assert_eq!(process_one("sivajuci", &StemMode::Aggressive), "šivajuč");
+    }
 }
 
 // --- Python Bindings ---

@@ -8,11 +8,18 @@
     - Implementiran PHF-bazirani normalizator za vraćanje dijakritika (`zivot` -> `život`).
     - Dodana podrška za mapiranje dijalekata (Ekavica/Ikavica -> Ijekavica).
     - Identificiran problem skalabilnosti statičkih mapa i kreiran **hibridni plan (Mapa + Pravila)**.
-- **Demo Platforma**:
+- **Demo Platforma (Playground 2.0)**:
     - Izrađen moderni React Playground (WASM + Tailwind).
+    - **Lokalizacija**: Kompletno sučelje prevedeno na hrvatski jezik.
+    - **Developer Mode**: Implementiran sustav za prijavu grešaka s automatskim generiranjem Rust `assert_eq!` testova.
+    - **Session Log**: Dodan sustav za masovno prikupljanje i izvoz testnih slučajeva (Log preglednik).
+    - **Pomoć i Upute**: Dodan interaktivni Help sustav unutar Dev Mode-a.
     - Implementirana real-time vizualizacija procesa: Original -> Normalized -> Stem.
-    - Dodana statistika performansi u mikrosekundama (us).
-- **Verzija**: Bump na **v0.1.7 RC** i push na `feat/nlp-integrations`.
+    - Dodana statistika performansi u mikrosekundama (μs).
+- **Hibridna Normalizacija (Iteracija 1)**:
+    - Dodana mikro-mapa u `heuristics.rs` za brze ispravke kritičnih riječi (`sasavi`, `zutim`, `zenscic`, `carsaf`, `sivajuci`).
+    - Spriječena regresija za riječ `koncem`.
+- **Verzija**: Bump na **v0.1.7-rc.2** i push na `feat/nlp-integrations`.
 
 ## 2026-01-31 (Verzija 0.1.6)
 - **Validacija na 10k korpusu**:

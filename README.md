@@ -74,10 +74,19 @@ Radi direktno u browseru. Bez servera. Bez latencije.
 ## ✨ Killer Feature: Hibridna Normalizacija (v0.1.7+)
 Svijet nije savršen. Ljudi pišu "kuca", "c ovjek" i "lepo". Većina stemmera ovdje puca. **Cro-Stem briljira.**
 
-Koristimo **hibridni engine** (PHF Mapa + Heuristička Pravila) koji:
+ Koristimo **hibridni engine** (PHF Mapa + Heuristička Pravila) koji:
 1.  **Vraća Dijakritike**: `zvacuci` -> `žvačući`. Automatski. Instantno.
 2.  **Ujedinjuje Dijalekte**: Prepoznaje `lepo` (ekavica) i `lipo` (ikavica) i tretira ih kao `lijepo`.
 3.  **Štedi Resurse**: Umjesto gigabajtnih modela, ovo radi u **par kilobajta** memorije koristeći pametnu `Cow<'a, str>` arhitekturu.
+
+---
+
+## 🛠️ Developer Feedback Loop (Playground 2.0)
+Cro-Stem raste s tobom. Ako uočiš riječ koja se ne reže ispravno, popravak je udaljen svega par klikova:
+1.  U **Playgroundu** upali **DEV MODE**.
+2.  Klikni **PRIJAVI** pored riječi i upiši očekivani korijen.
+3.  Zalijepi generirani `assert_eq!` u naš sustav.
+Sustav će automatski dodati test, popraviti algoritam i regenerirati WASM. **Tvoja povratna informacija direktno poboljšava engine.**
 
 ---
 
