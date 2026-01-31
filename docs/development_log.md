@@ -1,31 +1,29 @@
 # Dnevnik razvoja - Cro-Stem
 
+## 2026-01-31 (Verzija 0.1.7 RC - NLP Integrations)
+- **Tantivy Integracija**:
+    - Razvijen `CroStemFilter` i `CroStemTokenizer` za Tantivy ekosustav.
+    - Implementiran `TokenStream` omotač koji podržava stemiranje u realnom vremenu unutar search pipelinea (Tantivy API v0.3).
+- **Napredna Normalizacija**:
+    - Implementiran PHF-bazirani normalizator za vraćanje dijakritika (`zivot` -> `život`).
+    - Dodana podrška za mapiranje dijalekata (Ekavica/Ikavica -> Ijekavica).
+    - Identificiran problem skalabilnosti statičkih mapa i kreiran **hibridni plan (Mapa + Pravila)**.
+- **Demo Platforma**:
+    - Izrađen moderni React Playground (WASM + Tailwind).
+    - Implementirana real-time vizualizacija procesa: Original -> Normalized -> Stem.
+    - Dodana statistika performansi u mikrosekundama (us).
+- **Verzija**: Bump na **v0.1.7 RC** i push na `feat/nlp-integrations`.
+
 ## 2026-01-31 (Verzija 0.1.6)
 - **Validacija na 10k korpusu**:
-    - Uspješno testirano na korpusu od 1350 najtežih lingvističkih primjera (izvučeno iz većeg 10k seta).
+    - Uspješno testirano na korpusu od 1350 najtežih lingvističkih primjera.
     - Postignuta impresivna točnost od **97.41%** (Aggressive Mode).
-    - Preciznost po kategorijama:
-        - **Glagoli (Verbs)**: 99.0%
-        - **Imenice (Nouns)**: 95.0%
-        - **Pridjevi (Adjectives)**: 97.7%
 - **Optimizacija algoritma**:
-    - Dodana podrška za aorist i imperfekt (sufiksi `-osmo`, `-este`, `-oše`).
-    - Riješeni rubni slučajevi za nepostojano 'a' (`vrabac` <-> `vrapca`, `momak` <-> `momka`).
-    - Usavršena pravila sibilarizacije i palatalizacije.
-    - Implementirana zaštita korijena za specifične riječi (`snijeg`, `misao`).
-- **Dokumentacija i Marketing**:
-    - Redizajniran `README.md` koristeći "Grand Slam Offer" pristup.
-    - Generirana nova naslovna slika s HUD elementima koji prikazuju statistiku preciznosti.
-    - Dodane značke (badges) za preuzimanja s PyPI i Crates.io.
-- **Objava**:
-    - Objavljena verzija **0.1.6** na **Crates.io** i **PyPI**.
+    - Podrška za aorist i imperfekt.
+    - Riješeni rubni slučajevi za nepostojano 'a' (vrabac -> vrapca).
+- **Objava**: Objavljena verzija 0.1.6 na Crates.io i PyPI.
 
 ## 2026-01-30
-- **Plan poboljšanja v0.1.5+**: Kreiran detaljan plan za povećanje točnosti bez povećanja kompleksnosti.
-- **Dokumentacija**: Uspostavljen `docs` folder sa `current_status.md`, `development_log.md` i `improvement_plan.md`.
-- **v0.1.5 Implementacija**:
-    - Dodan opsežan popis iznimaka u `src/lib.rs` (preko 50 novih riječi).
-    - Implementirani zaštitni uvjeti za sufiks `-stvo` i superlative `naj-...-iji`.
-    - Proširen `VOICE_RULES` s podrškom za nepostojano 'a' i vokalizaciju (topao, dobar, tjedan).
-    - Uspješna validacija: Aggressive score na mješovitom korpusu (200 riječi) porastao za 31% relativno (sa 100 na 131).
-    - **Validacija (1k korpus)**: Postignuta točnost od **96.5%** (Aggressive) nakon finog podešavanja glasovnih pravila i iznimaka.
+- **Plan poboljšanja v0.1.5+**: Kreiran detaljan plan za povećanje točnosti.
+- **Dokumentacija**: Uspostavljen `docs` folder.
+- **v0.1.5 Implementacija**: Proširen popis iznimaka i glasovnih pravila.

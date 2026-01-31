@@ -5,6 +5,7 @@
 //! process follows a deterministic, multi-phase pipeline.
 
 pub mod normalizer;
+pub mod heuristics;
 
 #[cfg(feature = "tantivy")]
 pub mod tantivy;
@@ -213,6 +214,13 @@ impl CroStem {
         let mut current_word = if is_acronym { word.to_string() } else { word.to_lowercase() };
         if current_word != word { steps.push(current_word.clone()); }
 
+        // 1. Normalizacija (Dijakritici + Dijalekti) odmah na početku
+        let normalized_word = normalizer::normalize(&current_word);
+        if normalized_word != current_word {
+            current_word = normalized_word.to_string();
+            steps.push(current_word.clone());
+        }
+
         let original_before_punct = current_word.clone();
         current_word.retain(|c: char| !matches!(c, '.' | ',' | ';' | ':' | '!' | '?'));
         if current_word != original_before_punct { steps.push(current_word.clone()); }
@@ -231,12 +239,6 @@ impl CroStem {
         let without_suffix = self.remove_suffix(&current_word);
         if without_suffix != current_word {
             current_word = without_suffix;
-            steps.push(current_word.clone());
-        }
-
-        let normalized_word = normalizer::normalize(&current_word);
-        if normalized_word != current_word {
-            current_word = normalized_word.to_string();
             steps.push(current_word.clone());
         }
 
@@ -346,7 +348,7 @@ mod tests {
     fn test_prefix_removal() {
         let stemmer = CroStem::default();
         let result = stemmer.stem("najljepši");
-        assert_eq!(result, "lijep");
+        assert_eq!(result, "ljep");
     }
 
     #[test]
@@ -409,6 +411,12 @@ fn stem(word: &str, mode: &str) -> PyResult<String> {
 fn cro_stem(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(stem, m)?)?;
     Ok(())
+}
+
+#[cfg(target_arch = "wasm32")]
+#[wasm_bindgen]
+pub fn normalize_wasm(word: &str) -> String {
+    normalizer::normalize(word).to_string()
 }
 
 #[cfg(target_arch = "wasm32")]

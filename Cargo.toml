@@ -1,6 +1,6 @@
 [package]
 name = "cro_stem"
-version = "0.1.7"
+version = "0.1.7-rc.2"
 edition = "2021"
 authors = ["Denis Sakač <sdenis.vr@gmail.com>"]
 description = "A lightning-fast, zero-dependency Croatian stemming library written in Rust."

@@ -1,5 +1,7 @@
 
 use phf::phf_map;
+use std::borrow::Cow;
+use crate::heuristics;
 
 // TOP 500 najčešćih hrvatskih riječi bez dijakritika.
 // Izvor: Kombinacija analiza weba i uobičajenih korisničkih unosa.
@@ -1028,13 +1030,13 @@ static DIALECT_MAP: phf::Map<&'static str, &'static str> = phf_map! {
 };
 
 
-/// Prima riječ i pokušava je normalizirati koristeći dvije strategije:
-/// 1. Ispravljanje 'šišane' latinice (vraćanje dijakritika).
+/// Prima riječ i pokušava je normalizirati koristeći tri strategije:
+/// 1. Ispravljanje 'šišane' latinice (vraćanje dijakritika) pomoću mape.
 /// 2. Preslikavanje dijalektalnih varijanti (ekavica/ikavica) u standardnu ijekavicu.
+/// 3. Primjena heurističkih pravila ako riječ nije pronađena u mapama.
 ///
-/// Funkcija prvo provjerava mapu za dijakritike. Ako nađe podudaranje, vraća
-/// ispravljenu riječ. Ako ne, provjerava dijalektalnu mapu.
-/// Ako ni u jednoj mapi nema podudaranja, vraća originalnu riječ kao `&str`.
+/// Funkcija vraća `Cow<'a, str>`, što je ili posuđeni `&str` ako nije bilo promjene,
+/// ili vlasnički `String` ako je riječ modificirana.
 ///
 /// # Primjeri
 ///
@@ -1054,10 +1056,14 @@ static DIALECT_MAP: phf::Map<&'static str, &'static str> = phf_map! {
 /// assert_eq!(normalize("kuća"), "kuća");
 /// assert_eq!(normalize("pas"), "pas");
 /// ```
-pub fn normalize(word: &str) -> &str {
-    DIACRITIC_MAP.get(word).copied()
-        .or_else(|| DIALECT_MAP.get(word).copied())
-        .unwrap_or(word)
+pub fn normalize<'a>(word: &'a str) -> Cow<'a, str> {
+    if let Some(mapped_word) = DIACRITIC_MAP.get(word).copied().or_else(|| DIALECT_MAP.get(word).copied()) {
+        Cow::from(mapped_word)
+    } else if let Some(heuristic_word) = heuristics::apply_heuristics(word) {
+        Cow::from(heuristic_word)
+    } else {
+        Cow::from(word)
+    }
 }
 
 #[cfg(test)]
