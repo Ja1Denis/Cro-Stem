@@ -71,6 +71,16 @@ Radi direktno u browseru. Bez servera. Bez latencije.
 
 ---
 
+## ✨ Killer Feature: Hibridna Normalizacija (v0.1.7+)
+Svijet nije savršen. Ljudi pišu "kuca", "c ovjek" i "lepo". Većina stemmera ovdje puca. **Cro-Stem briljira.**
+
+Koristimo **hibridni engine** (PHF Mapa + Heuristička Pravila) koji:
+1.  **Vraća Dijakritike**: `zvacuci` -> `žvačući`. Automatski. Instantno.
+2.  **Ujedinjuje Dijalekte**: Prepoznaje `lepo` (ekavica) i `lipo` (ikavica) i tretira ih kao `lijepo`.
+3.  **Štedi Resurse**: Umjesto gigabajtnih modela, ovo radi u **par kilobajta** memorije koristeći pametnu `Cow<'a, str>` arhitekturu.
+
+---
+
 ## 🔮 Roadmap & Future (Dolazi Uskoro)
 
 Mi ne stajemo ovdje. Naš cilj je postaviti **industrijski standard** za obradu hrvatskog teksta. Evo što kuhamo u labu:
@@ -85,12 +95,7 @@ Koristeći **PHF (Perfect Hash Functions)** i **Bincode**, donosimo rječničku 
 *   **O(1) Lookup:** Instantno prepoznavanje iznimaka bez CPU troška.
 *   **Zero-Copy:** Idealan za IoT, pametne satove i mobitele gdje su RAM i baterija svetinja.
 
-### 3. 🗣️ Dialect & "Šišana" Latinica
-Realni internet nije književni jezik. Razvijamo podršku za:
-*   **Diacritic Restoration:** Automatski popravlja `kuca` -> `kuća`.
-*   **Dialect Mapping:** Prepoznaje `lepo` (ekavica) i stemira na isti korijen kao `lijepo` (ijekavica).
-
-### 4. 🤖 Context-Aware Mixed Language
+### 3. 🤖 Context-Aware Mixed Language
 Za analizu društvenih mreža i gaming chata:
 *   **Slang Guard:** Neće "kasapiti" riječi poput *cringe, bug, lag*.
 *   **Hibridna Detekcija:** Pametno prebacivanje pravila ovisno o tome je li tekst HR, SR ili Engleski mix.

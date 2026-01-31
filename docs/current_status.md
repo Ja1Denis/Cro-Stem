@@ -20,7 +20,7 @@
 - [x] Tantivy TokenFilter integracija.
 - [x] PHF Normalizer (dijakritici + dijalekti).
 - [x] Cro-Stem 2.0 Playground (React + WASM).
-- [ ] Implementacija **Hibridne Normalizacije** (Mapa + Pravila) prema [planu](./hybrid_normalization_plan.md).
+- [x] Implementacija **Hibridne Normalizacije** (Mapa + Pravila) prema [planu](./hybrid_normalization_plan.md).
 
 ## Postignuto u ovoj sesiji
 - **Tantivy Ready**: Cro-Stem se sada može koristiti kao nativni filter u Tantivy tražilicama.
