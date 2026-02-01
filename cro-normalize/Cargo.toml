@@ -1,0 +1,16 @@
+[package]
+name = "cro-normalize"
+version = "0.1.0"
+edition = "2021"
+authors = ["Denis Sakač <sdenis.vr@gmail.com>"]
+description = "High-performance Croatian diacritic restoration and normalization library."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+phf = { version = "0.11", features = ["macros"] }
+lazy_static = "1.4.0"
+wasm-bindgen = "0.2"
+
+[lib]
+name = "cro_normalize"
+crate-type = ["cdylib", "rlib"]

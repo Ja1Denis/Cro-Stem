@@ -1,0 +1,1004 @@
+{
+  "test_corpus": [
+    {
+      "id": 1,
+      "original": "knjigama",
+      "expected_stem": "knjig",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Pričamo o starim knjigama.",
+      "notes": "Standardni sufiks -ama"
+    },
+    {
+      "id": 2,
+      "original": "učenici",
+      "expected_stem": "učenik",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Učenici su u razredu.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 3,
+      "original": "prozorima",
+      "expected_stem": "prozor",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_instrumental",
+      "example_sentence": "Gledamo kroz prozorima.",
+      "notes": "Standardni sufiks -ima"
+    },
+    {
+      "id": 4,
+      "original": "majci",
+      "expected_stem": "majk",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_dative",
+      "example_sentence": "Dao sam cvijet majci.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 5,
+      "original": "nozi",
+      "expected_stem": "nog",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_locative",
+      "example_sentence": "Rana je na nozi.",
+      "notes": "Sibilarizacija g u z"
+    },
+    {
+      "id": 6,
+      "original": "ruci",
+      "expected_stem": "ruk",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_dative",
+      "example_sentence": "Držim olovku u ruci.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 7,
+      "original": "dječaci",
+      "expected_stem": "dječak",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Dječaci igraju nogomet.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 8,
+      "original": "gradovima",
+      "expected_stem": "grad",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Putujemo po gradovima.",
+      "notes": "Umetnuti -ov-"
+    },
+    {
+      "id": 9,
+      "original": "kućama",
+      "expected_stem": "kuć",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Vraćamo se kućama.",
+      "notes": "Standardni sufiks -ama"
+    },
+    {
+      "id": 10,
+      "original": "stolovi",
+      "expected_stem": "stol",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Stolovi su drveni.",
+      "notes": "Umetnuti -ov-"
+    },
+    {
+      "id": 11,
+      "original": "morima",
+      "expected_stem": "mor",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_locative",
+      "example_sentence": "Plovimo morima.",
+      "notes": "Standardni sufiks -ima"
+    },
+    {
+      "id": 12,
+      "original": "sunca",
+      "expected_stem": "sunc",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Nema sunca danas.",
+      "notes": "Standardni sufiks -a"
+    },
+    {
+      "id": 13,
+      "original": "djeteta",
+      "expected_stem": "djet",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "To je igračka djeteta.",
+      "notes": "Proširenje osnove -et-"
+    },
+    {
+      "id": 14,
+      "original": "ljudi",
+      "expected_stem": "čovjek",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Ljudi šeću parkom.",
+      "notes": "Supletivna osnova"
+    },
+    {
+      "id": 15,
+      "original": "psa",
+      "expected_stem": "pas",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Vidim psa.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 16,
+      "original": "oca",
+      "expected_stem": "otac",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Pozdravio sam oca.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 17,
+      "original": "majstori",
+      "expected_stem": "majstor",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Majstori popravljaju krov.",
+      "notes": "Standardni sufiks -i"
+    },
+    {
+      "id": 18,
+      "original": "školama",
+      "expected_stem": "škol",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Pomažemo školama.",
+      "notes": "Standardni sufiks -ama"
+    },
+    {
+      "id": 19,
+      "original": "polje",
+      "expected_stem": "polj",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "singular_nominative",
+      "example_sentence": "Zeleno polje je veliko.",
+      "notes": "Standardni sufiks -e"
+    },
+    {
+      "id": 20,
+      "original": "knjizi",
+      "expected_stem": "knjig",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "singular_dative",
+      "example_sentence": "Piše u knjizi.",
+      "notes": "Sibilarizacija g u z"
+    },
+    {
+      "id": 21,
+      "original": "dječacima",
+      "expected_stem": "dječak",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Dali smo dječacima lopte.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 22,
+      "original": "č",
+      "expected_stem": "č",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "singular_nominative",
+      "example_sentence": "Slovo č je tvrdo.",
+      "notes": "Kratka riječ"
+    },
+    {
+      "id": 23,
+      "original": "š",
+      "expected_stem": "š",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "singular_nominative",
+      "example_sentence": "Slovo š je zadnje.",
+      "notes": "Kratka riječ"
+    },
+    {
+      "id": 24,
+      "original": "ž",
+      "expected_stem": "ž",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "singular_nominative",
+      "example_sentence": "Žaba počinje sa ž.",
+      "notes": "Kratka riječ"
+    },
+    {
+      "id": 25,
+      "original": "đ",
+      "expected_stem": "đ",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "singular_nominative",
+      "example_sentence": "Đak počinje sa đ.",
+      "notes": "Kratka riječ"
+    },
+    {
+      "id": 26,
+      "original": "HR",
+      "expected_stem": "HR",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "acronym",
+      "example_sentence": "HR je kratica za Hrvatsku.",
+      "notes": "Akronim"
+    },
+    {
+      "id": 27,
+      "original": "EU",
+      "expected_stem": "EU",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "acronym",
+      "example_sentence": "Hrvatska je u EU.",
+      "notes": "Akronim"
+    },
+    {
+      "id": 28,
+      "original": "prijateljima",
+      "expected_stem": "prijatelj",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Idem k prijateljima.",
+      "notes": "Standardni sufiks -ima"
+    },
+    {
+      "id": 29,
+      "original": "vremena",
+      "expected_stem": "vrijem",
+      "category": "noun",
+      "difficulty": "hard",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Nemam vremena.",
+      "notes": "Promjena jata i osnove"
+    },
+    {
+      "id": 30,
+      "original": "duha",
+      "expected_stem": "duh",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Nema ni duha ni sluha.",
+      "notes": "Standardni sufiks -a"
+    },
+    {
+      "id": 31,
+      "original": "dusima",
+      "expected_stem": "duh",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_dative",
+      "example_sentence": "Vjerovali su u dusima.",
+      "notes": "Sibilarizacija h u s"
+    },
+    {
+      "id": 32,
+      "original": "mjeseci",
+      "expected_stem": "mjesec",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Prošli su mjeseci.",
+      "notes": "Standardni sufiks -i"
+    },
+    {
+      "id": 33,
+      "original": "jezika",
+      "expected_stem": "jezik",
+      "category": "noun",
+      "difficulty": "easy",
+      "inflection_type": "singular_genitive",
+      "example_sentence": "Učenje jezika je važno.",
+      "notes": "Standardni sufiks -a"
+    },
+    {
+      "id": 34,
+      "original": "jezici",
+      "expected_stem": "jezik",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_nominative",
+      "example_sentence": "Strani jezici su korisni.",
+      "notes": "Sibilarizacija k u c"
+    },
+    {
+      "id": 35,
+      "original": "pjesama",
+      "expected_stem": "pjesm",
+      "category": "noun",
+      "difficulty": "medium",
+      "inflection_type": "plural_genitive",
+      "example_sentence": "Zbirka pjesama.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 36,
+      "original": "pjevajući",
+      "expected_stem": "pjev",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "participio",
+      "example_sentence": "Dječaci pjevajući prolaze.",
+      "notes": "Uklonjeni -ući sufiks"
+    },
+    {
+      "id": 37,
+      "original": "trčanje",
+      "expected_stem": "trč",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "gerund",
+      "example_sentence": "Trčanje je zdravo.",
+      "notes": "Glagolska imenica"
+    },
+    {
+      "id": 38,
+      "original": "pisao",
+      "expected_stem": "pis",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "l-particip",
+      "example_sentence": "On je pisao pismo.",
+      "notes": "Uklonjen nastavak -ao"
+    },
+    {
+      "id": 39,
+      "original": "pisati",
+      "expected_stem": "pis",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Volim pisati.",
+      "notes": "Uklonjen -ati"
+    },
+    {
+      "id": 40,
+      "original": "radim",
+      "expected_stem": "rad",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_1sg",
+      "example_sentence": "Ja radim svaki dan.",
+      "notes": "Uklonjen -im"
+    },
+    {
+      "id": 41,
+      "original": "radiš",
+      "expected_stem": "rad",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_2sg",
+      "example_sentence": "Što radiš?",
+      "notes": "Uklonjen -iš"
+    },
+    {
+      "id": 42,
+      "original": "radimo",
+      "expected_stem": "rad",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_1pl",
+      "example_sentence": "Mi radimo zajedno.",
+      "notes": "Uklonjen -imo"
+    },
+    {
+      "id": 43,
+      "original": "vidjeti",
+      "expected_stem": "vid",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Želim te vidjeti.",
+      "notes": "Uklonjen -jeti"
+    },
+    {
+      "id": 44,
+      "original": "vidio",
+      "expected_stem": "vid",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "l-particip",
+      "example_sentence": "Vidio sam te.",
+      "notes": "Uklonjen -io"
+    },
+    {
+      "id": 45,
+      "original": "vidjela",
+      "expected_stem": "vid",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "l-particip",
+      "example_sentence": "Ona je vidjela sve.",
+      "notes": "Uklonjen -jela"
+    },
+    {
+      "id": 46,
+      "original": "misliti",
+      "expected_stem": "misl",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Moraš misliti.",
+      "notes": "Uklonjen -iti"
+    },
+    {
+      "id": 47,
+      "original": "mislim",
+      "expected_stem": "misl",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_1sg",
+      "example_sentence": "Mislim da znam.",
+      "notes": "Uklonjen -im"
+    },
+    {
+      "id": 48,
+      "original": "misleći",
+      "expected_stem": "misl",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "participio",
+      "example_sentence": "Misleći na tebe, zaspao sam.",
+      "notes": "Uklonjen -eći"
+    },
+    {
+      "id": 49,
+      "original": "skočiti",
+      "expected_stem": "skoč",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Mogu skočiti daleko.",
+      "notes": "Uklonjen -iti"
+    },
+    {
+      "id": 50,
+      "original": "skočio",
+      "expected_stem": "skoč",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "l-particip",
+      "example_sentence": "Skočio je u vodu.",
+      "notes": "Uklonjen -io"
+    },
+    {
+      "id": 51,
+      "original": "skočivši",
+      "expected_stem": "skoč",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "participio_past",
+      "example_sentence": "Skočivši s mosta, nestao je.",
+      "notes": "Uklonjen -ivši"
+    },
+    {
+      "id": 52,
+      "original": "idem",
+      "expected_stem": "id",
+      "category": "verb",
+      "difficulty": "hard",
+      "inflection_type": "present_1sg",
+      "example_sentence": "Idem kući.",
+      "notes": "Nepravilan glagol"
+    },
+    {
+      "id": 53,
+      "original": "ideš",
+      "expected_stem": "id",
+      "category": "verb",
+      "difficulty": "hard",
+      "inflection_type": "present_2sg",
+      "example_sentence": "Kamo ideš?",
+      "notes": "Nepravilan glagol"
+    },
+    {
+      "id": 54,
+      "original": "ići",
+      "expected_stem": "id",
+      "category": "verb",
+      "difficulty": "hard",
+      "inflection_type": "infinitive",
+      "example_sentence": "Moramo ići.",
+      "notes": "Nepravilan infinitiv"
+    },
+    {
+      "id": 55,
+      "original": "doći",
+      "expected_stem": "dođ",
+      "category": "verb",
+      "difficulty": "hard",
+      "inflection_type": "infinitive",
+      "example_sentence": "Kada ćeš doći?",
+      "notes": "Nepravilan infinitiv"
+    },
+    {
+      "id": 56,
+      "original": "došao",
+      "expected_stem": "doš",
+      "category": "verb",
+      "difficulty": "hard",
+      "inflection_type": "l-particip",
+      "example_sentence": "Došao je kasno.",
+      "notes": "Promjena osnove"
+    },
+    {
+      "id": 57,
+      "original": "nositi",
+      "expected_stem": "nos",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Teško je to nositi.",
+      "notes": "Uklonjen -iti"
+    },
+    {
+      "id": 58,
+      "original": "nosim",
+      "expected_stem": "nos",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_1sg",
+      "example_sentence": "Nosim torbu.",
+      "notes": "Uklonjen -im"
+    },
+    {
+      "id": 59,
+      "original": "nosili",
+      "expected_stem": "nos",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "l-particip_plural",
+      "example_sentence": "Nosili su drva.",
+      "notes": "Uklonjen -ili"
+    },
+    {
+      "id": 60,
+      "original": "spavati",
+      "expected_stem": "spav",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Želim spavati.",
+      "notes": "Uklonjen -ati"
+    },
+    {
+      "id": 61,
+      "original": "spavaš",
+      "expected_stem": "spav",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_2sg",
+      "example_sentence": "Još spavaš?",
+      "notes": "Uklonjen -aš"
+    },
+    {
+      "id": 62,
+      "original": "spavajući",
+      "expected_stem": "spav",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "participio",
+      "example_sentence": "Spavajući je hrkao.",
+      "notes": "Uklonjen -ajući"
+    },
+    {
+      "id": 63,
+      "original": "učiti",
+      "expected_stem": "uč",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "infinitive",
+      "example_sentence": "Moraš učiti.",
+      "notes": "Uklonjen -iti"
+    },
+    {
+      "id": 64,
+      "original": "učim",
+      "expected_stem": "uč",
+      "category": "verb",
+      "difficulty": "easy",
+      "inflection_type": "present_1sg",
+      "example_sentence": "Učim hrvatski.",
+      "notes": "Uklonjen -im"
+    },
+    {
+      "id": 65,
+      "original": "učio",
+      "expected_stem": "uč",
+      "category": "verb",
+      "difficulty": "medium",
+      "inflection_type": "l-particip",
+      "example_sentence": "Učio je cijelu noć.",
+      "notes": "Uklonjen -io"
+    },
+    {
+      "id": 66,
+      "original": "najljepši",
+      "expected_stem": "lijep",
+      "category": "adjective",
+      "difficulty": "hard",
+      "inflection_type": "superlative",
+      "example_sentence": "To je najljepši cvijet.",
+      "notes": "Superlativ i jat"
+    },
+    {
+      "id": 67,
+      "original": "crveniji",
+      "expected_stem": "crven",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "comparative",
+      "example_sentence": "Ovaj je crveniji.",
+      "notes": "Komparativni sufiks"
+    },
+    {
+      "id": 68,
+      "original": "velik",
+      "expected_stem": "velik",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive",
+      "example_sentence": "Pas je velik.",
+      "notes": "Osnovni oblik"
+    },
+    {
+      "id": 69,
+      "original": "veliki",
+      "expected_stem": "velik",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive_definite",
+      "example_sentence": "Veliki pas laje.",
+      "notes": "Uklonjen -i"
+    },
+    {
+      "id": 70,
+      "original": "velika",
+      "expected_stem": "velik",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive_feminine",
+      "example_sentence": "Kuća je velika.",
+      "notes": "Uklonjen -a"
+    },
+    {
+      "id": 71,
+      "original": "malen",
+      "expected_stem": "mal",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive",
+      "example_sentence": "On je malen.",
+      "notes": "Uklonjen -en"
+    },
+    {
+      "id": 72,
+      "original": "manji",
+      "expected_stem": "mal",
+      "category": "adjective",
+      "difficulty": "hard",
+      "inflection_type": "comparative",
+      "example_sentence": "Ovaj je manji.",
+      "notes": "Nepravilna komparacija"
+    },
+    {
+      "id": 73,
+      "original": "dobar",
+      "expected_stem": "dobr",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "positive",
+      "example_sentence": "On je dobar čovjek.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 74,
+      "original": "bolji",
+      "expected_stem": "dobr",
+      "category": "adjective",
+      "difficulty": "hard",
+      "inflection_type": "comparative",
+      "example_sentence": "Ti si bolji.",
+      "notes": "Supletivna komparacija"
+    },
+    {
+      "id": 75,
+      "original": "brz",
+      "expected_stem": "brz",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive",
+      "example_sentence": "Trkač je brz.",
+      "notes": "Osnovni oblik"
+    },
+    {
+      "id": 76,
+      "original": "brži",
+      "expected_stem": "brz",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "comparative",
+      "example_sentence": "On je brži od mene.",
+      "notes": "Jotacija z u ž"
+    },
+    {
+      "id": 77,
+      "original": "pametan",
+      "expected_stem": "pamet",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "positive",
+      "example_sentence": "On je pametan.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 78,
+      "original": "pametniji",
+      "expected_stem": "pamet",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "comparative",
+      "example_sentence": "Postao je pametniji.",
+      "notes": "Komparativni sufiks"
+    },
+    {
+      "id": 79,
+      "original": "sretan",
+      "expected_stem": "sret",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "positive",
+      "example_sentence": "Danas sam sretan.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 80,
+      "original": "sretniji",
+      "expected_stem": "sret",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "comparative",
+      "example_sentence": "Sretniji sam nego jučer.",
+      "notes": "Komparativni sufiks"
+    },
+    {
+      "id": 81,
+      "original": "tužan",
+      "expected_stem": "tuž",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "positive",
+      "example_sentence": "Film je tužan.",
+      "notes": "Nepostojano a"
+    },
+    {
+      "id": 82,
+      "original": "tužniji",
+      "expected_stem": "tuž",
+      "category": "adjective",
+      "difficulty": "medium",
+      "inflection_type": "comparative",
+      "example_sentence": "Ovo je tužniji kraj.",
+      "notes": "Komparativni sufiks"
+    },
+    {
+      "id": 83,
+      "original": "drven",
+      "expected_stem": "drv",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive",
+      "example_sentence": "Stol je drven.",
+      "notes": "Uklonjen -en"
+    },
+    {
+      "id": 84,
+      "original": "drveni",
+      "expected_stem": "drv",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive_definite",
+      "example_sentence": "Drveni stol je star.",
+      "notes": "Uklonjen -eni"
+    },
+    {
+      "id": 85,
+      "original": "bijel",
+      "expected_stem": "bijel",
+      "category": "adjective",
+      "difficulty": "easy",
+      "inflection_type": "positive",
+      "example_sentence": "Zid je bijel.",
+      "notes": "Osnovni oblik"
+    },
+    {
+      "id": 86,
+      "original": "brzo",
+      "expected_stem": "brz",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "manner",
+      "example_sentence": "Trči brzo.",
+      "notes": "Uklonjen -o"
+    },
+    {
+      "id": 87,
+      "original": "polako",
+      "expected_stem": "polak",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "manner",
+      "example_sentence": "Hodaj polako.",
+      "notes": "Uklonjen -o"
+    },
+    {
+      "id": 88,
+      "original": "jučer",
+      "expected_stem": "jučer",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "time",
+      "example_sentence": "Jučer je padala kiša.",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 89,
+      "original": "danas",
+      "expected_stem": "danas",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "time",
+      "example_sentence": "Danas je sunčano.",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 90,
+      "original": "sutra",
+      "expected_stem": "sutra",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "time",
+      "example_sentence": "Sutra ćemo se vidjeti.",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 91,
+      "original": "ovdje",
+      "expected_stem": "ovdje",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "place",
+      "example_sentence": "Ovdje je toplo.",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 92,
+      "original": "tamo",
+      "expected_stem": "tamo",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "place",
+      "example_sentence": "Tamo je hladno.",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 93,
+      "original": "kamo",
+      "expected_stem": "kamo",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "direction",
+      "example_sentence": "Kamo ideš?",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 94,
+      "original": "zašto",
+      "expected_stem": "zašto",
+      "category": "adverb",
+      "difficulty": "easy",
+      "inflection_type": "reason",
+      "example_sentence": "Zašto kasniš?",
+      "notes": "Nepromjenjivo"
+    },
+    {
+      "id": 95,
+      "original": "kaj",
+      "expected_stem": "kaj",
+      "category": "adverb",
+      "difficulty": "hard",
+      "inflection_type": "dialect",
+      "example_sentence": "Kaj veliš?",
+      "notes": "Dijalektalni oblik"
+    },
+    {
+      "id": 96,
+      "original": "automobil",
+      "expected_stem": "auto",
+      "category": "compound",
+      "difficulty": "hard",
+      "inflection_type": "noun",
+      "example_sentence": "Novi automobil je brz.",
+      "notes": "Složenica"
+    },
+    {
+      "id": 97,
+      "original": "parobrod",
+      "expected_stem": "parobrod",
+      "category": "compound",
+      "difficulty": "hard",
+      "inflection_type": "noun",
+      "example_sentence": "Parobrod plovi morem.",
+      "notes": "Složenica"
+    },
+    {
+      "id": 98,
+      "original": "vodovod",
+      "expected_stem": "vodovod",
+      "category": "compound",
+      "difficulty": "hard",
+      "inflection_type": "noun",
+      "example_sentence": "Pukao je vodovod.",
+      "notes": "Složenica"
+    },
+    {
+      "id": 99,
+      "original": "IT",
+      "expected_stem": "IT",
+      "category": "foreign",
+      "difficulty": "hard",
+      "inflection_type": "acronym",
+      "example_sentence": "IT sektor raste.",
+      "notes": "Strana kratica"
+    },
+    {
+      "id": 100,
+      "original": "COVID",
+      "expected_stem": "COVID",
+      "category": "foreign",
+      "difficulty": "hard",
+      "inflection_type": "noun",
+      "example_sentence": "COVID je promijenio svijet.",
+      "notes": "Strana riječ"
+    }
+  ]
+}
