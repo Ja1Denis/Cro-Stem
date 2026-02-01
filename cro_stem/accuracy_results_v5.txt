@@ -1,0 +1,21 @@
+﻿
+running 1 test
+≡ƒôè Total words to test: 1350
+
+=== RESULTS (10k Corpus) ===
+Aggressive Accuracy: 1318/1350 (97.63%)
+Conservative Accuracy: 875/1350 (64.81%)
+
+=== CATEGORY BREAKDOWN (Aggressive) ===
+adjective   : 258/264 (97.7%)
+adverb      : 116/116 (100.0%)
+compound    : 53/54 (98.1%)
+foreign     : 54/54 (100.0%)
+noun        : 457/478 (95.6%)
+verb        : 380/384 (99.0%)
+
+Γ£à Failures saved to 'failures_10k.txt'
+test test_corpus_accuracy_10k ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+

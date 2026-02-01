@@ -1,0 +1,38 @@
+﻿--- Cro-Stem Normalization & Stemming Test (User Sentences) ---
+Normalized Sentence                      | Stemmed Roots                            | Status              
+-----------------------------------------|------------------------------------------|---------------------
+┼íe┼íir zutog ┼í─ìapca cuci kraj ko┼ícate ... | ┼íe┼íir zut ┼í─ìapc cuc kraj ko┼ícat gu┼íce... | OK (Restored)       
+ju─ìer je ┼ícapavi u─ìitelj ─ìesto ─ìa─ìkao... | ju─ìer je ┼ícapav u─ìitelj ─ìesto ─ìa─ìk ┼íl... | OK (Restored)       
+   [DETAIL] word 'sljive' -> ┼íljive
+   [DETAIL] word 'secer' -> ┼íe─çer
+   [DETAIL] word 'zvacuci' -> ┼╛va─ìu─çi
+ucenici su cerupali ceserke s gu┼íceri... | ucenic su cerupal ceserk s gu┼ícer zbu... | OK (Restored)       
+senoloski stru─ìnjak ─ìe┼í─çe cisti zlici... | senol stru─ì ─ìe┼í─ç cist zlic ┼íalic i ─ìa... | OK (Restored)       
+─ìesto cemo slu┼íati zalosne price o su... | ─ìesto cem slu┼í zalosn pric o sumsk cu... | OK (Restored)       
+gradevinski strucnjaci ocerupali su z... | gradevin strucnjac ocerupal su zbunj ... | OK (Restored)       
+┼ía┼íavi ┼╛en┼í─ìi─ç je ju─ìer jo┼í ─ìe┼í─çe cis... | ┼ía┼íav ┼╛en┼í─ìi─ç je ju─ìer jo┼í ─ìe┼í─ç cist ... | OK (Restored)       
+mla─æi u─ìitelj objasnjava ─ìe┼í─çe kako s... | mla─æ u─ìitelj objasnjav ─ìe┼í─ç kako se g... | OK (Restored)       
+   [DETAIL] word 'sljive' -> ┼íljive
+   [DETAIL] word 'secer' -> ┼íe─çer
+   [DETAIL] word 'zvacuci' -> ┼╛va─ìu─çi
+zalosni ┼ícapavi misic je zderao zir i... | zalosn ┼ícapav misic je zder zir i ┼íe─ç... | OK (Restored)       
+   [DETAIL] word 'sljive' -> ┼íljive
+   [DETAIL] word 'secer' -> ┼íe─çer
+   [DETAIL] word 'zvacuci' -> ┼╛va─ìu─çi
+─ìe┼í─çe cemo cistiti zlicice ┼íalice i c... | ─ìe┼í─ç cem cist zlic ┼íalic i casic koj ... | OK (Restored)       
+   [DETAIL] word 'sljive' -> ┼íljive
+   [DETAIL] word 'secer' -> ┼íe─çer
+   [DETAIL] word 'zvacuci' -> ┼╛va─ìu─çi
+ju─ìer sam u maloj knjiznici posudio z... | ju─ìer sam u mal knjiznic sud zbirk pr... | OK (Restored)       
+susjed je rano ujutro popravljao zahr... | susjed je ran ujutr pravlj zahrdal br... | FAILED?             
+uciteljica je zamolila ucenike da u b... | ucitelj je zamolil ucen da u biljezni... | FAILED?             
+na trznici su se nudili svjezi cesnja... | na trznic su se nud svjez ces susen ┼í... | OK (Restored)       
+   [DETAIL] word 'sljive' -> ┼íljive
+   [DETAIL] word 'secer' -> ┼íe─çer
+   [DETAIL] word 'zvacuci' -> ┼╛va─ìu─çi
+dok je puhnuo hladan vjetar djevojcic... | dok je puhn hladn vjetar djevojc je v... | FAILED?             
+vozac je pazljivo zaobisao usku ulici... | vozac je pazljiv zaobis usk ulicic je... | FAILED?             
+na izletu smo skuhali gulas narezali ... | na let smo skuhal gulas rezal svjez k... | FAILED?             
+znanstvenik je proucavao ucinke sunce... | znanstvenik je proucav ucink sunc zra... | FAILED?             
+u zurbi sam zaboravio kljuceve pa sam... | u zurb sam zaborav kljuc pa sam mor c... | FAILED?             
+nakon duge setnje kroz sumu ─ìuli smo ... | kon dug setnj kroz su ─ìul smo sust je... | OK (Restored)       
