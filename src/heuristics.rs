@@ -57,7 +57,7 @@ pub fn apply_heuristics(word: &str) -> Option<String> {
 
     let search_chars: Vec<char> = word.chars().collect();
     let mut result = String::with_capacity(word.len());
-    let len = search_chars.len();
+    let _len = search_chars.len();
     let mut changed = false;
 
     // Prvi prolaz: Diagrafi (prioritet)
@@ -65,7 +65,7 @@ pub fn apply_heuristics(word: &str) -> Option<String> {
     // Ali s obzirom na to da radimo char-by-char, moramo paziti.
     // Jednostavniji pristup: prvo replace digrafa na stringu, pa onda char analiza.
     
-    let mut temp_word = word.replace("dj", "đ").replace("dz", "dž");
+    let temp_word = word.replace("dj", "đ").replace("dz", "dž");
     if temp_word != word {
         changed = true;
     }
