@@ -1,7 +1,8 @@
 # Trenutni status - Cro-Stem
 
 ## Projektni podaci
-- **v0.1.7-rc.2**: Implementirana hibridna normalizacija i- **Točnost Normalizacije**: **100.00%** (1313 unikatnih riječi, uključujući sve playground presete).
+- **v0.1.7-rc.2**: Implementirana hibridna normalizacija.
+- **Točnost Normalizacije**: **100.00%** (1313 unikatnih riječi, uključujući sve playground presete).
 - **Točnost Stemminga**: **97.78%** (Aggressive mode - poboljšanje od 0.37% u odnosu na baseline).
 - **Integrirani Alati (Agents)**:
   1. `Normalization Maintainer`: Upravlja mapom (podržava identity override).

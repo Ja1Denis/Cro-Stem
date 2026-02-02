@@ -1,5 +1,16 @@
 # Dnevnik razvoja - Cro-Stem
 
+## 2026-02-02 (Poliranje i Finalizacija Normalizacije)
+- **100% Točnost Preseta**:
+    - Svi primjeri (brzalice) u Playgroundu su sada savršeno normalizirani.
+    - Dodano 50+ novih pravila u `normalization_corpus.json` (ukupno 1313).
+- **Identity Mapping Fix**:
+    - Ispravljen bug u `update_map.py` koji je sprječavao override-anje automatiziranih pravila (npr. `s` -> `s` je sada moguće).
+- **GitHub Master Push**:
+    - Sve promjene, uključujući nove agente, skripte i ažurirani README s tablicom usporedbe, pushane su na `master` granu.
+- **WASM & Rebuild**:
+    - Sinhronizirani svi moduli (Rust DLL, WASM, Playground).
+
 ## 2026-02-01 (Faza 1 - Normalization Refactoring)
 - **Modularizacija**:
     - Kreiran novi Rust crate `cro-normalize`.
