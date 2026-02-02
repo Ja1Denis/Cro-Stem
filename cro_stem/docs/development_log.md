@@ -9,6 +9,7 @@
     - Stabilizirana podrška za dijalekte unutar novog crate-a.
     - Dodani unit testovi za heuristike u `cro-normalize`.
     - Popravljeni primjeri i integracija (WASM, logic_demo).
+    - **Iteracija 2 Normalizacije**: Dodani ispravci za `gradjevinski` i `strucnjaci`.
 
 ## 2026-01-31 (Verzija 0.1.7 RC - NLP Integrations)
 - **Tantivy Integracija**:

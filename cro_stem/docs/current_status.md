@@ -28,8 +28,7 @@
 ## Postignuto u ovoj sesiji
 - **Tantivy Ready**: Cro-Stem se sada može koristiti kao nativni filter u Tantivy tražilicama.
 - **WASM 2.0 & Playground**: Potpuno funkcionalan web demo sa statistikom brzine, logiranjem sesije i izvozom testova.
-- **Hibridna Normalizacija (Iteracija 1)**: Kombinacija PHF mape i heurističkih pravila, s prvom serijom fiksova za kritične riječi (`sasavi`, `koncem`, `sivajuci`, itd.).
-- **Feedback Loop**: Uspostavljen proces u kojem korisnik prijavljuje grešku u Playgroundu, kopira generirani `assert_eq!` asertion, a sustav ga automatski integrira u kod.
+- **Hibridna Normalizacija (Iteracija 2)**: Dodani novi heuristički ispravci za riječi `gradjevinski` -> `građevinski` i `strucnjaci` -> `stručnjaci`.
 - **Lokalizacija**: Kompletan UI je sada na hrvatskom jeziku.
 - **Modularnost (Faza 1)**: Uspješno izdvojen `cro-normalize` crate. Normalizacija je sada neovisna o stemmeru, što omogućuje lakše održavanje i ponovnu upotrebu.
 

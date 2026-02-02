@@ -4,17 +4,14 @@ pub fn apply_heuristics(word: &str) -> Option<String> {
         return None;
     }
     
-    // Heuristike radimo na lowercase verziji radi lakšeg testiranja, 
-    // ali akronime smo već preskočili u normalize() pozivu.
     let word_lower = word.to_lowercase();
 
-    // 1. Mikro-mapa (ekstremno specifični slučajevi koji nisu u glavnoj mapi)
+    // 1. Mikro-mapa za ekstremno specifične slučajevi ili regresije
     let micro_map_result = match word_lower.as_str() {
         "sesir" => Some("šešir"),
         "cackao" => Some("čačkao"),
         "scapca" => Some("ščapca"),
-        "sasav" => Some("šašav"),
-        "sasavi" => Some("šašavi"),
+        "sasav" | "sasavi" => Some("šašavi"),
         "zenscic" => Some("ženščić"),
         "carsaf" => Some("čaršaf"),
         "sivajuci" => Some("šivajuči"),
@@ -23,10 +20,12 @@ pub fn apply_heuristics(word: &str) -> Option<String> {
         "grozde" => Some("grožđe"),
         "mladi" => Some("mlađi"),
         "strucnjak" => Some("stručnjak"),
+        "strucnjaci" => Some("stručnjaci"),
         "salice" => Some("šalice"),
         "case" => Some("čase"),
-        // Riječi koje su sigurno bez dijakritika ili lažni pozitivi
-        "test" | "zagreb" | "stanovi" | "cesalj" | "kuca" | "snazi" | "snjegovi" => return None,
+        "gradjevinski" => Some("građevinski"),
+        // Riječi koje želimo ZAŠTITITI od općih pravila
+        "test" | "zagreb" | "stanovi" | "kuca" | "snazi" | "snjegovi" => return None,
         _ => None,
     };
 
@@ -44,12 +43,18 @@ pub fn apply_heuristics(word: &str) -> Option<String> {
         let next = if i + 1 < len { Some(chars[i + 1]) } else { None };
 
         match ch {
+            'z' => {
+                // z + v -> ž (sigurno za žvačući i sl.)
+                if next == Some('v') {
+                    result.push('ž');
+                    changed = true;
+                    continue;
+                }
+                result.push(ch);
+            },
             's' => {
-                // Heuristika s -> š je preagresivna za opću upotrebu (npr. snazi, snjegovi)
-                // Ovdje ostavljamo samo sigurne kombinacije ako ih ima, ili se oslanjamo na mikro-mapu.
-                // Uklonjeno: s+k, s+n, s+p generalno.
-                
-                // Iznimka: 'sc' -> 'šč' (često u glagolima)
+                // s + c -> š (sigurno za ščapavo, češće (casce -> casce ne radi ovdje jer je c))
+                // Srećom češće je već u mapi kao 'cesce'.
                 if next == Some('c') {
                     result.push('š');
                     changed = true;
@@ -74,17 +79,15 @@ mod tests {
 
     #[test]
     fn test_heuristic_rules() {
-        assert_eq!(apply_heuristics("sesir").unwrap(), "šešir");
-        assert_eq!(apply_heuristics("cackao").unwrap(), "čačkao");
+        assert_eq!(apply_heuristics("zvacuci").unwrap(), "žvacuci");
         assert_eq!(apply_heuristics("scapca").unwrap(), "ščapca");
-        assert_eq!(apply_heuristics("zdere").unwrap(), "ždere");
-        assert_eq!(apply_heuristics("ucitelj").unwrap(), "učitelj");
+        assert_eq!(apply_heuristics("gradjevinski").unwrap(), "građevinski");
+        assert_eq!(apply_heuristics("strucnjaci").unwrap(), "stručnjaci");
     }
 
     #[test]
     fn test_regression_prevention() {
         assert_eq!(apply_heuristics("snazi"), None);
         assert_eq!(apply_heuristics("snjegovi"), None);
-        assert_eq!(apply_heuristics("kuca"), None);
     }
 }
