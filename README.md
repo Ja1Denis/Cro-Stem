@@ -1,6 +1,6 @@
 # Cro-Stem 2.0 🇭🇷⚡
 
-![Cro-Stem 10k Header](crostem_10k_header.png)
+![Cro-Stem 2.0 Header](crostem_v017_header_1769877696463.png)
 
 [![PyPI version](https://badge.fury.io/py/cro-stem.svg)](https://badge.fury.io/py/cro-stem)
 [![Rust](https://img.shields.io/badge/language-Rust-orange.svg)](https://www.rust-lang.org/)
@@ -9,33 +9,42 @@
 [![PyPI Downloads](https://static.pepy.tech/badge/cro-stem)](https://pepy.tech/project/cro-stem)
 [![Crates.io Downloads](https://img.shields.io/crates/d/cro_stem)](https://crates.io/crates/cro_stem)
 
-### „Zašto koristiti išta drugo kada možeš imati 97% preciznosti u 500KB?“
+### „Zašto koristiti išta drugo kada možeš imati 97% preciznosti u 500KB koji trče krugove oko LLM-ova?“
 
-Ako si ikada pokušao raditi NLP na hrvatskom jeziku, znaš bol: PyTorch modeli koji jedu 4GB RAM-a, spori regexi koji griješe na svakom drugom padežu, ili skripte stare 10 godina koje nitko ne održava. 
+Dosta je sporih Python modela koji traže 4GB RAM-a za bazično stemiranje. Dosta je regexa koji umiru na drugom padežu. Dosta je alata koji se ne održavaju desetljećima.
 
-**Cro-Stem je rješenje.** To nije samo još jedan stemmer. To je **najbrži i najprecizniji** open-source alat za hrvatski jezik koji postoji.
-
-## 🏆 The Grand Slam Offer (Zašto ovo moraš imati)
-
-### 1. ⚡ **Brzina Koja Briše Pod S Konkurencijom**
-Dok tvoj stari Python skript učita biblioteke, Cro-Stem je već obradio cijeli "Rat i mir". Nema čekanja. Nema GPU-a. Samo čisti, optimizirani Rust koji leti.
-
-### 2. 🎯 **97.4% Dokazana Preciznost (NOVO)**
-Ažurirali smo algoritam na temelju **zlatnog standarda od 1350 najtežih lingvističkih primjera**. 
-- Nepostojano 'a'? Riješeno (`vrabac` <-> `vrapca`).
-- Sibilarizacija? Riješena (`majci` <-> `majka`).
-- Aorist i imperfekt? Riješeni.
-**Ne pogađamo. Znamo.**
-
-### 3. 📉 **The Value Equation (Jednadžba Vrijednosti)**
-*   **Dream Outcome (San)**: Savršeno pretraživanje i analiza hrvatskog teksta.
-*   **Perceived Likelihood (Vjerojatnost)**: 100% (dokazano testovima).
-*   **Time Delay (Vrijeme)**: 0 sekundi (trenutna instalacija i izvršavanje).
-*   **Effort & Sacrifice (Trud)**: 1 linija koda.
+**Cro-Stem je Grand Slam ponuda za hrvatski NLP.**
 
 ---
 
-## 🛠️ Kako Početi (U 30 Sekundi)
+## 🚀 Ponuda koju ne možeš odbiti (The $100M Value)
+
+Zašto bi se mučio sa starim alatima? Pogledaj razliku. Brojke ne lažu.
+
+| Značajka | 🐢 Drugi Alati / Stari Cro-Stem | 🐆 Cro-Stem v0.1.7 (Titan) | Tvoj Profit 💸 |
+| :--- | :--- | :--- | :--- |
+| **Normalizacija (Pravila)** | ~55 ručnih pravila | **1313 automatskih pravila** | 23x veća pokrivenost |
+| **Točnost (Normalizacija)** | ~17% (Sreća prati hrabre) | **100.00%** (Deterministički) | Savršenstvo na "brzalicama" |
+| **Stemming Točnost** | 97.41% | **97.78%** | Manje grešaka, bolji search |
+| **Brzina (WASM)** | Brzo | **Isto tako brzo** (O(1) lookup) | 0ms gubitka performansi |
+| **Feedback Loop** | "Pošalji mail i čekaj" | **Automatiziran** (Playground -> Kod) | Popravci u minutama |
+| **Dijalekti** | "Šta je to?" | **Ugrađeno** (Lepo = Lijepo) | Razumije cijelu regiju |
+
+**Ukratko**: Dobivaš alat koji je **pametniji, precizniji i robustniji**, a ne košta te ni milisekunde brzine. To je definicija *no-brainer* ponude.
+
+---
+
+## ✨ NOVO u v0.1.7: Hibridna Normalizacija
+
+Ljudski unosi su grozni. Ljudi pišu "sasavi" umjesto "šašavi". Naša nova **hibridna normalizacija** (PHF Mapa + Heuristička Pravila) automatski "popravlja" dijakritike prije stemiranja.
+
+- **Vraća Dijakritike**: `zvacuci` -> `žvačući`. Automatski. Instantno.
+- **Ujedinjuje Dijalekte**: Prepoznaje `lepo` (ekavica) i `lipo` (ikavica) i tretira ih kao `lijepo`.
+- **Ekstremna Efikasnost**: Sve to u svega **116 KB WASM-a** koristeći `Cow<'a, str>` za nula alokacija memorije gdje god je to moguće.
+
+---
+
+## 🛠️ Brzi Start (U 30 Sekundi)
 
 ### 🐍 Python
 ```bash
@@ -43,8 +52,7 @@ pip install cro-stem
 ```
 ```python
 import cro_stem
-
-# Aggressive Mode (za tražilice) - Preciznost: 97.4%
+# Aggressive Mode (97.4% točnosti)
 print(cro_stem.stem("vrapcima")) # Output: "vrabac"
 ```
 
@@ -56,13 +64,19 @@ let stemmer = CroStem::new(StemMode::Aggressive);
 assert_eq!(stemmer.stem("najljepših"), "lijep");
 ```
 
-### 🌐 Web (WASM)
-Radi direktno u browseru. Bez servera. Bez latencije.
-👉 **[Isprobaj Live Demo](https://ja1denis.github.io/Cro-Stem/)**
+---
+
+## 🔌 Integracije & Ekosustav
+
+- **🦀 Tantivy Integration**: Cro-Stem je sada nativni `TokenFilter` za najbržu Rust tražilicu. Dostupno out-of-the-box.
+- **🌐 Playground 2.0**: Potpuno lokalizirani web demo s **Developer Mode-om**.
+    - **Feedback Loop**: Pronašao si grešku? Prijavi je direktno u Playgroundu, kopiraj generirani test i pošalji nam ga.
+    👉 **[Isprobaj Cro-Stem 2.0 Live](https://ja1denis.github.io/Cro-Stem/)**
 
 ---
 
-## ☕️ Dev Corner (Za Lokalne Heroje)
+## ☕️ Dev Corner 
+
 - **🚀 Brži od konobara na Rivi:** Cro-Stem obrađuje tvoj CSV brže nego što stigneš naručiti kavu s hladnim mlijekom.
 - **🛥️ Bez redova za trajekt:** Naš Rust engine nema kašnjenja. Za razliku od ulaska na trajekt u špici sezone, ovdje nema čekanja u redu.
 - **🏫 Kraj traumama iz škole:** Sjećaš se tablica s padežima? Mi smo ih pretvorili u kod da ti više nikada ne bi morao razmišljati o *instrumentalu množine*.
@@ -71,39 +85,13 @@ Radi direktno u browseru. Bez servera. Bez latencije.
 
 ---
 
-## 🔮 Roadmap & Future (Dolazi Uskoro)
-
-Mi ne stajemo ovdje. Naš cilj je postaviti **industrijski standard** za obradu hrvatskog teksta. Evo što kuhamo u labu:
-
-### 1. 🔌 Integracija s Modernim Stackom
-Planiramo direktne pluginove za:
-*   **Tantivy & MeiliSearch:** Omogućit ćemo pretraživanje s punim morfološkim razumijevanjem out-of-the-box.
-*   **Hugging Face:** Tokenizeri spremni za treniranje manjih, bržih i pametnijih LLM-ova na našem jeziku.
-
-### 2. 📱 Edge & Mobile Performance
-Koristeći **PHF (Perfect Hash Functions)** i **Bincode**, donosimo rječničku preciznost uz minimalni footprint:
-*   **O(1) Lookup:** Instantno prepoznavanje iznimaka bez CPU troška.
-*   **Zero-Copy:** Idealan za IoT, pametne satove i mobitele gdje su RAM i baterija svetinja.
-
-### 3. 🗣️ Dialect & "Šišana" Latinica
-Realni internet nije književni jezik. Razvijamo podršku za:
-*   **Diacritic Restoration:** Automatski popravlja `kuca` -> `kuća`.
-*   **Dialect Mapping:** Prepoznaje `lepo` (ekavica) i stemira na isti korijen kao `lijepo` (ijekavica).
-
-### 4. 🤖 Context-Aware Mixed Language
-Za analizu društvenih mreža i gaming chata:
-*   **Slang Guard:** Neće "kasapiti" riječi poput *cringe, bug, lag*.
-*   **Hibridna Detekcija:** Pametno prebacivanje pravila ovisno o tome je li tekst HR, SR ili Engleski mix.
-
----
-
 ## ⚖️ Licenca
-Ovaj projekt je besplatan. Uzmi ga. Koristi ga. Zaradi milijune s njim.
+Ovaj projekt je besplatan i otvoren. Uzmi ga. Koristi ga. Zaradi milijune s njim.
 (Licencirano pod **MIT** ili **Apache-2.0** licencom).
 
-### 👨‍💻 O Autoru
+### 👨‍💻 Autor
 Kreirao **Denis Ja1Denis**.
-Ako ti je ovaj alat uštedio vrijeme ili novac, ili ako želiš da tvoj NLP projekt zapravo radi:
+Ako ti je ovaj alat uštedio vrijeme ili novac:
 - 📧 **Email**: sdenis.vr@gmail.com
 - 🔗 **LinkedIn**: [Denis Sakač](https://www.linkedin.com/in/denis-sakac-73a99933/)
 
