@@ -7,7 +7,7 @@ interface ResultsTableProps {
   stats: ProcessingStats;
   devMode: boolean;
   currentMode: StemMode;
-  onReport: (original: string, stem: string, expected: string, mode: StemMode) => void;
+  onReport: (original: string, stem: string, expected: string, expectedNormalized: string, mode: StemMode) => void;
 }
 
 export const ResultsTable: React.FC<ResultsTableProps> = ({ results, stats, devMode, currentMode, onReport }) => {
@@ -19,14 +19,20 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({ results, stats, devM
     setSelectedItem(item);
   };
 
-  const handleModalSubmit = (expected: string) => {
+  const handleModalSubmit = (expected: string, expectedNormalized: string) => {
     if (selectedItem) {
       // Add to main log
-      onReport(selectedItem.original, selectedItem.stem, expected, currentMode);
+      onReport(selectedItem.original, selectedItem.stem, expected, expectedNormalized, currentMode);
 
       // Also copy specific assertion to clipboard for convenience
       const modeStr = currentMode === StemMode.AGGRESSIVE ? 'Aggressive' : 'Conservative';
-      const snippet = `assert_eq!(process_one("${selectedItem.original}", &StemMode::${modeStr}).stem, "${expected}");`;
+
+      let snippet = "";
+      // If normalization was also improved by user, add it to snippet comment
+      if (expectedNormalized !== selectedItem.normalized) {
+        snippet = `// Normalization Fix: "${selectedItem.original}" -> "${expectedNormalized}"\n`;
+      }
+      snippet += `assert_eq!(process_one("${selectedItem.original}", &StemMode::${modeStr}).stem, "${expected}");`;
 
       navigator.clipboard.writeText(snippet).then(() => {
         setToastMessage(`Prijavljeno i kopirano!`);
@@ -64,6 +70,7 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({ results, stats, devM
         onSubmit={handleModalSubmit}
         word={selectedItem?.original || ""}
         currentStem={selectedItem?.stem || ""}
+        currentNormalized={selectedItem?.normalized || ""}
       />
 
       {/* Metrics Header */}

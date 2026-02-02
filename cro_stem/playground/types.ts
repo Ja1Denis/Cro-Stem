@@ -19,6 +19,8 @@ export interface ProcessingStats {
 
 export interface SessionLogEntry {
   original: string;
+  normalized: string;
+  expected_normalized: string;
   stem: string;
   expected: string;
   mode: StemMode;

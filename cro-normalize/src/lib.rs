@@ -2,7 +2,8 @@ pub mod normalizer;
 pub mod heuristics;
 
 use std::borrow::Cow;
-use wasm_bindgen::prelude::*;
+use std::ffi::{CStr, CString};
+use std::os::raw::c_char;
 
 /// Glavna funkcija za normalizaciju dijakritika.
 /// Kombinira statičku mapu (phf) i heuristička pravila.
@@ -28,7 +29,26 @@ pub fn normalize(word: &str) -> Cow<str> {
     Cow::Owned(lowercase_word)
 }
 
-#[wasm_bindgen]
-pub fn cro_normalize_wasm(word: &str) -> String {
-    normalize(word).to_string()
+#[no_mangle]
+pub extern "C" fn normalize_c(word: *const c_char) -> *mut c_char {
+    let c_str = unsafe {
+        assert!(!word.is_null());
+        CStr::from_ptr(word)
+    };
+
+    let r_str = c_str.to_str().unwrap();
+    let normalized_str = normalize(r_str);
+    
+    let c_str_normalized = CString::new(normalized_str.as_ref()).unwrap();
+    c_str_normalized.into_raw()
+}
+
+#[no_mangle]
+pub extern "C" fn free_string(s: *mut c_char) {
+    if s.is_null() {
+        return;
+    }
+    unsafe {
+        let _ = CString::from_raw(s);
+    }
 }

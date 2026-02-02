@@ -12,9 +12,14 @@ export const SessionLogModal: React.FC<SessionLogModalProps> = ({ isOpen, onClos
     if (!isOpen) return null;
 
     const assertions = useMemo(() => {
-        return logs.map(log =>
-            `assert_eq!(process_one("${log.original}", &StemMode::${log.mode === StemMode.AGGRESSIVE ? 'Aggressive' : 'Conservative'}).stem, "${log.expected}");`
-        ).join('\n');
+        return logs.map(log => {
+            let res = "";
+            if (log.expected_normalized !== log.normalized) {
+                res += `// Normalization Fix: "${log.original}" -> "${log.expected_normalized}"\n`;
+            }
+            res += `assert_eq!(process_one("${log.original}", &StemMode::${log.mode === StemMode.AGGRESSIVE ? 'Aggressive' : 'Conservative'}).stem, "${log.expected}");`;
+            return res;
+        }).join('\n');
     }, [logs]);
 
     const jsonExport = useMemo(() => {
@@ -58,7 +63,8 @@ export const SessionLogModal: React.FC<SessionLogModalProps> = ({ isOpen, onClos
                                 <tr>
                                     <th className="px-4 py-3 font-medium text-xs uppercase">Original</th>
                                     <th className="px-4 py-3 font-medium text-xs uppercase">Mode</th>
-                                    <th className="px-4 py-3 font-medium text-xs uppercase">Očekivano</th>
+                                    <th className="px-4 py-3 font-medium text-xs uppercase">Normalizacija</th>
+                                    <th className="px-4 py-3 font-medium text-xs uppercase">Korijen</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-800">
@@ -66,7 +72,13 @@ export const SessionLogModal: React.FC<SessionLogModalProps> = ({ isOpen, onClos
                                     <tr key={i} className="hover:bg-slate-800/30">
                                         <td className="px-4 py-3 text-slate-300 font-mono">{log.original}</td>
                                         <td className="px-4 py-3 text-slate-500 text-xs">{log.mode}</td>
-                                        <td className="px-4 py-3 text-green-400 font-mono font-semibold">{log.expected}</td>
+                                        <td className="px-4 py-3">
+                                            <div className="flex flex-col">
+                                                <span className="text-slate-500 line-through text-[10px]">{log.normalized}</span>
+                                                <span className={`${log.expected_normalized !== log.normalized ? 'text-amber-400' : 'text-slate-400'} font-mono`}>{log.expected_normalized}</span>
+                                            </div>
+                                        </td>
+                                        <td className="px-4 py-3 text-cyan-400 font-mono font-semibold">{log.expected}</td>
                                     </tr>
                                 ))}
                                 {logs.length === 0 && (

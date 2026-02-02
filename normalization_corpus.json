@@ -1,0 +1,214 @@
+[
+  {
+    "input": "srednjoskolka",
+    "expected": "srednjoškolka"
+  },
+  {
+    "input": "gradjevinski",
+    "expected": "građevinski"
+  },
+  {
+    "input": "strucnjaci",
+    "expected": "stručnjaci"
+  },
+  {
+    "input": "ucenici",
+    "expected": "učenici"
+  },
+  {
+    "input": "covjeka",
+    "expected": "čovjeka"
+  },
+  {
+    "input": "pjevajuci",
+    "expected": "pjevajući"
+  },
+  {
+    "input": "trcanje",
+    "expected": "trčanje"
+  },
+  {
+    "input": "peci",
+    "expected": "peći"
+  },
+  {
+    "input": "rekose",
+    "expected": "rekoše"
+  },
+  {
+    "input": "najljepsi",
+    "expected": "najljepši"
+  },
+  {
+    "input": "c",
+    "expected": "č"
+  },
+  {
+    "input": "pecen",
+    "expected": "pečen"
+  },
+  {
+    "input": "vucem",
+    "expected": "vučem"
+  },
+  {
+    "input": "laksi",
+    "expected": "lakši"
+  },
+  {
+    "input": "pticica",
+    "expected": "ptičica"
+  },
+  {
+    "input": "covjek",
+    "expected": "čovjek"
+  },
+  {
+    "input": "rekavsi",
+    "expected": "rekavši"
+  },
+  {
+    "input": "peces",
+    "expected": "pečeš"
+  },
+  {
+    "input": "jucer",
+    "expected": "jučer"
+  },
+  {
+    "input": "vidjevsi",
+    "expected": "vidjevši"
+  },
+  {
+    "input": "duzi",
+    "expected": "duži"
+  },
+  {
+    "input": "brzi",
+    "expected": "brži"
+  },
+  {
+    "input": "s",
+    "expected": "š"
+  },
+  {
+    "input": "djecaci",
+    "expected": "dječaci"
+  },
+  {
+    "input": "najbrzi",
+    "expected": "najbrži"
+  },
+  {
+    "input": "djevojcica",
+    "expected": "djevojčica"
+  },
+  {
+    "input": "pjevas",
+    "expected": "pjevaš"
+  },
+  {
+    "input": "d",
+    "expected": "đ"
+  },
+  {
+    "input": "duzeg",
+    "expected": "dužeg"
+  },
+  {
+    "input": "z",
+    "expected": "ž"
+  },
+  {
+    "input": "djecacima",
+    "expected": "dječacima"
+  },
+  {
+    "input": "kuca",
+    "expected": "kuća"
+  },
+  {
+    "input": "macka",
+    "expected": "mačka"
+  },
+  {
+    "input": "skacu",
+    "expected": "skaču"
+  },
+  {
+    "input": "djecaka",
+    "expected": "dječaka"
+  },
+  {
+    "input": "citati",
+    "expected": "čitati"
+  },
+  {
+    "input": "tezi",
+    "expected": "teži"
+  },
+  {
+    "input": "strozi",
+    "expected": "stroži"
+  },
+  {
+    "input": "kucama",
+    "expected": "kućama"
+  },
+  {
+    "input": "kceri",
+    "expected": "kćeri"
+  },
+  {
+    "input": "skocivsi",
+    "expected": "skočivši"
+  },
+  {
+    "input": "vodicima",
+    "expected": "vodičima"
+  },
+  {
+    "input": "suma",
+    "expected": "šuma"
+  },
+  {
+    "input": "govoreci",
+    "expected": "govoreći"
+  },
+  {
+    "input": "brzeg",
+    "expected": "bržeg"
+  },
+  {
+    "input": "brze",
+    "expected": "brže"
+  },
+  {
+    "input": "najbrze",
+    "expected": "najbrže"
+  },
+  {
+    "input": "covjeku",
+    "expected": "čovjeku"
+  },
+  {
+    "input": "orascici",
+    "expected": "oraščići"
+  },
+  {
+    "input": "rece",
+    "expected": "reče"
+  },
+  {
+    "input": "drazi",
+    "expected": "draži"
+  },
+  {
+    "input": "skacem",
+    "expected": "skačem"
+  },
+  {
+    "input": "kisobran",
+    "expected": "kišobran"
+  }
+]

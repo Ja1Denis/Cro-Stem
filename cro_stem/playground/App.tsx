@@ -44,9 +44,15 @@ const App: React.FC = () => {
     return () => clearTimeout(timeoutId);
   }, [inputText, mode]);
 
-  const handleReport = (original: string, stem: string, expected: string, reportMode: StemMode) => {
+  const handleReport = (original: string, stem: string, expected: string, expectedNormalized: string, reportMode: StemMode) => {
+    // Find the current normalized value for this word in results
+    const currentResult = results.find(r => r.original === original);
+    const normalized = currentResult ? currentResult.normalized : original;
+
     const newEntry: SessionLogEntry = {
       original,
+      normalized,
+      expected_normalized: expectedNormalized,
       stem,
       expected,
       mode: reportMode,

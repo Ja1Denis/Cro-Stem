@@ -10,6 +10,8 @@
     - Dodani unit testovi za heuristike u `cro-normalize`.
     - Popravljeni primjeri i integracija (WASM, logic_demo).
     - **Iteracija 2 Normalizacije**: Dodani ispravci za `gradjevinski` i `strucnjaci`.
+    - **Automatizacija**: Integriran `normalization_corpus.json` i Python test runner.
+    - **Bulk Update**: Normalizacijska mapa popunjena podacima iz testnog korpusa, postignuta **100.00%** točnost na trenutnom setu (53/53 riječi).
 
 ## 2026-01-31 (Verzija 0.1.7 RC - NLP Integrations)
 - **Tantivy Integracija**:

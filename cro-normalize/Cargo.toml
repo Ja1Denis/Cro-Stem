@@ -9,7 +9,6 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 phf = { version = "0.11", features = ["macros"] }
 lazy_static = "1.4.0"
-wasm-bindgen = "0.2"
 
 [lib]
 name = "cro_normalize"
