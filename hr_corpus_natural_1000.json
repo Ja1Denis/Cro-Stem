@@ -1,0 +1,4002 @@
+[
+  {
+    "ascii": "cvrscu celicnu zicu covjek cvrsto drzi u saci",
+    "correct": "Čvršću čeličnu žicu čovjek čvrsto drži u šaci."
+  },
+  {
+    "ascii": "na raskrizju ces vidjeti kucu s narancastim krovom",
+    "correct": "Na raskrižju ćeš vidjeti kuću s narančastim krovom."
+  },
+  {
+    "ascii": "gradevinski strucnjaci potvrdili su cvrstocu temelja",
+    "correct": "Građevinski stručnjaci potvrdili su čvrstoću temelja."
+  },
+  {
+    "ascii": "sesir zutog scapca cuci kraj koscate guscerice",
+    "correct": "Šešir žutog ščapca čuči kraj koščate gušćerice."
+  },
+  {
+    "ascii": "cvrcak cvrci na cvoru crne smrce",
+    "correct": "Cvrčak cvrči na čvoru crne smrče."
+  },
+  {
+    "ascii": "djecak trci kroz sumu trazeci izgubljenu loptu",
+    "correct": "Dječak trči kroz šumu tražeći izgubljenu loptu."
+  },
+  {
+    "ascii": "vruce ljeto donosi susu i zed ljudima",
+    "correct": "Vruće ljeto donosi sušu i žeđ ljudima."
+  },
+  {
+    "ascii": "ucenici pisu zadacu koristeci rjecnik i enciklopediju",
+    "correct": "Učenici pišu zadaću koristeći rječnik i enciklopediju."
+  },
+  {
+    "ascii": "svjez kruh mirise iz pekare u rano jutro",
+    "correct": "Svjež kruh miriše iz pekare u rano jutro."
+  },
+  {
+    "ascii": "mocna rjecna struja nosi suho granje i lisce",
+    "correct": "Moćna rječna struja nosi suho granje i lišće."
+  },
+  {
+    "ascii": "zestoka kisa potopila je dvoriste i garazu",
+    "correct": "Žestoka kiša potopila je dvorište i garažu."
+  },
+  {
+    "ascii": "rijecne skampe najbolje je peci na rostilju",
+    "correct": "Riječne škampe najbolje je peći na roštilju."
+  },
+  {
+    "ascii": "svaki covjek trazi srecu u malim stvarima",
+    "correct": "Svaki čovjek traži sreću u malim stvarima."
+  },
+  {
+    "ascii": "vjesticji sesir visi na staroj drvenoj vjesalici",
+    "correct": "Vještičji šešir visi na staroj drvenoj vješalici."
+  },
+  {
+    "ascii": "skoljke i rakove mozemo naci u plicaku",
+    "correct": "Školjke i rakove možemo naći u plićaku."
+  },
+  {
+    "ascii": "suncan dan izmami pcele na mirisno cvijece",
+    "correct": "Sunčan dan izmami pčele na mirisno cvijeće."
+  },
+  {
+    "ascii": "majka pece palacinke s pekmezom od sljiva",
+    "correct": "Majka peče palačinke s pekmezom od šljiva."
+  },
+  {
+    "ascii": "zracne luke biljeze povecan broj putnika ljeti",
+    "correct": "Zračne luke bilježe povećan broj putnika ljeti."
+  },
+  {
+    "ascii": "lijecnik savjetuje cesce setnje na svjezem zraku",
+    "correct": "Liječnik savjetuje češće šetnje na svježem zraku."
+  },
+  {
+    "ascii": "vuk dlaku mijenja ali cud nikada ne gubi",
+    "correct": "Vuk dlaku mijenja ali ćud nikada ne gubi."
+  },
+  {
+    "ascii": "maceha je cesto bila gruba prema sirocadi",
+    "correct": "Maćeha je često bila gruba prema siročadi."
+  },
+  {
+    "ascii": "zeljezna vrata skripe pri svakom jacem vjetru",
+    "correct": "Željezna vrata škripe pri svakom jačem vjetru."
+  },
+  {
+    "ascii": "djed mraz donosi darove u bozicnoj noci",
+    "correct": "Djed Mraz donosi darove u božićnoj noći."
+  },
+  {
+    "ascii": "mlada krosnja hrasta pruza duboku sjenu",
+    "correct": "Mlada krošnja hrasta pruža duboku sjenu."
+  },
+  {
+    "ascii": "tisuca zvijezda bljeska na nocnom nebu",
+    "correct": "Tisuća zvijezda bljeska na noćnom nebu."
+  },
+  {
+    "ascii": "lovac vreba plijen u gustoj sikari",
+    "correct": "Lovac vreba plijen u gustoj šikari."
+  },
+  {
+    "ascii": "stari mlinar melje psenicu u brasno",
+    "correct": "Stari mlinar melje pšenicu u brašno."
+  },
+  {
+    "ascii": "prodavacica nudi svjeze voce na trznici",
+    "correct": "Prodavačica nudi svježe voće na tržnici."
+  },
+  {
+    "ascii": "pcelar vadi med iz kosnice s pcelama",
+    "correct": "Pčelar vadi med iz košnice s pčelama."
+  },
+  {
+    "ascii": "sreca prati hrabre ljude u zivotu",
+    "correct": "Sreća prati hrabre ljude u životu."
+  },
+  {
+    "ascii": "cesto kazu da tisina govori glasnije od rijeci",
+    "correct": "Često kažu da tišina govori glasnije od riječi."
+  },
+  {
+    "ascii": "skolski autobus zaustavio se kraj zebre",
+    "correct": "Školski autobus zaustavio se kraj zebre."
+  },
+  {
+    "ascii": "malisan se igra s zutom zracnom loptom",
+    "correct": "Mališan se igra s žutom zračnom loptom."
+  },
+  {
+    "ascii": "posjecujemo djecje igraliste svake suncane nedjelje",
+    "correct": "Posjećujemo dječje igralište svake sunčane nedjelje."
+  },
+  {
+    "ascii": "cesto zaboravim ukljuciti zvucnik na racunalu",
+    "correct": "Često zaboravim uključiti zvučnik na računalu."
+  },
+  {
+    "ascii": "zvijezde trepere iznad snjeznih planinskih vrhova",
+    "correct": "Zvijezde trepere iznad snježnih planinskih vrhova."
+  },
+  {
+    "ascii": "cvrkut ptica odzvanja sumskom stazom u zoru",
+    "correct": "Cvrkut ptica odzvanja šumskom stazom u zoru."
+  },
+  {
+    "ascii": "svjeze smrznute jagode mirisu na proljece",
+    "correct": "Svježe smrznute jagode mirišu na proljeće."
+  },
+  {
+    "ascii": "zivotinje u zivotinjskom sklonistu trebaju skrb i ljubav",
+    "correct": "Životinje u životinjskom skloništu trebaju skrb i ljubav."
+  },
+  {
+    "ascii": "djeca radosno trce preko skolskog igralista",
+    "correct": "Djeca radosno trče preko školskog igrališta."
+  },
+  {
+    "ascii": "mladi glazbenik vjezba vjestinu sviranja klavira",
+    "correct": "Mladi glazbenik vježba vještinu sviranja klavira."
+  },
+  {
+    "ascii": "glumci uvjezbavaju predstavu za skolski mjuzikl",
+    "correct": "Glumci uvježbavaju predstavu za školski mjuzikl."
+  },
+  {
+    "ascii": "zaba skace s lista na list u blatnoj barustini",
+    "correct": "Žaba skače s lista na list u blatnoj baruštini."
+  },
+  {
+    "ascii": "zena je pazljivo slagala svjeze opranu odjecu",
+    "correct": "Žena je pažljivo slagala svježe opranu odjeću."
+  },
+  {
+    "ascii": "miris pecene pizze siri se stubistem zgrade",
+    "correct": "Miris pečene pizze širi se stubištem zgrade."
+  },
+  {
+    "ascii": "zidari zidaju cvrst zid od zute cigle",
+    "correct": "Zidari zidaju čvrst zid od žute cigle."
+  },
+  {
+    "ascii": "tajanstveni zvukovi culi su se iz pustog dvorca",
+    "correct": "Tajanstveni zvukovi čuli su se iz pustog dvorca."
+  },
+  {
+    "ascii": "lijecnica pazljivo pregledava zglob saka i stopala",
+    "correct": "Liječnica pažljivo pregledava zglob šaka i stopala."
+  },
+  {
+    "ascii": "u tisini noci cuje se saputanje vjetra",
+    "correct": "U tišini noći čuje se šaputanje vjetra."
+  },
+  {
+    "ascii": "strucni ziri pazljivo ocjenjuje izvedbu plesaca",
+    "correct": "Stručni žiri pažljivo ocjenjuje izvedbu plesača."
+  },
+  {
+    "ascii": "mladic je pazljivo spakirao prtljagu za dalek put",
+    "correct": "Mladić je pažljivo spakirao prtljagu za dalek put."
+  },
+  {
+    "ascii": "djeca crtaju sareno cvijece na skolskoj ploci",
+    "correct": "Djeca crtaju šareno cvijeće na školskoj ploči."
+  },
+  {
+    "ascii": "kapljice kise klize niz staklo prozora",
+    "correct": "Kapljice kiše klize niz staklo prozora."
+  },
+  {
+    "ascii": "zvuk violine odzvanja koncertnom dvoranom",
+    "correct": "Zvuk violine odzvanja koncertnom dvoranom."
+  },
+  {
+    "ascii": "mladi sportas marljivo vjezba skok u dalj",
+    "correct": "Mladi sportaš marljivo vježba skok u dalj."
+  },
+  {
+    "ascii": "uciteljica strpljivo objasnjava zadacu iz matematike",
+    "correct": "Učiteljica strpljivo objašnjava zadaću iz matematike."
+  },
+  {
+    "ascii": "cvrkut vrapca na grani budi uspavani grad",
+    "correct": "Cvrkut vrapca na grani budi uspavani grad."
+  },
+  {
+    "ascii": "zidni sat tiktaka u tisini dnevne sobe",
+    "correct": "Zidni sat tiktaka u tišini dnevne sobe."
+  },
+  {
+    "ascii": "ribic strpljivo sjedi kraj mirne rijeke",
+    "correct": "Ribič strpljivo sjedi kraj mirne rijeke."
+  },
+  {
+    "ascii": "mlada zena nosi saren kisobran po kisi",
+    "correct": "Mlada žena nosi šaren kišobran po kiši."
+  },
+  {
+    "ascii": "na plocniku su ostale lokve nakon oluje",
+    "correct": "Na pločniku su ostale lokve nakon oluje."
+  },
+  {
+    "ascii": "tajnica pazljivo pise vazne biljeske tijekom sastanka",
+    "correct": "Tajnica pažljivo piše važne bilješke tijekom sastanka."
+  },
+  {
+    "ascii": "zvuk tipki na tipkovnici ispunjava uredsku prostoriju",
+    "correct": "Zvuk tipki na tipkovnici ispunjava uredsku prostoriju."
+  },
+  {
+    "ascii": "djecak je skrivao smijesak iza sarenog sala",
+    "correct": "Dječak je skrivao smiješak iza šarenog šala."
+  },
+  {
+    "ascii": "ptice selice prelijecu snjeznu planinsku stazu",
+    "correct": "Ptice selice prelijeću snježnu planinsku stazu."
+  },
+  {
+    "ascii": "starica plete sarene carape za unucice",
+    "correct": "Starica plete šarene čarape za unučice."
+  },
+  {
+    "ascii": "glasni zur zvona oznacio je pocetak svecanosti",
+    "correct": "Glasni žur zvona označio je početak svečanosti."
+  },
+  {
+    "ascii": "sjecam se sarenih zracnih balona iz djetinjstva",
+    "correct": "Sjećam se šarenih zračnih balona iz djetinjstva."
+  },
+  {
+    "ascii": "ucenici cesto zaborave donijeti biljeznicu na sat",
+    "correct": "Učenici često zaborave donijeti bilježnicu na sat."
+  },
+  {
+    "ascii": "mladic se smijesio dok je citao smijesnu poruku",
+    "correct": "Mladić se smiješio dok je čitao smiješnu poruku."
+  },
+  {
+    "ascii": "djeca skacu preko sarene vrecice punjene pijeskom",
+    "correct": "Djeca skaču preko šarene vrećice punjene pijeskom."
+  },
+  {
+    "ascii": "vruc caj od ljekovitog bilja grijao je promrzle prste",
+    "correct": "Vruć čaj od ljekovitog bilja grijao je promrzle prste."
+  },
+  {
+    "ascii": "trznica je bila prepuna svjezeg voca i povrca",
+    "correct": "Tržnica je bila prepuna svježeg voća i povrća."
+  },
+  {
+    "ascii": "vlak polazi s treceg perona tocno u podne",
+    "correct": "Vlak polazi s trećeg perona točno u podne."
+  },
+  {
+    "ascii": "stari majstor popravlja zahrdalu zeljeznu ogradu",
+    "correct": "Stari majstor popravlja zahrđalu željeznu ogradu."
+  },
+  {
+    "ascii": "na plazi djeca grade pjescane dvorce i kule",
+    "correct": "Na plaži djeca grade pješčane dvorce i kule."
+  },
+  {
+    "ascii": "covjek uziva u tisini ranog jutra na balkonu",
+    "correct": "Čovjek uživa u tišini ranog jutra na balkonu."
+  },
+  {
+    "ascii": "zirafa grize svjeze lisce s visokih grana",
+    "correct": "Žirafa grize svježe lišće s visokih grana."
+  },
+  {
+    "ascii": "ucitelj pise zadacu kredom na zelenoj ploci",
+    "correct": "Učitelj piše zadaću kredom na zelenoj ploči."
+  },
+  {
+    "ascii": "macka se sulja kroz gustu travu u vrtu",
+    "correct": "Mačka se šulja kroz gustu travu u vrtu."
+  },
+  {
+    "ascii": "ptica pjeva na vrhu najvise hrascine u sumi",
+    "correct": "Ptica pjeva na vrhu najviše hrašćine u šumi."
+  },
+  {
+    "ascii": "djevojcica cita zanimljiv clanak u casopisu",
+    "correct": "Djevojčica čita zanimljiv članak u časopisu."
+  },
+  {
+    "ascii": "guster se sunca na toplom kamenu pored potoka",
+    "correct": "Gušter se sunča na toplom kamenu pored potoka."
+  },
+  {
+    "ascii": "kljuc od kuce visjao je na starom cavlu",
+    "correct": "Ključ od kuće visjao je na starom čavlu."
+  },
+  {
+    "ascii": "zelja za uspjehom tjera ljude na veca djela",
+    "correct": "Želja za uspjehom tjera ljude na veća djela."
+  },
+  {
+    "ascii": "casa hladne vode osvjezava nakon dugog setanja",
+    "correct": "Čaša hladne vode osvježava nakon dugog šetanja."
+  },
+  {
+    "ascii": "noz mora biti ostar za precizno rezanje povrca",
+    "correct": "Nož mora biti oštar za precizno rezanje povrća."
+  },
+  {
+    "ascii": "dvoriste je bilo prepuno raznolikog cvijeca",
+    "correct": "Dvorište je bilo prepuno raznolikog cvijeća."
+  },
+  {
+    "ascii": "garazu treba redovito cistiti od nagomilane prasine",
+    "correct": "Garažu treba redovito čistiti od nagomilane prašine."
+  },
+  {
+    "ascii": "rostilja mirise na svjeze peceno meso i povrce",
+    "correct": "Roštilja miriše na svježe pečeno meso i povrće."
+  },
+  {
+    "ascii": "pcela skuplja nektar s crvenog cvijeta na livadi",
+    "correct": "Pčela skuplja nektar s crvenog cvijeta na livadi."
+  },
+  {
+    "ascii": "drvece pruza hlad u vrelim ljetnim danima",
+    "correct": "Drveće pruža hlad u vrelim ljetnim danima."
+  },
+  {
+    "ascii": "cvjetnjak je pun sarenih ruza i karanfila",
+    "correct": "Cvjetnjak je pun šarenih ruža i karanfila."
+  },
+  {
+    "ascii": "vjezba cini majstora u svim zivotnim podrucjima",
+    "correct": "Vježba čini majstora u svim životnim područjima."
+  },
+  {
+    "ascii": "cesalj je ostao na stolu pokraj ogledala",
+    "correct": "Češalj je ostao na stolu pokraj ogledala."
+  },
+  {
+    "ascii": "stolic je bio prekriven bijelim cipkastim stolnjakom",
+    "correct": "Stolić je bio prekriven bijelim čipkastim stolnjakom."
+  },
+  {
+    "ascii": "lezaljka stoji na terasi okrenuta prema moru",
+    "correct": "Ležaljka stoji na terasi okrenuta prema moru."
+  },
+  {
+    "ascii": "vjesalica u hodniku puna je zimskih kaputa",
+    "correct": "Vješalica u hodniku puna je zimskih kaputa."
+  },
+  {
+    "ascii": "zglob boli nakon dugog pisanja na tipkovnici",
+    "correct": "Zglob boli nakon dugog pisanja na tipkovnici."
+  },
+  {
+    "ascii": "saka se stegne u pest kada covjek osjeca strah",
+    "correct": "Šaka se stegne u pest kada čovjek osjeća strah."
+  },
+  {
+    "ascii": "stopalo je bolno nakon dugog hodanja bosih nogu",
+    "correct": "Stopalo je bolno nakon dugog hodanja bosih nogu."
+  },
+  {
+    "ascii": "prst pokazuje prema zvijezdama na nocnom nebu",
+    "correct": "Prst pokazuje prema zvijezdama na noćnom nebu."
+  },
+  {
+    "ascii": "vrat je osjetljiv dio tijela koji treba cuvati",
+    "correct": "Vrat je osjetljiv dio tijela koji treba čuvati."
+  },
+  {
+    "ascii": "leda bole nakon nosenja teskih predmeta cijeli dan",
+    "correct": "Leđa bole nakon nošenja teških predmeta cijeli dan."
+  },
+  {
+    "ascii": "trbuh se napuni nakon obilatog rucka s obitelji",
+    "correct": "Trbuh se napuni nakon obilatog ručka s obitelji."
+  },
+  {
+    "ascii": "zena cisti prozore prije dolaska gostiju",
+    "correct": "Žena čisti prozore prije dolaska gostiju."
+  },
+  {
+    "ascii": "djecak brzo trci prema kuci kroz sumu",
+    "correct": "Dječak brzo trči prema kući kroz šumu."
+  },
+  {
+    "ascii": "rucak je bio ukusan i obilat za cijelu obitelj",
+    "correct": "Ručak je bio ukusan i obilat za cijelu obitelj."
+  },
+  {
+    "ascii": "vecera se servira tocno u sest sati navecer",
+    "correct": "Večera se servira točno u šest sati navečer."
+  },
+  {
+    "ascii": "biljeznica je bila puna vaznih skolskih biljeski",
+    "correct": "Bilježnica je bila puna važnih školskih bilješki."
+  },
+  {
+    "ascii": "olovka pise glatko po bijelom papiru",
+    "correct": "Olovka piše glatko po bijelom papiru."
+  },
+  {
+    "ascii": "ucenik podize ruku da odgovori na pitanje",
+    "correct": "Učenik podiže ruku da odgovori na pitanje."
+  },
+  {
+    "ascii": "kisa pada cijeli dan bez prestanka",
+    "correct": "Kiša pada cijeli dan bez prestanka."
+  },
+  {
+    "ascii": "suma je tiha i mirna u jesensko jutro",
+    "correct": "Šuma je tiha i mirna u jesensko jutro."
+  },
+  {
+    "ascii": "kuca ima crveni krov i bijele zidove",
+    "correct": "Kuća ima crveni krov i bijele zidove."
+  },
+  {
+    "ascii": "skola pocinje s radom u osam sati ujutro",
+    "correct": "Škola počinje s radom u osam sati ujutro."
+  },
+  {
+    "ascii": "trznica je najzivlja subotom ujutro",
+    "correct": "Tržnica je najživlja subotom ujutro."
+  },
+  {
+    "ascii": "plaza je prepuna kupaca tijekom ljeta",
+    "correct": "Plaža je prepuna kupača tijekom ljeta."
+  },
+  {
+    "ascii": "rijeka tece mirno kroz zelenu dolinu",
+    "correct": "Rijeka teče mirno kroz zelenu dolinu."
+  },
+  {
+    "ascii": "camac se ljulja na valovima uz obalu",
+    "correct": "Čamac se ljulja na valovima uz obalu."
+  },
+  {
+    "ascii": "sesir stiti glavu od vruceg sunca",
+    "correct": "Šešir štiti glavu od vrućeg sunca."
+  },
+  {
+    "ascii": "kaput visi na vjesalici u hodniku",
+    "correct": "Kaput visi na vješalici u hodniku."
+  },
+  {
+    "ascii": "kosulja je bila savrseno ispeglana i bijela",
+    "correct": "Košulja je bila savršeno ispeglana i bijela."
+  },
+  {
+    "ascii": "cizme cuvaju noge od hladnoce i vlage",
+    "correct": "Čizme čuvaju noge od hladnoće i vlage."
+  },
+  {
+    "ascii": "voce je svjeze ubrano s vrtnog stabla",
+    "correct": "Voće je svježe ubrano s vrtnog stabla."
+  },
+  {
+    "ascii": "povrce je zdravo i puno vitamina",
+    "correct": "Povrće je zdravo i puno vitamina."
+  },
+  {
+    "ascii": "sljiva je slatka i socna kada je zrela",
+    "correct": "Šljiva je slatka i sočna kada je zrela."
+  },
+  {
+    "ascii": "grozde raste na vinovoj lozi u vinogradu",
+    "correct": "Grožđe raste na vinovoj lozi u vinogradu."
+  },
+  {
+    "ascii": "naranca ima svjez miris i kiselkast okus",
+    "correct": "Naranča ima svjež miris i kiselkast okus."
+  },
+  {
+    "ascii": "kolac je bio ukusno napravljen i ukrasen",
+    "correct": "Kolač je bio ukusno napravljen i ukrašen."
+  },
+  {
+    "ascii": "palacinka se pece na vrucoj tavi",
+    "correct": "Palačinka se peče na vrućoj tavi."
+  },
+  {
+    "ascii": "zadaca se mora rijesiti do sutra",
+    "correct": "Zadaća se mora riješiti do sutra."
+  },
+  {
+    "ascii": "vuk zavija pod punim mjesecom u noci",
+    "correct": "Vuk zavija pod punim mjesecom u noći."
+  },
+  {
+    "ascii": "medvjed lovi ribu u hladnom planinskom potoku",
+    "correct": "Medvjed lovi ribu u hladnom planinskom potoku."
+  },
+  {
+    "ascii": "zec skace kroz livadu punu divljeg cvijeca",
+    "correct": "Zec skače kroz livadu punu divljeg cvijeća."
+  },
+  {
+    "ascii": "lisica se sulja prema kokosinjcu u noci",
+    "correct": "Lisica se šulja prema kokošinjcu u noći."
+  },
+  {
+    "ascii": "jelen pije vodu iz bistrog jezera",
+    "correct": "Jelen pije vodu iz bistrog jezera."
+  },
+  {
+    "ascii": "divlja svinja trazi zir u gustoj sumi",
+    "correct": "Divlja svinja traži žir u gustoj šumi."
+  },
+  {
+    "ascii": "vjeverica sakuplja ljesnjake za zimu",
+    "correct": "Vjeverica sakuplja lješnjake za zimu."
+  },
+  {
+    "ascii": "sova leti tiho kroz sumu u potrazi za plijenom",
+    "correct": "Sova leti tiho kroz šumu u potrazi za plijenom."
+  },
+  {
+    "ascii": "jez se sklupca u bodljikavu kuglu za obranu",
+    "correct": "Jež se sklupča u bodljikavu kuglu za obranu."
+  },
+  {
+    "ascii": "grlica guce na krovu stare kuce",
+    "correct": "Grlica guče na krovu stare kuće."
+  },
+  {
+    "ascii": "seva cvrkuce veselo na granu stabla",
+    "correct": "Ševa cvrkuće veselo na granu stabla."
+  },
+  {
+    "ascii": "kosica pjeva najljepse u rano proljece",
+    "correct": "Kosica pjeva najljepše u rano proljeće."
+  },
+  {
+    "ascii": "lasta se vraca s juga u travnju",
+    "correct": "Lasta se vraća s juga u travnju."
+  },
+  {
+    "ascii": "vrana kresti glasno na visokom drvetu",
+    "correct": "Vrana krešti glasno na visokom drvetu."
+  },
+  {
+    "ascii": "golub seta po trgu trazeci hranu",
+    "correct": "Golub šeta po trgu tražeći hranu."
+  },
+  {
+    "ascii": "pauk plete mrezu izmedu grana",
+    "correct": "Pauk plete mrežu između grana."
+  },
+  {
+    "ascii": "leptir leti od cvijeta do cvijeta",
+    "correct": "Leptir leti od cvijeta do cvijeta."
+  },
+  {
+    "ascii": "pcela skuplja pelud sa zutog cvijeta",
+    "correct": "Pčela skuplja pelud sa žutog cvijeta."
+  },
+  {
+    "ascii": "muha zuji oko voca na stolu",
+    "correct": "Muha zuji oko voća na stolu."
+  },
+  {
+    "ascii": "komarac zuja oko uha nocu",
+    "correct": "Komarac žuja oko uha noću."
+  },
+  {
+    "ascii": "proljece donosi toplo sunce i svjeze cvijece",
+    "correct": "Proljeće donosi toplo sunce i svježe cvijeće."
+  },
+  {
+    "ascii": "ljeto je vrijeme odmora i kupanja na moru",
+    "correct": "Ljeto je vrijeme odmora i kupanja na moru."
+  },
+  {
+    "ascii": "jesen boji lisce u zlatne i crvene boje",
+    "correct": "Jesen boji lišće u zlatne i crvene boje."
+  },
+  {
+    "ascii": "zima pokriva sve snijegom i ledom",
+    "correct": "Zima pokriva sve snijegom i ledom."
+  },
+  {
+    "ascii": "snijeg pada tiho i pokriva sve oko nas",
+    "correct": "Snijeg pada tiho i pokriva sve oko nas."
+  },
+  {
+    "ascii": "grmljavina odzvanja brdom nakon munje",
+    "correct": "Grmljavina odzvanja brdom nakon munje."
+  },
+  {
+    "ascii": "munja osvjetljava tamno nebo na trenutak",
+    "correct": "Munja osvjetljava tamno nebo na trenutak."
+  },
+  {
+    "ascii": "vjetar puse jako i savija grane drveca",
+    "correct": "Vjetar puše jako i savija grane drveća."
+  },
+  {
+    "ascii": "magla prekriva dolinu ranoujutro",
+    "correct": "Magla prekriva dolinu ranoujutro."
+  },
+  {
+    "ascii": "mraz je stvorio carobne kristale na staklu",
+    "correct": "Mraz je stvorio čarobne kristale na staklu."
+  },
+  {
+    "ascii": "led na jezeru je dovoljno debeo za klizanje",
+    "correct": "Led na jezeru je dovoljno debeo za klizanje."
+  },
+  {
+    "ascii": "suma je zelena i svjeza nakon kise",
+    "correct": "Šuma je zelena i svježa nakon kiše."
+  },
+  {
+    "ascii": "sunce se dize iza planine u zoru",
+    "correct": "Sunce se diže iza planine u zoru."
+  },
+  {
+    "ascii": "mjesec svijetli na zvjezdanom nebu",
+    "correct": "Mjesec svijetli na zvjezdanom nebu."
+  },
+  {
+    "ascii": "oblaci plove polako preko neba",
+    "correct": "Oblaci plove polako preko neba."
+  },
+  {
+    "ascii": "kruh je svjeze pecen u pekari",
+    "correct": "Kruh je svježe pečen u pekari."
+  },
+  {
+    "ascii": "mlijeko je hladno i osvjezavajuce",
+    "correct": "Mlijeko je hladno i osvježavajuće."
+  },
+  {
+    "ascii": "sir je zreo i ima bogat okus",
+    "correct": "Sir je zreo i ima bogat okus."
+  },
+  {
+    "ascii": "jaja se kuhaju za dorucak",
+    "correct": "Jaja se kuhaju za doručak."
+  },
+  {
+    "ascii": "meso se pece na otvorenom ognju",
+    "correct": "Meso se peče na otvorenom ognju."
+  },
+  {
+    "ascii": "riba je pecena s limunom i cesnjakom",
+    "correct": "Riba je pečena s limunom i češnjakom."
+  },
+  {
+    "ascii": "juha je vruca i ukusna",
+    "correct": "Juha je vruća i ukusna."
+  },
+  {
+    "ascii": "salata je svjeza i zdrava",
+    "correct": "Salata je svježa i zdrava."
+  },
+  {
+    "ascii": "krumpir se kuha u slanoj vodi",
+    "correct": "Krumpir se kuha u slanoj vodi."
+  },
+  {
+    "ascii": "riza je kuglasta i mekana",
+    "correct": "Riža je kuglasta i mekana."
+  },
+  {
+    "ascii": "tjestenina se servira s umakom",
+    "correct": "Tjestenina se servira s umakom."
+  },
+  {
+    "ascii": "cokolada je slatka i omiljeno djeci",
+    "correct": "Čokolada je slatka i omiljeno djeci."
+  },
+  {
+    "ascii": "kava je vruca i aromaticna",
+    "correct": "Kava je vruća i aromatična."
+  },
+  {
+    "ascii": "caj mirise na mirisno bilje",
+    "correct": "Čaj miriše na mirisno bilje."
+  },
+  {
+    "ascii": "sok je svjeze iscijeden iz narance",
+    "correct": "Sok je svježe iscijeđen iz naranče."
+  },
+  {
+    "ascii": "zidar zida kucu od temelja do krova",
+    "correct": "Zidar zida kuću od temelja do krova."
+  },
+  {
+    "ascii": "stolar izraduje namjestaj od kvalitetnog drva",
+    "correct": "Stolar izrađuje namještaj od kvalitetnog drva."
+  },
+  {
+    "ascii": "bravar popravlja brave i kljuceve",
+    "correct": "Bravar popravlja brave i ključeve."
+  },
+  {
+    "ascii": "elektricar popravlja kvarove na instalacijama",
+    "correct": "Električar popravlja kvarove na instalacijama."
+  },
+  {
+    "ascii": "vodoinstalater popravlja cijevi i slavine",
+    "correct": "Vodoinstalater popravlja cijevi i slavine."
+  },
+  {
+    "ascii": "lijecnik pregleda pacijenta u ordinaciji",
+    "correct": "Liječnik pregleda pacijenta u ordinaciji."
+  },
+  {
+    "ascii": "medicinska sestra daje injekcije pacijentima",
+    "correct": "Medicinska sestra daje injekcije pacijentima."
+  },
+  {
+    "ascii": "ucitelj predaje matematiku i hrvatski jezik",
+    "correct": "Učitelj predaje matematiku i hrvatski jezik."
+  },
+  {
+    "ascii": "profesor drzi predavanje studentima na fakultetu",
+    "correct": "Profesor drži predavanje studentima na fakultetu."
+  },
+  {
+    "ascii": "odvjetnik brani klijenta na sudu",
+    "correct": "Odvjetnik brani klijenta na sudu."
+  },
+  {
+    "ascii": "policajac cuva red i mir u gradu",
+    "correct": "Policajac čuva red i mir u gradu."
+  },
+  {
+    "ascii": "vatrogasac gasi pozar u zgradi",
+    "correct": "Vatrogasac gasi požar u zgradi."
+  },
+  {
+    "ascii": "postarac dostavlja postu na adrese",
+    "correct": "Poštarac dostavlja poštu na adrese."
+  },
+  {
+    "ascii": "trgovac prodaje robu u ducanu",
+    "correct": "Trgovac prodaje robu u dućanu."
+  },
+  {
+    "ascii": "pekar pece kruh i peciva svako jutro",
+    "correct": "Pekar peče kruh i peciva svako jutro."
+  },
+  {
+    "ascii": "sreca je najljepsi osjecaj u zivotu",
+    "correct": "Sreća je najljepši osjećaj u životu."
+  },
+  {
+    "ascii": "tuga se vidi u ocima djeteta",
+    "correct": "Tuga se vidi u očima djeteta."
+  },
+  {
+    "ascii": "strah paralizira covjeka u opasnosti",
+    "correct": "Strah paralizira čovjeka u opasnosti."
+  },
+  {
+    "ascii": "ljubav povezuje ljude cvrstim vezama",
+    "correct": "Ljubav povezuje ljude čvrstim vezama."
+  },
+  {
+    "ascii": "mrznja razara dusu iznutra",
+    "correct": "Mržnja razara dušu iznutra."
+  },
+  {
+    "ascii": "radost se siri smijeskom na licu",
+    "correct": "Radost se širi smiješkom na licu."
+  },
+  {
+    "ascii": "bijes cini da covjek izgubi razum",
+    "correct": "Bijes čini da čovjek izgubi razum."
+  },
+  {
+    "ascii": "zalost tesko pritiska na srce",
+    "correct": "Žalost teško pritiska na srce."
+  },
+  {
+    "ascii": "nade se nikad ne smije odreci",
+    "correct": "Nade se nikad ne smije odreći."
+  },
+  {
+    "ascii": "dosada cini da vrijeme sporije tece",
+    "correct": "Dosada čini da vrijeme sporije teče."
+  },
+  {
+    "ascii": "usisavac cisti tepih od prasine i dlaka",
+    "correct": "Usisavač čisti tepih od prašine i dlaka."
+  },
+  {
+    "ascii": "perilica pere prljavu odjecu",
+    "correct": "Perilica pere prljavu odjeću."
+  },
+  {
+    "ascii": "susilica susi mokru odjecu",
+    "correct": "Sušilica suši mokru odjeću."
+  },
+  {
+    "ascii": "peca grije kucu tijekom zime",
+    "correct": "Peća grije kuću tijekom zime."
+  },
+  {
+    "ascii": "hladnjak cuva hranu svjezom",
+    "correct": "Hladnjak čuva hranu svježom."
+  },
+  {
+    "ascii": "zamrzivac zamrzava hranu za dugo skladistenje",
+    "correct": "Zamrzivač zamrzava hranu za dugo skladištenje."
+  },
+  {
+    "ascii": "pecnica pece kolace i pite",
+    "correct": "Pećnica peče kolače i pite."
+  },
+  {
+    "ascii": "stednjak sluzi za kuhanje obroka",
+    "correct": "Štednjak služi za kuhanje obroka."
+  },
+  {
+    "ascii": "mikrovalna zagrijava hranu brzo",
+    "correct": "Mikrovalna zagrijava hranu brzo."
+  },
+  {
+    "ascii": "toster przi kruh za dorucak",
+    "correct": "Toster prži kruh za doručak."
+  },
+  {
+    "ascii": "nogometas trci po terenu s loptom",
+    "correct": "Nogometaš trči po terenu s loptom."
+  },
+  {
+    "ascii": "kosarkas gada kos s velike udaljenosti",
+    "correct": "Košarkaš gađa koš s velike udaljenosti."
+  },
+  {
+    "ascii": "rukometas baca loptu prema golu",
+    "correct": "Rukometaš baca loptu prema golu."
+  },
+  {
+    "ascii": "tenisac servira loptu preko mreze",
+    "correct": "Tenisač servira loptu preko mreže."
+  },
+  {
+    "ascii": "plivac pliva brzo u bazenu",
+    "correct": "Plivač pliva brzo u bazenu."
+  },
+  {
+    "ascii": "skijas silazi niz planinu velikom brzinom",
+    "correct": "Skijaš silazi niz planinu velikom brzinom."
+  },
+  {
+    "ascii": "trkac trci maraton cijelog dana",
+    "correct": "Trkač trči maraton cijelog dana."
+  },
+  {
+    "ascii": "biciklisticka utrka prolazi kroz grad",
+    "correct": "Biciklistička utrka prolazi kroz grad."
+  },
+  {
+    "ascii": "planinار penje se na vrh planine",
+    "correct": "Planinار penje se na vrh planine."
+  },
+  {
+    "ascii": "veslac vesla camcem po jezeru",
+    "correct": "Veslač vesla čamcem po jezeru."
+  },
+  {
+    "ascii": "tramvaj se krece sinama kroz grad",
+    "correct": "Tramvaj se kreće šinama kroz grad."
+  },
+  {
+    "ascii": "autobus staje na svakoj stanici",
+    "correct": "Autobus staje na svakoj stanici."
+  },
+  {
+    "ascii": "taksi vozi putnike na destinaciju",
+    "correct": "Taksi vozi putnike na destinaciju."
+  },
+  {
+    "ascii": "metro prolazi tunelima ispod grada",
+    "correct": "Metro prolazi tunelima ispod grada."
+  },
+  {
+    "ascii": "biciklisticka staza vodi kroz park",
+    "correct": "Biciklistička staza vodi kroz park."
+  },
+  {
+    "ascii": "pjesacka zona puna je ljudi",
+    "correct": "Pješačka zona puna je ljudi."
+  },
+  {
+    "ascii": "trgovacki centar nudi sirok izbor robe",
+    "correct": "Trgovački centar nudi širok izbor robe."
+  },
+  {
+    "ascii": "restoran servira ukusna jela",
+    "correct": "Restoran servira ukusna jela."
+  },
+  {
+    "ascii": "kafic je pun gostiju vikendom",
+    "correct": "Kafić je pun gostiju vikendom."
+  },
+  {
+    "ascii": "knjiznica cuva tisuce knjiga",
+    "correct": "Knjižnica čuva tisuće knjiga."
+  },
+  {
+    "ascii": "muzej prikazuje povijest grada",
+    "correct": "Muzej prikazuje povijest grada."
+  },
+  {
+    "ascii": "kazaliste izvodi novu predstavu",
+    "correct": "Kazalište izvodi novu predstavu."
+  },
+  {
+    "ascii": "kino prikazuje najnovije filmove",
+    "correct": "Kino prikazuje najnovije filmove."
+  },
+  {
+    "ascii": "park je idealan za setnju",
+    "correct": "Park je idealan za šetnju."
+  },
+  {
+    "ascii": "fontana prska vodu u zraku",
+    "correct": "Fontana prska vodu u zraku."
+  },
+  {
+    "ascii": "predavanje pocinje u devet sati",
+    "correct": "Predavanje počinje u devet sati."
+  },
+  {
+    "ascii": "ispit traje dva sata",
+    "correct": "Ispit traje dva sata."
+  },
+  {
+    "ascii": "seminarski rad treba predati do petka",
+    "correct": "Seminarski rad treba predati do petka."
+  },
+  {
+    "ascii": "diplomski rad zahtijeva mnogo istrazivanja",
+    "correct": "Diplomski rad zahtijeva mnogo istraživanja."
+  },
+  {
+    "ascii": "stipendija pomaze studentima u studiju",
+    "correct": "Stipendija pomaže studentima u studiju."
+  },
+  {
+    "ascii": "ucionica je opremljena modernom tehnologijom",
+    "correct": "Učionica je opremljena modernom tehnologijom."
+  },
+  {
+    "ascii": "laboratorij sluzi za eksperimente",
+    "correct": "Laboratorij služi za eksperimente."
+  },
+  {
+    "ascii": "knjiznica je otvorena do osam navecer",
+    "correct": "Knjižnica je otvorena do osam navečer."
+  },
+  {
+    "ascii": "menza nudi povoljne obroke za studente",
+    "correct": "Menza nudi povoljne obroke za studente."
+  },
+  {
+    "ascii": "studentski dom pruza smjestaj",
+    "correct": "Studentski dom pruža smještaj."
+  },
+  {
+    "ascii": "racunalo olaksava svakodnevne poslove",
+    "correct": "Računalo olakšava svakodnevne poslove."
+  },
+  {
+    "ascii": "mobitel omogucava stalan kontakt",
+    "correct": "Mobitel omogućava stalan kontakt."
+  },
+  {
+    "ascii": "tablet je praktican za citanje",
+    "correct": "Tablet je praktičan za čitanje."
+  },
+  {
+    "ascii": "televizor prikazuje hd slike",
+    "correct": "Televizor prikazuje HD slike."
+  },
+  {
+    "ascii": "radio prenosi vijesti i glazbu",
+    "correct": "Radio prenosi vijesti i glazbu."
+  },
+  {
+    "ascii": "internet povezuje svijet",
+    "correct": "Internet povezuje svijet."
+  },
+  {
+    "ascii": "email je brz nacin komunikacije",
+    "correct": "Email je brz način komunikacije."
+  },
+  {
+    "ascii": "aplikacija pojednostavljuje zadatke",
+    "correct": "Aplikacija pojednostavljuje zadatke."
+  },
+  {
+    "ascii": "software se redovito azurira",
+    "correct": "Software se redovito ažurira."
+  },
+  {
+    "ascii": "hardware zahtijeva odrzavanje",
+    "correct": "Hardware zahtijeva održavanje."
+  },
+  {
+    "ascii": "avion leti visoko iznad oblaka",
+    "correct": "Avion leti visoko iznad oblaka."
+  },
+  {
+    "ascii": "brod plovi morem prema otoku",
+    "correct": "Brod plovi morem prema otoku."
+  },
+  {
+    "ascii": "vlak vozi zeljeznickom prugom",
+    "correct": "Vlak vozi željezničkom prugom."
+  },
+  {
+    "ascii": "automobil se krece cestom",
+    "correct": "Automobil se kreće cestom."
+  },
+  {
+    "ascii": "motocikl je brz i okretan",
+    "correct": "Motocikl je brz i okretan."
+  },
+  {
+    "ascii": "kolica voze dijete po gradu",
+    "correct": "Kolica voze dijete po gradu."
+  },
+  {
+    "ascii": "kofer je pun odjece za putovanje",
+    "correct": "Kofer je pun odjeće za putovanje."
+  },
+  {
+    "ascii": "putovnica je potrebna za izlazak iz zemlje",
+    "correct": "Putovnica je potrebna za izlazak iz zemlje."
+  },
+  {
+    "ascii": "karta omogucava ulazak u muzej",
+    "correct": "Karta omogućava ulazak u muzej."
+  },
+  {
+    "ascii": "hotel pruza udoban smjestaj",
+    "correct": "Hotel pruža udoban smještaj."
+  },
+  {
+    "ascii": "vitamin c jaca imunitet",
+    "correct": "Vitamin C jača imunitet."
+  },
+  {
+    "ascii": "vjezbanje odrzava tijelo zdravim",
+    "correct": "Vježbanje održava tijelo zdravim."
+  },
+  {
+    "ascii": "san je vazan za oporavak",
+    "correct": "San je važan za oporavak."
+  },
+  {
+    "ascii": "voda hidratizira organizam",
+    "correct": "Voda hidratizira organizam."
+  },
+  {
+    "ascii": "lijekovi lijece bolesti",
+    "correct": "Lijekovi liječe bolesti."
+  },
+  {
+    "ascii": "terapija pomaze u ozdravljenju",
+    "correct": "Terapija pomaže u ozdravljenju."
+  },
+  {
+    "ascii": "dijeta pomaze u mrsavljenju",
+    "correct": "Dijeta pomaže u mršavljenju."
+  },
+  {
+    "ascii": "masaza opusta misice",
+    "correct": "Masaža opušta mišiće."
+  },
+  {
+    "ascii": "joga smiruje um",
+    "correct": "Joga smiruje um."
+  },
+  {
+    "ascii": "meditacija donosi mir",
+    "correct": "Meditacija donosi mir."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  },
+  {
+    "ascii": "kanjon je dubok i uzak",
+    "correct": "Kanjon je dubok i uzak."
+  },
+  {
+    "ascii": "provalija je opasna za covjeka",
+    "correct": "Provalija je opasna za čovjeka."
+  },
+  {
+    "ascii": "klisura je uzana i duboka",
+    "correct": "Klisura je uzana i duboka."
+  },
+  {
+    "ascii": "spilja krije tajne proslosti",
+    "correct": "Špilja krije tajne prošlosti."
+  },
+  {
+    "ascii": "jama je duboka i mracna",
+    "correct": "Jama je duboka i mračna."
+  },
+  {
+    "ascii": "prociep u stijeni nudi zaklon",
+    "correct": "Prociep u stijeni nudi zaklon."
+  },
+  {
+    "ascii": "stijena se rusi niz obronak",
+    "correct": "Stijena se ruši niz obronak."
+  },
+  {
+    "ascii": "kamenolom daje materijal za gradnju",
+    "correct": "Kamenolom daje materijal za gradnju."
+  },
+  {
+    "ascii": "rudnik daje vrijedne minerale",
+    "correct": "Rudnik daje vrijedne minerale."
+  },
+  {
+    "ascii": "tunel prolazi kroz planinu",
+    "correct": "Tunel prolazi kroz planinu."
+  },
+  {
+    "ascii": "most spaja dvije obale",
+    "correct": "Most spaja dvije obale."
+  },
+  {
+    "ascii": "cesta vodi kroz dolinu",
+    "correct": "Cesta vodi kroz dolinu."
+  },
+  {
+    "ascii": "staza vodi na vrh planine",
+    "correct": "Staza vodi na vrh planine."
+  },
+  {
+    "ascii": "put se gubi u sumi",
+    "correct": "Put se gubi u šumi."
+  },
+  {
+    "ascii": "ulica je prepuna ljudi",
+    "correct": "Ulica je prepuna ljudi."
+  },
+  {
+    "ascii": "trg je centar gradskog zivota",
+    "correct": "Trg je centar gradskog života."
+  },
+  {
+    "ascii": "avenija je siroka i lijepa",
+    "correct": "Avenija je široka i lijepa."
+  },
+  {
+    "ascii": "prolaz vodi kroz zgradu",
+    "correct": "Prolaz vodi kroz zgradu."
+  },
+  {
+    "ascii": "hodnik spaja prostorije",
+    "correct": "Hodnik spaja prostorije."
+  },
+  {
+    "ascii": "stepenice vode na kat",
+    "correct": "Stepenice vode na kat."
+  },
+  {
+    "ascii": "lift vozi na vrh zgrade",
+    "correct": "Lift vozi na vrh zgrade."
+  },
+  {
+    "ascii": "balkon gleda na more",
+    "correct": "Balkon gleda na more."
+  },
+  {
+    "ascii": "terasa je osuncana cijeli dan",
+    "correct": "Terasa je osunčana cijeli dan."
+  },
+  {
+    "ascii": "vrt je pun cvijeca i povrca",
+    "correct": "Vrt je pun cvijeća i povrća."
+  },
+  {
+    "ascii": "dvoriste sluzi za igru djece",
+    "correct": "Dvorište služi za igru djece."
+  },
+  {
+    "ascii": "garaza cuva automobil",
+    "correct": "Garaža čuva automobil."
+  },
+  {
+    "ascii": "podrurn sluzi za skladistenje",
+    "correct": "Podrurn služi za skladištenje."
+  },
+  {
+    "ascii": "tavanski prostor je prazan",
+    "correct": "Tavanski prostor je prazan."
+  },
+  {
+    "ascii": "krov stiti od kise",
+    "correct": "Krov štiti od kiše."
+  },
+  {
+    "ascii": "dimnjak ispusta dim iz peci",
+    "correct": "Dimnjak ispušta dim iz peći."
+  },
+  {
+    "ascii": "prozor gleda na ulicu",
+    "correct": "Prozor gleda na ulicu."
+  },
+  {
+    "ascii": "vrata vode u kucu",
+    "correct": "Vrata vode u kuću."
+  },
+  {
+    "ascii": "ograda ograduje vrt",
+    "correct": "Ograda ograđuje vrt."
+  },
+  {
+    "ascii": "kapija omogucava ulaz u dvoriste",
+    "correct": "Kapija omogućava ulaz u dvorište."
+  },
+  {
+    "ascii": "zid dijeli dva posjeda",
+    "correct": "Zid dijeli dva posjeda."
+  },
+  {
+    "ascii": "temelj nosi tezinu kuce",
+    "correct": "Temelj nosi težinu kuće."
+  },
+  {
+    "ascii": "stubiste vodi na kat",
+    "correct": "Stubište vodi na kat."
+  },
+  {
+    "ascii": "soba je prostrana i svijetla",
+    "correct": "Soba je prostrana i svijetla."
+  },
+  {
+    "ascii": "kuhinja je opremljena svim potrebnim",
+    "correct": "Kuhinja je opremljena svim potrebnim."
+  },
+  {
+    "ascii": "kupaonica ima tus i kadu",
+    "correct": "Kupaonica ima tuš i kadu."
+  },
+  {
+    "ascii": "spavaca soba je mirna i tiha",
+    "correct": "Spavaća soba je mirna i tiha."
+  },
+  {
+    "ascii": "dnevna soba je centar obiteljskog zivota",
+    "correct": "Dnevna soba je centar obiteljskog života."
+  },
+  {
+    "ascii": "blagovaonica sluzi za objedovanje",
+    "correct": "Blagovaonica služi za objedovanje."
+  },
+  {
+    "ascii": "radna soba omogucava koncentraciju",
+    "correct": "Radna soba omogućava koncentraciju."
+  },
+  {
+    "ascii": "djecja soba je sarena i vesela",
+    "correct": "Dječja soba je šarena i vesela."
+  },
+  {
+    "ascii": "hodnik spaja sve sobe",
+    "correct": "Hodnik spaja sve sobe."
+  },
+  {
+    "ascii": "ormar cuva odjecu",
+    "correct": "Ormar čuva odjeću."
+  },
+  {
+    "ascii": "krevet sluzi za spavanje",
+    "correct": "Krevet služi za spavanje."
+  },
+  {
+    "ascii": "stol je postavljen za rucak",
+    "correct": "Stol je postavljen za ručak."
+  },
+  {
+    "ascii": "stolica stoji pokraj stola",
+    "correct": "Stolica stoji pokraj stola."
+  },
+  {
+    "ascii": "polica drzi knjige",
+    "correct": "Polica drži knjige."
+  },
+  {
+    "ascii": "ladica cuva sitnice",
+    "correct": "Ladica čuva sitnice."
+  },
+  {
+    "ascii": "ogledalo reflektira sliku",
+    "correct": "Ogledalo reflektira sliku."
+  },
+  {
+    "ascii": "slika visi na zidu",
+    "correct": "Slika visi na zidu."
+  },
+  {
+    "ascii": "zavjesa pokriva prozor",
+    "correct": "Zavjesa pokriva prozor."
+  },
+  {
+    "ascii": "tepih pokriva pod",
+    "correct": "Tepih pokriva pod."
+  },
+  {
+    "ascii": "lampa osvjetljava sobu",
+    "correct": "Lampa osvjetljava sobu."
+  },
+  {
+    "ascii": "svjecnjak drzi svijecu",
+    "correct": "Svjećnjak drži svijeću."
+  },
+  {
+    "ascii": "vaza drzi cvijece",
+    "correct": "Vaza drži cvijeće."
+  },
+  {
+    "ascii": "sat pokazuje vrijeme",
+    "correct": "Sat pokazuje vrijeme."
+  },
+  {
+    "ascii": "termometar mjeri temperaturu",
+    "correct": "Termometar mjeri temperaturu."
+  },
+  {
+    "ascii": "barometar predvida vrijeme",
+    "correct": "Barometar predviđa vrijeme."
+  },
+  {
+    "ascii": "kompas pokazuje smjer",
+    "correct": "Kompas pokazuje smjer."
+  },
+  {
+    "ascii": "karta pokazuje put",
+    "correct": "Karta pokazuje put."
+  },
+  {
+    "ascii": "atlas sadrzi karte svijeta",
+    "correct": "Atlas sadrži karte svijeta."
+  },
+  {
+    "ascii": "globus pokazuje zemlju",
+    "correct": "Globus pokazuje Zemlju."
+  },
+  {
+    "ascii": "teleskop gleda u zvijezde",
+    "correct": "Teleskop gleda u zvijezde."
+  },
+  {
+    "ascii": "mikroskop povecava male stvari",
+    "correct": "Mikroskop povećava male stvari."
+  },
+  {
+    "ascii": "lupa pomaze pri citanju",
+    "correct": "Lupa pomaže pri čitanju."
+  },
+  {
+    "ascii": "naocale ispravljaju vid",
+    "correct": "Naočale ispravljaju vid."
+  },
+  {
+    "ascii": "leca fokusira svjetlost",
+    "correct": "Leća fokusira svjetlost."
+  },
+  {
+    "ascii": "prizrna fokusira svjetlost",
+    "correct": "Prizrna fokusira svjetlost."
+  },
+  {
+    "ascii": "zrcalo reflektira sliku",
+    "correct": "Zrcalo reflektira sliku."
+  },
+  {
+    "ascii": "staklo propusta svjetlost",
+    "correct": "Staklo propušta svjetlost."
+  },
+  {
+    "ascii": "kristal lomi svjetlost",
+    "correct": "Kristal lomi svjetlost."
+  },
+  {
+    "ascii": "dijamant bljesti na suncu",
+    "correct": "Dijamant blješti na suncu."
+  },
+  {
+    "ascii": "zlato sjaji zutim sjajem",
+    "correct": "Zlato sjaji žutim sjajem."
+  },
+  {
+    "ascii": "srebro ima bijeli sjaj",
+    "correct": "Srebro ima bijeli sjaj."
+  },
+  {
+    "ascii": "bakar ima crvenkast sjaj",
+    "correct": "Bakar ima crvenkast sjaj."
+  },
+  {
+    "ascii": "zeljezo je cvrsto i trajno",
+    "correct": "Željezo je čvrsto i trajno."
+  },
+  {
+    "ascii": "celik je legura zeljeza",
+    "correct": "Čelik je legura željeza."
+  },
+  {
+    "ascii": "aluminij je lagan metal",
+    "correct": "Aluminij je lagan metal."
+  },
+  {
+    "ascii": "olovo je tezak metal",
+    "correct": "Olovo je težak metal."
+  },
+  {
+    "ascii": "cink stiti od korozije",
+    "correct": "Cink štiti od korozije."
+  },
+  {
+    "ascii": "kositar se koristi za lemljenje",
+    "correct": "Kositar se koristi za lemljenje."
+  },
+  {
+    "ascii": "nikal je otporan na koroziju",
+    "correct": "Nikal je otporan na koroziju."
+  },
+  {
+    "ascii": "krom daje sjajan povrsinu",
+    "correct": "Krom daje sjajan površinu."
+  },
+  {
+    "ascii": "platina je plemenit metal",
+    "correct": "Platina je plemenit metal."
+  },
+  {
+    "ascii": "titan je cvrst i lagan",
+    "correct": "Titan je čvrst i lagan."
+  },
+  {
+    "ascii": "magnezij gori bijelim plamenom",
+    "correct": "Magnezij gori bijelim plamenom."
+  },
+  {
+    "ascii": "kalcij jaca kosti",
+    "correct": "Kalcij jača kosti."
+  },
+  {
+    "ascii": "natrij reagira s vodom",
+    "correct": "Natrij reagira s vodom."
+  },
+  {
+    "ascii": "kalij je vazan za zivce",
+    "correct": "Kalij je važan za živce."
+  },
+  {
+    "ascii": "fosfor svijetli u mraku",
+    "correct": "Fosfor svijetli u mraku."
+  },
+  {
+    "ascii": "sumpora ima neprijatan miris",
+    "correct": "Sumpora ima neprijatan miris."
+  },
+  {
+    "ascii": "klor dezinficira vodu",
+    "correct": "Klor dezinficira vodu."
+  },
+  {
+    "ascii": "jod dezinficira rane",
+    "correct": "Jod dezinficira rane."
+  },
+  {
+    "ascii": "fluor jaca zubnu caklinu",
+    "correct": "Fluor jača zubnu caklinu."
+  },
+  {
+    "ascii": "brom ima crvenkast paru",
+    "correct": "Brom ima crvenkast paru."
+  },
+  {
+    "ascii": "ugljik gradi organske molekule",
+    "correct": "Ugljik gradi organske molekule."
+  },
+  {
+    "ascii": "kisik je potreban za disanje",
+    "correct": "Kisik je potreban za disanje."
+  },
+  {
+    "ascii": "dusik cini vecinu zraka",
+    "correct": "Dušik čini većinu zraka."
+  },
+  {
+    "ascii": "vodik je najlaksi element",
+    "correct": "Vodik je najlakši element."
+  },
+  {
+    "ascii": "helij ispunjava balone",
+    "correct": "Helij ispunjava balone."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  },
+  {
+    "ascii": "kanjon je dubok i uzak",
+    "correct": "Kanjon je dubok i uzak."
+  },
+  {
+    "ascii": "provalija je opasna za covjeka",
+    "correct": "Provalija je opasna za čovjeka."
+  },
+  {
+    "ascii": "klisura je uzana i duboka",
+    "correct": "Klisura je uzana i duboka."
+  },
+  {
+    "ascii": "spilja krije tajne proslosti",
+    "correct": "Špilja krije tajne prošlosti."
+  },
+  {
+    "ascii": "jama je duboka i mracna",
+    "correct": "Jama je duboka i mračna."
+  },
+  {
+    "ascii": "prociep u stijeni nudi zaklon",
+    "correct": "Prociep u stijeni nudi zaklon."
+  },
+  {
+    "ascii": "stijena se rusi niz obronak",
+    "correct": "Stijena se ruši niz obronak."
+  },
+  {
+    "ascii": "kamenolom daje materijal za gradnju",
+    "correct": "Kamenolom daje materijal za gradnju."
+  },
+  {
+    "ascii": "rudnik daje vrijedne minerale",
+    "correct": "Rudnik daje vrijedne minerale."
+  },
+  {
+    "ascii": "tunel prolazi kroz planinu",
+    "correct": "Tunel prolazi kroz planinu."
+  },
+  {
+    "ascii": "most spaja dvije obale",
+    "correct": "Most spaja dvije obale."
+  },
+  {
+    "ascii": "cesta vodi kroz dolinu",
+    "correct": "Cesta vodi kroz dolinu."
+  },
+  {
+    "ascii": "staza vodi na vrh planine",
+    "correct": "Staza vodi na vrh planine."
+  },
+  {
+    "ascii": "put se gubi u sumi",
+    "correct": "Put se gubi u šumi."
+  },
+  {
+    "ascii": "ulica je prepuna ljudi",
+    "correct": "Ulica je prepuna ljudi."
+  },
+  {
+    "ascii": "trg je centar gradskog zivota",
+    "correct": "Trg je centar gradskog života."
+  },
+  {
+    "ascii": "avenija je siroka i lijepa",
+    "correct": "Avenija je široka i lijepa."
+  },
+  {
+    "ascii": "prolaz vodi kroz zgradu",
+    "correct": "Prolaz vodi kroz zgradu."
+  },
+  {
+    "ascii": "hodnik spaja prostorije",
+    "correct": "Hodnik spaja prostorije."
+  },
+  {
+    "ascii": "stepenice vode na kat",
+    "correct": "Stepenice vode na kat."
+  },
+  {
+    "ascii": "lift vozi na vrh zgrade",
+    "correct": "Lift vozi na vrh zgrade."
+  },
+  {
+    "ascii": "balkon gleda na more",
+    "correct": "Balkon gleda na more."
+  },
+  {
+    "ascii": "terasa je osuncana cijeli dan",
+    "correct": "Terasa je osunčana cijeli dan."
+  },
+  {
+    "ascii": "vrt je pun cvijeca i povrca",
+    "correct": "Vrt je pun cvijeća i povrća."
+  },
+  {
+    "ascii": "dvoriste sluzi za igru djece",
+    "correct": "Dvorište služi za igru djece."
+  },
+  {
+    "ascii": "garaza cuva automobil",
+    "correct": "Garaža čuva automobil."
+  },
+  {
+    "ascii": "podrurn sluzi za skladistenje",
+    "correct": "Podrurn služi za skladištenje."
+  },
+  {
+    "ascii": "tavanski prostor je prazan",
+    "correct": "Tavanski prostor je prazan."
+  },
+  {
+    "ascii": "krov stiti od kise",
+    "correct": "Krov štiti od kiše."
+  },
+  {
+    "ascii": "dimnjak ispusta dim iz peci",
+    "correct": "Dimnjak ispušta dim iz peći."
+  },
+  {
+    "ascii": "prozor gleda na ulicu",
+    "correct": "Prozor gleda na ulicu."
+  },
+  {
+    "ascii": "vrata vode u kucu",
+    "correct": "Vrata vode u kuću."
+  },
+  {
+    "ascii": "ograda ograduje vrt",
+    "correct": "Ograda ograđuje vrt."
+  },
+  {
+    "ascii": "kapija omogucava ulaz u dvoriste",
+    "correct": "Kapija omogućava ulaz u dvorište."
+  },
+  {
+    "ascii": "zid dijeli dva posjeda",
+    "correct": "Zid dijeli dva posjeda."
+  },
+  {
+    "ascii": "temelj nosi tezinu kuce",
+    "correct": "Temelj nosi težinu kuće."
+  },
+  {
+    "ascii": "stubiste vodi na kat",
+    "correct": "Stubište vodi na kat."
+  },
+  {
+    "ascii": "soba je prostrana i svijetla",
+    "correct": "Soba je prostrana i svijetla."
+  },
+  {
+    "ascii": "kuhinja je opremljena svim potrebnim",
+    "correct": "Kuhinja je opremljena svim potrebnim."
+  },
+  {
+    "ascii": "kupaonica ima tus i kadu",
+    "correct": "Kupaonica ima tuš i kadu."
+  },
+  {
+    "ascii": "spavaca soba je mirna i tiha",
+    "correct": "Spavaća soba je mirna i tiha."
+  },
+  {
+    "ascii": "dnevna soba je centar obiteljskog zivota",
+    "correct": "Dnevna soba je centar obiteljskog života."
+  },
+  {
+    "ascii": "blagovaonica sluzi za objedovanje",
+    "correct": "Blagovaonica služi za objedovanje."
+  },
+  {
+    "ascii": "radna soba omogucava koncentraciju",
+    "correct": "Radna soba omogućava koncentraciju."
+  },
+  {
+    "ascii": "djecja soba je sarena i vesela",
+    "correct": "Dječja soba je šarena i vesela."
+  },
+  {
+    "ascii": "hodnik spaja sve sobe",
+    "correct": "Hodnik spaja sve sobe."
+  },
+  {
+    "ascii": "ormar cuva odjecu",
+    "correct": "Ormar čuva odjeću."
+  },
+  {
+    "ascii": "krevet sluzi za spavanje",
+    "correct": "Krevet služi za spavanje."
+  },
+  {
+    "ascii": "stol je postavljen za rucak",
+    "correct": "Stol je postavljen za ručak."
+  },
+  {
+    "ascii": "stolica stoji pokraj stola",
+    "correct": "Stolica stoji pokraj stola."
+  },
+  {
+    "ascii": "polica drzi knjige",
+    "correct": "Polica drži knjige."
+  },
+  {
+    "ascii": "ladica cuva sitnice",
+    "correct": "Ladica čuva sitnice."
+  },
+  {
+    "ascii": "ogledalo reflektira sliku",
+    "correct": "Ogledalo reflektira sliku."
+  },
+  {
+    "ascii": "slika visi na zidu",
+    "correct": "Slika visi na zidu."
+  },
+  {
+    "ascii": "zavjesa pokriva prozor",
+    "correct": "Zavjesa pokriva prozor."
+  },
+  {
+    "ascii": "tepih pokriva pod",
+    "correct": "Tepih pokriva pod."
+  },
+  {
+    "ascii": "lampa osvjetljava sobu",
+    "correct": "Lampa osvjetljava sobu."
+  },
+  {
+    "ascii": "svjecnjak drzi svijecu",
+    "correct": "Svjećnjak drži svijeću."
+  },
+  {
+    "ascii": "vaza drzi cvijece",
+    "correct": "Vaza drži cvijeće."
+  },
+  {
+    "ascii": "sat pokazuje vrijeme",
+    "correct": "Sat pokazuje vrijeme."
+  },
+  {
+    "ascii": "termometar mjeri temperaturu",
+    "correct": "Termometar mjeri temperaturu."
+  },
+  {
+    "ascii": "barometar predvida vrijeme",
+    "correct": "Barometar predviđa vrijeme."
+  },
+  {
+    "ascii": "kompas pokazuje smjer",
+    "correct": "Kompas pokazuje smjer."
+  },
+  {
+    "ascii": "karta pokazuje put",
+    "correct": "Karta pokazuje put."
+  },
+  {
+    "ascii": "atlas sadrzi karte svijeta",
+    "correct": "Atlas sadrži karte svijeta."
+  },
+  {
+    "ascii": "globus pokazuje zemlju",
+    "correct": "Globus pokazuje Zemlju."
+  },
+  {
+    "ascii": "teleskop gleda u zvijezde",
+    "correct": "Teleskop gleda u zvijezde."
+  },
+  {
+    "ascii": "mikroskop povecava male stvari",
+    "correct": "Mikroskop povećava male stvari."
+  },
+  {
+    "ascii": "lupa pomaze pri citanju",
+    "correct": "Lupa pomaže pri čitanju."
+  },
+  {
+    "ascii": "naocale ispravljaju vid",
+    "correct": "Naočale ispravljaju vid."
+  },
+  {
+    "ascii": "leca fokusira svjetlost",
+    "correct": "Leća fokusira svjetlost."
+  },
+  {
+    "ascii": "prizrna fokusira svjetlost",
+    "correct": "Prizrna fokusira svjetlost."
+  },
+  {
+    "ascii": "zrcalo reflektira sliku",
+    "correct": "Zrcalo reflektira sliku."
+  },
+  {
+    "ascii": "staklo propusta svjetlost",
+    "correct": "Staklo propušta svjetlost."
+  },
+  {
+    "ascii": "kristal lomi svjetlost",
+    "correct": "Kristal lomi svjetlost."
+  },
+  {
+    "ascii": "dijamant bljesti na suncu",
+    "correct": "Dijamant blješti na suncu."
+  },
+  {
+    "ascii": "zlato sjaji zutim sjajem",
+    "correct": "Zlato sjaji žutim sjajem."
+  },
+  {
+    "ascii": "srebro ima bijeli sjaj",
+    "correct": "Srebro ima bijeli sjaj."
+  },
+  {
+    "ascii": "bakar ima crvenkast sjaj",
+    "correct": "Bakar ima crvenkast sjaj."
+  },
+  {
+    "ascii": "zeljezo je cvrsto i trajno",
+    "correct": "Željezo je čvrsto i trajno."
+  },
+  {
+    "ascii": "celik je legura zeljeza",
+    "correct": "Čelik je legura željeza."
+  },
+  {
+    "ascii": "aluminij je lagan metal",
+    "correct": "Aluminij je lagan metal."
+  },
+  {
+    "ascii": "olovo je tezak metal",
+    "correct": "Olovo je težak metal."
+  },
+  {
+    "ascii": "cink stiti od korozije",
+    "correct": "Cink štiti od korozije."
+  },
+  {
+    "ascii": "kositar se koristi za lemljenje",
+    "correct": "Kositar se koristi za lemljenje."
+  },
+  {
+    "ascii": "nikal je otporan na koroziju",
+    "correct": "Nikal je otporan na koroziju."
+  },
+  {
+    "ascii": "krom daje sjajan povrsinu",
+    "correct": "Krom daje sjajan površinu."
+  },
+  {
+    "ascii": "platina je plemenit metal",
+    "correct": "Platina je plemenit metal."
+  },
+  {
+    "ascii": "titan je cvrst i lagan",
+    "correct": "Titan je čvrst i lagan."
+  },
+  {
+    "ascii": "magnezij gori bijelim plamenom",
+    "correct": "Magnezij gori bijelim plamenom."
+  },
+  {
+    "ascii": "kalcij jaca kosti",
+    "correct": "Kalcij jača kosti."
+  },
+  {
+    "ascii": "natrij reagira s vodom",
+    "correct": "Natrij reagira s vodom."
+  },
+  {
+    "ascii": "kalij je vazan za zivce",
+    "correct": "Kalij je važan za živce."
+  },
+  {
+    "ascii": "fosfor svijetli u mraku",
+    "correct": "Fosfor svijetli u mraku."
+  },
+  {
+    "ascii": "sumpora ima neprijatan miris",
+    "correct": "Sumpora ima neprijatan miris."
+  },
+  {
+    "ascii": "klor dezinficira vodu",
+    "correct": "Klor dezinficira vodu."
+  },
+  {
+    "ascii": "jod dezinficira rane",
+    "correct": "Jod dezinficira rane."
+  },
+  {
+    "ascii": "fluor jaca zubnu caklinu",
+    "correct": "Fluor jača zubnu caklinu."
+  },
+  {
+    "ascii": "brom ima crvenkast paru",
+    "correct": "Brom ima crvenkast paru."
+  },
+  {
+    "ascii": "ugljik gradi organske molekule",
+    "correct": "Ugljik gradi organske molekule."
+  },
+  {
+    "ascii": "kisik je potreban za disanje",
+    "correct": "Kisik je potreban za disanje."
+  },
+  {
+    "ascii": "dusik cini vecinu zraka",
+    "correct": "Dušik čini većinu zraka."
+  },
+  {
+    "ascii": "vodik je najlaksi element",
+    "correct": "Vodik je najlakši element."
+  },
+  {
+    "ascii": "helij ispunjava balone",
+    "correct": "Helij ispunjava balone."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  },
+  {
+    "ascii": "kanjon je dubok i uzak",
+    "correct": "Kanjon je dubok i uzak."
+  },
+  {
+    "ascii": "provalija je opasna za covjeka",
+    "correct": "Provalija je opasna za čovjeka."
+  },
+  {
+    "ascii": "klisura je uzana i duboka",
+    "correct": "Klisura je uzana i duboka."
+  },
+  {
+    "ascii": "spilja krije tajne proslosti",
+    "correct": "Špilja krije tajne prošlosti."
+  },
+  {
+    "ascii": "jama je duboka i mracna",
+    "correct": "Jama je duboka i mračna."
+  },
+  {
+    "ascii": "prociep u stijeni nudi zaklon",
+    "correct": "Prociep u stijeni nudi zaklon."
+  },
+  {
+    "ascii": "stijena se rusi niz obronak",
+    "correct": "Stijena se ruši niz obronak."
+  },
+  {
+    "ascii": "kamenolom daje materijal za gradnju",
+    "correct": "Kamenolom daje materijal za gradnju."
+  },
+  {
+    "ascii": "rudnik daje vrijedne minerale",
+    "correct": "Rudnik daje vrijedne minerale."
+  },
+  {
+    "ascii": "tunel prolazi kroz planinu",
+    "correct": "Tunel prolazi kroz planinu."
+  },
+  {
+    "ascii": "most spaja dvije obale",
+    "correct": "Most spaja dvije obale."
+  },
+  {
+    "ascii": "cesta vodi kroz dolinu",
+    "correct": "Cesta vodi kroz dolinu."
+  },
+  {
+    "ascii": "staza vodi na vrh planine",
+    "correct": "Staza vodi na vrh planine."
+  },
+  {
+    "ascii": "put se gubi u sumi",
+    "correct": "Put se gubi u šumi."
+  },
+  {
+    "ascii": "ulica je prepuna ljudi",
+    "correct": "Ulica je prepuna ljudi."
+  },
+  {
+    "ascii": "trg je centar gradskog zivota",
+    "correct": "Trg je centar gradskog života."
+  },
+  {
+    "ascii": "avenija je siroka i lijepa",
+    "correct": "Avenija je široka i lijepa."
+  },
+  {
+    "ascii": "prolaz vodi kroz zgradu",
+    "correct": "Prolaz vodi kroz zgradu."
+  },
+  {
+    "ascii": "hodnik spaja prostorije",
+    "correct": "Hodnik spaja prostorije."
+  },
+  {
+    "ascii": "stepenice vode na kat",
+    "correct": "Stepenice vode na kat."
+  },
+  {
+    "ascii": "lift vozi na vrh zgrade",
+    "correct": "Lift vozi na vrh zgrade."
+  },
+  {
+    "ascii": "balkon gleda na more",
+    "correct": "Balkon gleda na more."
+  },
+  {
+    "ascii": "terasa je osuncana cijeli dan",
+    "correct": "Terasa je osunčana cijeli dan."
+  },
+  {
+    "ascii": "vrt je pun cvijeca i povrca",
+    "correct": "Vrt je pun cvijeća i povrća."
+  },
+  {
+    "ascii": "dvoriste sluzi za igru djece",
+    "correct": "Dvorište služi za igru djece."
+  },
+  {
+    "ascii": "garaza cuva automobil",
+    "correct": "Garaža čuva automobil."
+  },
+  {
+    "ascii": "podrurn sluzi za skladistenje",
+    "correct": "Podrurn služi za skladištenje."
+  },
+  {
+    "ascii": "tavanski prostor je prazan",
+    "correct": "Tavanski prostor je prazan."
+  },
+  {
+    "ascii": "krov stiti od kise",
+    "correct": "Krov štiti od kiše."
+  },
+  {
+    "ascii": "dimnjak ispusta dim iz peci",
+    "correct": "Dimnjak ispušta dim iz peći."
+  },
+  {
+    "ascii": "prozor gleda na ulicu",
+    "correct": "Prozor gleda na ulicu."
+  },
+  {
+    "ascii": "vrata vode u kucu",
+    "correct": "Vrata vode u kuću."
+  },
+  {
+    "ascii": "ograda ograduje vrt",
+    "correct": "Ograda ograđuje vrt."
+  },
+  {
+    "ascii": "kapija omogucava ulaz u dvoriste",
+    "correct": "Kapija omogućava ulaz u dvorište."
+  },
+  {
+    "ascii": "zid dijeli dva posjeda",
+    "correct": "Zid dijeli dva posjeda."
+  },
+  {
+    "ascii": "temelj nosi tezinu kuce",
+    "correct": "Temelj nosi težinu kuće."
+  },
+  {
+    "ascii": "stubiste vodi na kat",
+    "correct": "Stubište vodi na kat."
+  },
+  {
+    "ascii": "soba je prostrana i svijetla",
+    "correct": "Soba je prostrana i svijetla."
+  },
+  {
+    "ascii": "kuhinja je opremljena svim potrebnim",
+    "correct": "Kuhinja je opremljena svim potrebnim."
+  },
+  {
+    "ascii": "kupaonica ima tus i kadu",
+    "correct": "Kupaonica ima tuš i kadu."
+  },
+  {
+    "ascii": "spavaca soba je mirna i tiha",
+    "correct": "Spavaća soba je mirna i tiha."
+  },
+  {
+    "ascii": "dnevna soba je centar obiteljskog zivota",
+    "correct": "Dnevna soba je centar obiteljskog života."
+  },
+  {
+    "ascii": "blagovaonica sluzi za objedovanje",
+    "correct": "Blagovaonica služi za objedovanje."
+  },
+  {
+    "ascii": "radna soba omogucava koncentraciju",
+    "correct": "Radna soba omogućava koncentraciju."
+  },
+  {
+    "ascii": "djecja soba je sarena i vesela",
+    "correct": "Dječja soba je šarena i vesela."
+  },
+  {
+    "ascii": "hodnik spaja sve sobe",
+    "correct": "Hodnik spaja sve sobe."
+  },
+  {
+    "ascii": "ormar cuva odjecu",
+    "correct": "Ormar čuva odjeću."
+  },
+  {
+    "ascii": "krevet sluzi za spavanje",
+    "correct": "Krevet služi za spavanje."
+  },
+  {
+    "ascii": "stol je postavljen za rucak",
+    "correct": "Stol je postavljen za ručak."
+  },
+  {
+    "ascii": "stolica stoji pokraj stola",
+    "correct": "Stolica stoji pokraj stola."
+  },
+  {
+    "ascii": "polica drzi knjige",
+    "correct": "Polica drži knjige."
+  },
+  {
+    "ascii": "ladica cuva sitnice",
+    "correct": "Ladica čuva sitnice."
+  },
+  {
+    "ascii": "ogledalo reflektira sliku",
+    "correct": "Ogledalo reflektira sliku."
+  },
+  {
+    "ascii": "slika visi na zidu",
+    "correct": "Slika visi na zidu."
+  },
+  {
+    "ascii": "zavjesa pokriva prozor",
+    "correct": "Zavjesa pokriva prozor."
+  },
+  {
+    "ascii": "tepih pokriva pod",
+    "correct": "Tepih pokriva pod."
+  },
+  {
+    "ascii": "lampa osvjetljava sobu",
+    "correct": "Lampa osvjetljava sobu."
+  },
+  {
+    "ascii": "svjecnjak drzi svijecu",
+    "correct": "Svjećnjak drži svijeću."
+  },
+  {
+    "ascii": "vaza drzi cvijece",
+    "correct": "Vaza drži cvijeće."
+  },
+  {
+    "ascii": "sat pokazuje vrijeme",
+    "correct": "Sat pokazuje vrijeme."
+  },
+  {
+    "ascii": "termometar mjeri temperaturu",
+    "correct": "Termometar mjeri temperaturu."
+  },
+  {
+    "ascii": "barometar predvida vrijeme",
+    "correct": "Barometar predviđa vrijeme."
+  },
+  {
+    "ascii": "kompas pokazuje smjer",
+    "correct": "Kompas pokazuje smjer."
+  },
+  {
+    "ascii": "karta pokazuje put",
+    "correct": "Karta pokazuje put."
+  },
+  {
+    "ascii": "atlas sadrzi karte svijeta",
+    "correct": "Atlas sadrži karte svijeta."
+  },
+  {
+    "ascii": "globus pokazuje zemlju",
+    "correct": "Globus pokazuje Zemlju."
+  },
+  {
+    "ascii": "teleskop gleda u zvijezde",
+    "correct": "Teleskop gleda u zvijezde."
+  },
+  {
+    "ascii": "mikroskop povecava male stvari",
+    "correct": "Mikroskop povećava male stvari."
+  },
+  {
+    "ascii": "lupa pomaze pri citanju",
+    "correct": "Lupa pomaže pri čitanju."
+  },
+  {
+    "ascii": "naocale ispravljaju vid",
+    "correct": "Naočale ispravljaju vid."
+  },
+  {
+    "ascii": "leca fokusira svjetlost",
+    "correct": "Leća fokusira svjetlost."
+  },
+  {
+    "ascii": "prizrna fokusira svjetlost",
+    "correct": "Prizrna fokusira svjetlost."
+  },
+  {
+    "ascii": "zrcalo reflektira sliku",
+    "correct": "Zrcalo reflektira sliku."
+  },
+  {
+    "ascii": "staklo propusta svjetlost",
+    "correct": "Staklo propušta svjetlost."
+  },
+  {
+    "ascii": "kristal lomi svjetlost",
+    "correct": "Kristal lomi svjetlost."
+  },
+  {
+    "ascii": "dijamant bljesti na suncu",
+    "correct": "Dijamant blješti na suncu."
+  },
+  {
+    "ascii": "zlato sjaji zutim sjajem",
+    "correct": "Zlato sjaji žutim sjajem."
+  },
+  {
+    "ascii": "srebro ima bijeli sjaj",
+    "correct": "Srebro ima bijeli sjaj."
+  },
+  {
+    "ascii": "bakar ima crvenkast sjaj",
+    "correct": "Bakar ima crvenkast sjaj."
+  },
+  {
+    "ascii": "zeljezo je cvrsto i trajno",
+    "correct": "Željezo je čvrsto i trajno."
+  },
+  {
+    "ascii": "celik je legura zeljeza",
+    "correct": "Čelik je legura željeza."
+  },
+  {
+    "ascii": "aluminij je lagan metal",
+    "correct": "Aluminij je lagan metal."
+  },
+  {
+    "ascii": "olovo je tezak metal",
+    "correct": "Olovo je težak metal."
+  },
+  {
+    "ascii": "cink stiti od korozije",
+    "correct": "Cink štiti od korozije."
+  },
+  {
+    "ascii": "kositar se koristi za lemljenje",
+    "correct": "Kositar se koristi za lemljenje."
+  },
+  {
+    "ascii": "nikal je otporan na koroziju",
+    "correct": "Nikal je otporan na koroziju."
+  },
+  {
+    "ascii": "krom daje sjajan povrsinu",
+    "correct": "Krom daje sjajan površinu."
+  },
+  {
+    "ascii": "platina je plemenit metal",
+    "correct": "Platina je plemenit metal."
+  },
+  {
+    "ascii": "titan je cvrst i lagan",
+    "correct": "Titan je čvrst i lagan."
+  },
+  {
+    "ascii": "magnezij gori bijelim plamenom",
+    "correct": "Magnezij gori bijelim plamenom."
+  },
+  {
+    "ascii": "kalcij jaca kosti",
+    "correct": "Kalcij jača kosti."
+  },
+  {
+    "ascii": "natrij reagira s vodom",
+    "correct": "Natrij reagira s vodom."
+  },
+  {
+    "ascii": "kalij je vazan za zivce",
+    "correct": "Kalij je važan za živce."
+  },
+  {
+    "ascii": "fosfor svijetli u mraku",
+    "correct": "Fosfor svijetli u mraku."
+  },
+  {
+    "ascii": "sumpora ima neprijatan miris",
+    "correct": "Sumpora ima neprijatan miris."
+  },
+  {
+    "ascii": "klor dezinficira vodu",
+    "correct": "Klor dezinficira vodu."
+  },
+  {
+    "ascii": "jod dezinficira rane",
+    "correct": "Jod dezinficira rane."
+  },
+  {
+    "ascii": "fluor jaca zubnu caklinu",
+    "correct": "Fluor jača zubnu caklinu."
+  },
+  {
+    "ascii": "brom ima crvenkast paru",
+    "correct": "Brom ima crvenkast paru."
+  },
+  {
+    "ascii": "ugljik gradi organske molekule",
+    "correct": "Ugljik gradi organske molekule."
+  },
+  {
+    "ascii": "kisik je potreban za disanje",
+    "correct": "Kisik je potreban za disanje."
+  },
+  {
+    "ascii": "dusik cini vecinu zraka",
+    "correct": "Dušik čini većinu zraka."
+  },
+  {
+    "ascii": "vodik je najlaksi element",
+    "correct": "Vodik je najlakši element."
+  },
+  {
+    "ascii": "helij ispunjava balone",
+    "correct": "Helij ispunjava balone."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  },
+  {
+    "ascii": "kanjon je dubok i uzak",
+    "correct": "Kanjon je dubok i uzak."
+  },
+  {
+    "ascii": "provalija je opasna za covjeka",
+    "correct": "Provalija je opasna za čovjeka."
+  },
+  {
+    "ascii": "klisura je uzana i duboka",
+    "correct": "Klisura je uzana i duboka."
+  },
+  {
+    "ascii": "spilja krije tajne proslosti",
+    "correct": "Špilja krije tajne prošlosti."
+  },
+  {
+    "ascii": "jama je duboka i mracna",
+    "correct": "Jama je duboka i mračna."
+  },
+  {
+    "ascii": "prociep u stijeni nudi zaklon",
+    "correct": "Prociep u stijeni nudi zaklon."
+  },
+  {
+    "ascii": "stijena se rusi niz obronak",
+    "correct": "Stijena se ruši niz obronak."
+  },
+  {
+    "ascii": "kamenolom daje materijal za gradnju",
+    "correct": "Kamenolom daje materijal za gradnju."
+  },
+  {
+    "ascii": "rudnik daje vrijedne minerale",
+    "correct": "Rudnik daje vrijedne minerale."
+  },
+  {
+    "ascii": "tunel prolazi kroz planinu",
+    "correct": "Tunel prolazi kroz planinu."
+  },
+  {
+    "ascii": "most spaja dvije obale",
+    "correct": "Most spaja dvije obale."
+  },
+  {
+    "ascii": "cesta vodi kroz dolinu",
+    "correct": "Cesta vodi kroz dolinu."
+  },
+  {
+    "ascii": "staza vodi na vrh planine",
+    "correct": "Staza vodi na vrh planine."
+  },
+  {
+    "ascii": "put se gubi u sumi",
+    "correct": "Put se gubi u šumi."
+  },
+  {
+    "ascii": "ulica je prepuna ljudi",
+    "correct": "Ulica je prepuna ljudi."
+  },
+  {
+    "ascii": "trg je centar gradskog zivota",
+    "correct": "Trg je centar gradskog života."
+  },
+  {
+    "ascii": "avenija je siroka i lijepa",
+    "correct": "Avenija je široka i lijepa."
+  },
+  {
+    "ascii": "prolaz vodi kroz zgradu",
+    "correct": "Prolaz vodi kroz zgradu."
+  },
+  {
+    "ascii": "hodnik spaja prostorije",
+    "correct": "Hodnik spaja prostorije."
+  },
+  {
+    "ascii": "stepenice vode na kat",
+    "correct": "Stepenice vode na kat."
+  },
+  {
+    "ascii": "lift vozi na vrh zgrade",
+    "correct": "Lift vozi na vrh zgrade."
+  },
+  {
+    "ascii": "balkon gleda na more",
+    "correct": "Balkon gleda na more."
+  },
+  {
+    "ascii": "terasa je osuncana cijeli dan",
+    "correct": "Terasa je osunčana cijeli dan."
+  },
+  {
+    "ascii": "vrt je pun cvijeca i povrca",
+    "correct": "Vrt je pun cvijeća i povrća."
+  },
+  {
+    "ascii": "dvoriste sluzi za igru djece",
+    "correct": "Dvorište služi za igru djece."
+  },
+  {
+    "ascii": "garaza cuva automobil",
+    "correct": "Garaža čuva automobil."
+  },
+  {
+    "ascii": "podrurn sluzi za skladistenje",
+    "correct": "Podrurn služi za skladištenje."
+  },
+  {
+    "ascii": "tavanski prostor je prazan",
+    "correct": "Tavanski prostor je prazan."
+  },
+  {
+    "ascii": "krov stiti od kise",
+    "correct": "Krov štiti od kiše."
+  },
+  {
+    "ascii": "dimnjak ispusta dim iz peci",
+    "correct": "Dimnjak ispušta dim iz peći."
+  },
+  {
+    "ascii": "prozor gleda na ulicu",
+    "correct": "Prozor gleda na ulicu."
+  },
+  {
+    "ascii": "vrata vode u kucu",
+    "correct": "Vrata vode u kuću."
+  },
+  {
+    "ascii": "ograda ograduje vrt",
+    "correct": "Ograda ograđuje vrt."
+  },
+  {
+    "ascii": "kapija omogucava ulaz u dvoriste",
+    "correct": "Kapija omogućava ulaz u dvorište."
+  },
+  {
+    "ascii": "zid dijeli dva posjeda",
+    "correct": "Zid dijeli dva posjeda."
+  },
+  {
+    "ascii": "temelj nosi tezinu kuce",
+    "correct": "Temelj nosi težinu kuće."
+  },
+  {
+    "ascii": "stubiste vodi na kat",
+    "correct": "Stubište vodi na kat."
+  },
+  {
+    "ascii": "soba je prostrana i svijetla",
+    "correct": "Soba je prostrana i svijetla."
+  },
+  {
+    "ascii": "kuhinja je opremljena svim potrebnim",
+    "correct": "Kuhinja je opremljena svim potrebnim."
+  },
+  {
+    "ascii": "kupaonica ima tus i kadu",
+    "correct": "Kupaonica ima tuš i kadu."
+  },
+  {
+    "ascii": "spavaca soba je mirna i tiha",
+    "correct": "Spavaća soba je mirna i tiha."
+  },
+  {
+    "ascii": "dnevna soba je centar obiteljskog zivota",
+    "correct": "Dnevna soba je centar obiteljskog života."
+  },
+  {
+    "ascii": "blagovaonica sluzi za objedovanje",
+    "correct": "Blagovaonica služi za objedovanje."
+  },
+  {
+    "ascii": "radna soba omogucava koncentraciju",
+    "correct": "Radna soba omogućava koncentraciju."
+  },
+  {
+    "ascii": "djecja soba je sarena i vesela",
+    "correct": "Dječja soba je šarena i vesela."
+  },
+  {
+    "ascii": "hodnik spaja sve sobe",
+    "correct": "Hodnik spaja sve sobe."
+  },
+  {
+    "ascii": "ormar cuva odjecu",
+    "correct": "Ormar čuva odjeću."
+  },
+  {
+    "ascii": "krevet sluzi za spavanje",
+    "correct": "Krevet služi za spavanje."
+  },
+  {
+    "ascii": "stol je postavljen za rucak",
+    "correct": "Stol je postavljen za ručak."
+  },
+  {
+    "ascii": "stolica stoji pokraj stola",
+    "correct": "Stolica stoji pokraj stola."
+  },
+  {
+    "ascii": "polica drzi knjige",
+    "correct": "Polica drži knjige."
+  },
+  {
+    "ascii": "ladica cuva sitnice",
+    "correct": "Ladica čuva sitnice."
+  },
+  {
+    "ascii": "ogledalo reflektira sliku",
+    "correct": "Ogledalo reflektira sliku."
+  },
+  {
+    "ascii": "slika visi na zidu",
+    "correct": "Slika visi na zidu."
+  },
+  {
+    "ascii": "zavjesa pokriva prozor",
+    "correct": "Zavjesa pokriva prozor."
+  },
+  {
+    "ascii": "tepih pokriva pod",
+    "correct": "Tepih pokriva pod."
+  },
+  {
+    "ascii": "lampa osvjetljava sobu",
+    "correct": "Lampa osvjetljava sobu."
+  },
+  {
+    "ascii": "svjecnjak drzi svijecu",
+    "correct": "Svjećnjak drži svijeću."
+  },
+  {
+    "ascii": "vaza drzi cvijece",
+    "correct": "Vaza drži cvijeće."
+  },
+  {
+    "ascii": "sat pokazuje vrijeme",
+    "correct": "Sat pokazuje vrijeme."
+  },
+  {
+    "ascii": "termometar mjeri temperaturu",
+    "correct": "Termometar mjeri temperaturu."
+  },
+  {
+    "ascii": "barometar predvida vrijeme",
+    "correct": "Barometar predviđa vrijeme."
+  },
+  {
+    "ascii": "kompas pokazuje smjer",
+    "correct": "Kompas pokazuje smjer."
+  },
+  {
+    "ascii": "karta pokazuje put",
+    "correct": "Karta pokazuje put."
+  },
+  {
+    "ascii": "atlas sadrzi karte svijeta",
+    "correct": "Atlas sadrži karte svijeta."
+  },
+  {
+    "ascii": "globus pokazuje zemlju",
+    "correct": "Globus pokazuje Zemlju."
+  },
+  {
+    "ascii": "teleskop gleda u zvijezde",
+    "correct": "Teleskop gleda u zvijezde."
+  },
+  {
+    "ascii": "mikroskop povecava male stvari",
+    "correct": "Mikroskop povećava male stvari."
+  },
+  {
+    "ascii": "lupa pomaze pri citanju",
+    "correct": "Lupa pomaže pri čitanju."
+  },
+  {
+    "ascii": "naocale ispravljaju vid",
+    "correct": "Naočale ispravljaju vid."
+  },
+  {
+    "ascii": "leca fokusira svjetlost",
+    "correct": "Leća fokusira svjetlost."
+  },
+  {
+    "ascii": "prizrna fokusira svjetlost",
+    "correct": "Prizrna fokusira svjetlost."
+  },
+  {
+    "ascii": "zrcalo reflektira sliku",
+    "correct": "Zrcalo reflektira sliku."
+  },
+  {
+    "ascii": "staklo propusta svjetlost",
+    "correct": "Staklo propušta svjetlost."
+  },
+  {
+    "ascii": "kristal lomi svjetlost",
+    "correct": "Kristal lomi svjetlost."
+  },
+  {
+    "ascii": "dijamant bljesti na suncu",
+    "correct": "Dijamant blješti na suncu."
+  },
+  {
+    "ascii": "zlato sjaji zutim sjajem",
+    "correct": "Zlato sjaji žutim sjajem."
+  },
+  {
+    "ascii": "srebro ima bijeli sjaj",
+    "correct": "Srebro ima bijeli sjaj."
+  },
+  {
+    "ascii": "bakar ima crvenkast sjaj",
+    "correct": "Bakar ima crvenkast sjaj."
+  },
+  {
+    "ascii": "zeljezo je cvrsto i trajno",
+    "correct": "Željezo je čvrsto i trajno."
+  },
+  {
+    "ascii": "celik je legura zeljeza",
+    "correct": "Čelik je legura željeza."
+  },
+  {
+    "ascii": "aluminij je lagan metal",
+    "correct": "Aluminij je lagan metal."
+  },
+  {
+    "ascii": "olovo je tezak metal",
+    "correct": "Olovo je težak metal."
+  },
+  {
+    "ascii": "cink stiti od korozije",
+    "correct": "Cink štiti od korozije."
+  },
+  {
+    "ascii": "kositar se koristi za lemljenje",
+    "correct": "Kositar se koristi za lemljenje."
+  },
+  {
+    "ascii": "nikal je otporan na koroziju",
+    "correct": "Nikal je otporan na koroziju."
+  },
+  {
+    "ascii": "krom daje sjajan povrsinu",
+    "correct": "Krom daje sjajan površinu."
+  },
+  {
+    "ascii": "platina je plemenit metal",
+    "correct": "Platina je plemenit metal."
+  },
+  {
+    "ascii": "titan je cvrst i lagan",
+    "correct": "Titan je čvrst i lagan."
+  },
+  {
+    "ascii": "magnezij gori bijelim plamenom",
+    "correct": "Magnezij gori bijelim plamenom."
+  },
+  {
+    "ascii": "kalcij jaca kosti",
+    "correct": "Kalcij jača kosti."
+  },
+  {
+    "ascii": "natrij reagira s vodom",
+    "correct": "Natrij reagira s vodom."
+  },
+  {
+    "ascii": "kalij je vazan za zivce",
+    "correct": "Kalij je važan za živce."
+  },
+  {
+    "ascii": "fosfor svijetli u mraku",
+    "correct": "Fosfor svijetli u mraku."
+  },
+  {
+    "ascii": "sumpora ima neprijatan miris",
+    "correct": "Sumpora ima neprijatan miris."
+  },
+  {
+    "ascii": "klor dezinficira vodu",
+    "correct": "Klor dezinficira vodu."
+  },
+  {
+    "ascii": "jod dezinficira rane",
+    "correct": "Jod dezinficira rane."
+  },
+  {
+    "ascii": "fluor jaca zubnu caklinu",
+    "correct": "Fluor jača zubnu caklinu."
+  },
+  {
+    "ascii": "brom ima crvenkast paru",
+    "correct": "Brom ima crvenkast paru."
+  },
+  {
+    "ascii": "ugljik gradi organske molekule",
+    "correct": "Ugljik gradi organske molekule."
+  },
+  {
+    "ascii": "kisik je potreban za disanje",
+    "correct": "Kisik je potreban za disanje."
+  },
+  {
+    "ascii": "dusik cini vecinu zraka",
+    "correct": "Dušik čini većinu zraka."
+  },
+  {
+    "ascii": "vodik je najlaksi element",
+    "correct": "Vodik je najlakši element."
+  },
+  {
+    "ascii": "helij ispunjava balone",
+    "correct": "Helij ispunjava balone."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  },
+  {
+    "ascii": "kanjon je dubok i uzak",
+    "correct": "Kanjon je dubok i uzak."
+  },
+  {
+    "ascii": "provalija je opasna za covjeka",
+    "correct": "Provalija je opasna za čovjeka."
+  },
+  {
+    "ascii": "klisura je uzana i duboka",
+    "correct": "Klisura je uzana i duboka."
+  },
+  {
+    "ascii": "spilja krije tajne proslosti",
+    "correct": "Špilja krije tajne prošlosti."
+  },
+  {
+    "ascii": "jama je duboka i mracna",
+    "correct": "Jama je duboka i mračna."
+  },
+  {
+    "ascii": "prociep u stijeni nudi zaklon",
+    "correct": "Prociep u stijeni nudi zaklon."
+  },
+  {
+    "ascii": "stijena se rusi niz obronak",
+    "correct": "Stijena se ruši niz obronak."
+  },
+  {
+    "ascii": "kamenolom daje materijal za gradnju",
+    "correct": "Kamenolom daje materijal za gradnju."
+  },
+  {
+    "ascii": "rudnik daje vrijedne minerale",
+    "correct": "Rudnik daje vrijedne minerale."
+  },
+  {
+    "ascii": "tunel prolazi kroz planinu",
+    "correct": "Tunel prolazi kroz planinu."
+  },
+  {
+    "ascii": "most spaja dvije obale",
+    "correct": "Most spaja dvije obale."
+  },
+  {
+    "ascii": "cesta vodi kroz dolinu",
+    "correct": "Cesta vodi kroz dolinu."
+  },
+  {
+    "ascii": "staza vodi na vrh planine",
+    "correct": "Staza vodi na vrh planine."
+  },
+  {
+    "ascii": "put se gubi u sumi",
+    "correct": "Put se gubi u šumi."
+  },
+  {
+    "ascii": "ulica je prepuna ljudi",
+    "correct": "Ulica je prepuna ljudi."
+  },
+  {
+    "ascii": "trg je centar gradskog zivota",
+    "correct": "Trg je centar gradskog života."
+  },
+  {
+    "ascii": "avenija je siroka i lijepa",
+    "correct": "Avenija je široka i lijepa."
+  },
+  {
+    "ascii": "prolaz vodi kroz zgradu",
+    "correct": "Prolaz vodi kroz zgradu."
+  },
+  {
+    "ascii": "hodnik spaja prostorije",
+    "correct": "Hodnik spaja prostorije."
+  },
+  {
+    "ascii": "stepenice vode na kat",
+    "correct": "Stepenice vode na kat."
+  },
+  {
+    "ascii": "lift vozi na vrh zgrade",
+    "correct": "Lift vozi na vrh zgrade."
+  },
+  {
+    "ascii": "balkon gleda na more",
+    "correct": "Balkon gleda na more."
+  },
+  {
+    "ascii": "terasa je osuncana cijeli dan",
+    "correct": "Terasa je osunčana cijeli dan."
+  },
+  {
+    "ascii": "vrt je pun cvijeca i povrca",
+    "correct": "Vrt je pun cvijeća i povrća."
+  },
+  {
+    "ascii": "dvoriste sluzi za igru djece",
+    "correct": "Dvorište služi za igru djece."
+  },
+  {
+    "ascii": "garaza cuva automobil",
+    "correct": "Garaža čuva automobil."
+  },
+  {
+    "ascii": "podrurn sluzi za skladistenje",
+    "correct": "Podrurn služi za skladištenje."
+  },
+  {
+    "ascii": "tavanski prostor je prazan",
+    "correct": "Tavanski prostor je prazan."
+  },
+  {
+    "ascii": "krov stiti od kise",
+    "correct": "Krov štiti od kiše."
+  },
+  {
+    "ascii": "dimnjak ispusta dim iz peci",
+    "correct": "Dimnjak ispušta dim iz peći."
+  },
+  {
+    "ascii": "prozor gleda na ulicu",
+    "correct": "Prozor gleda na ulicu."
+  },
+  {
+    "ascii": "vrata vode u kucu",
+    "correct": "Vrata vode u kuću."
+  },
+  {
+    "ascii": "ograda ograduje vrt",
+    "correct": "Ograda ograđuje vrt."
+  },
+  {
+    "ascii": "kapija omogucava ulaz u dvoriste",
+    "correct": "Kapija omogućava ulaz u dvorište."
+  },
+  {
+    "ascii": "zid dijeli dva posjeda",
+    "correct": "Zid dijeli dva posjeda."
+  },
+  {
+    "ascii": "temelj nosi tezinu kuce",
+    "correct": "Temelj nosi težinu kuće."
+  },
+  {
+    "ascii": "stubiste vodi na kat",
+    "correct": "Stubište vodi na kat."
+  },
+  {
+    "ascii": "soba je prostrana i svijetla",
+    "correct": "Soba je prostrana i svijetla."
+  },
+  {
+    "ascii": "kuhinja je opremljena svim potrebnim",
+    "correct": "Kuhinja je opremljena svim potrebnim."
+  },
+  {
+    "ascii": "kupaonica ima tus i kadu",
+    "correct": "Kupaonica ima tuš i kadu."
+  },
+  {
+    "ascii": "spavaca soba je mirna i tiha",
+    "correct": "Spavaća soba je mirna i tiha."
+  },
+  {
+    "ascii": "dnevna soba je centar obiteljskog zivota",
+    "correct": "Dnevna soba je centar obiteljskog života."
+  },
+  {
+    "ascii": "blagovaonica sluzi za objedovanje",
+    "correct": "Blagovaonica služi za objedovanje."
+  },
+  {
+    "ascii": "radna soba omogucava koncentraciju",
+    "correct": "Radna soba omogućava koncentraciju."
+  },
+  {
+    "ascii": "djecja soba je sarena i vesela",
+    "correct": "Dječja soba je šarena i vesela."
+  },
+  {
+    "ascii": "hodnik spaja sve sobe",
+    "correct": "Hodnik spaja sve sobe."
+  },
+  {
+    "ascii": "ormar cuva odjecu",
+    "correct": "Ormar čuva odjeću."
+  },
+  {
+    "ascii": "krevet sluzi za spavanje",
+    "correct": "Krevet služi za spavanje."
+  },
+  {
+    "ascii": "stol je postavljen za rucak",
+    "correct": "Stol je postavljen za ručak."
+  },
+  {
+    "ascii": "stolica stoji pokraj stola",
+    "correct": "Stolica stoji pokraj stola."
+  },
+  {
+    "ascii": "polica drzi knjige",
+    "correct": "Polica drži knjige."
+  },
+  {
+    "ascii": "ladica cuva sitnice",
+    "correct": "Ladica čuva sitnice."
+  },
+  {
+    "ascii": "ogledalo reflektira sliku",
+    "correct": "Ogledalo reflektira sliku."
+  },
+  {
+    "ascii": "slika visi na zidu",
+    "correct": "Slika visi na zidu."
+  },
+  {
+    "ascii": "zavjesa pokriva prozor",
+    "correct": "Zavjesa pokriva prozor."
+  },
+  {
+    "ascii": "tepih pokriva pod",
+    "correct": "Tepih pokriva pod."
+  },
+  {
+    "ascii": "lampa osvjetljava sobu",
+    "correct": "Lampa osvjetljava sobu."
+  },
+  {
+    "ascii": "svjecnjak drzi svijecu",
+    "correct": "Svjećnjak drži svijeću."
+  },
+  {
+    "ascii": "vaza drzi cvijece",
+    "correct": "Vaza drži cvijeće."
+  },
+  {
+    "ascii": "sat pokazuje vrijeme",
+    "correct": "Sat pokazuje vrijeme."
+  },
+  {
+    "ascii": "termometar mjeri temperaturu",
+    "correct": "Termometar mjeri temperaturu."
+  },
+  {
+    "ascii": "barometar predvida vrijeme",
+    "correct": "Barometar predviđa vrijeme."
+  },
+  {
+    "ascii": "kompas pokazuje smjer",
+    "correct": "Kompas pokazuje smjer."
+  },
+  {
+    "ascii": "karta pokazuje put",
+    "correct": "Karta pokazuje put."
+  },
+  {
+    "ascii": "atlas sadrzi karte svijeta",
+    "correct": "Atlas sadrži karte svijeta."
+  },
+  {
+    "ascii": "globus pokazuje zemlju",
+    "correct": "Globus pokazuje Zemlju."
+  },
+  {
+    "ascii": "teleskop gleda u zvijezde",
+    "correct": "Teleskop gleda u zvijezde."
+  },
+  {
+    "ascii": "mikroskop povecava male stvari",
+    "correct": "Mikroskop povećava male stvari."
+  },
+  {
+    "ascii": "lupa pomaze pri citanju",
+    "correct": "Lupa pomaže pri čitanju."
+  },
+  {
+    "ascii": "naocale ispravljaju vid",
+    "correct": "Naočale ispravljaju vid."
+  },
+  {
+    "ascii": "leca fokusira svjetlost",
+    "correct": "Leća fokusira svjetlost."
+  },
+  {
+    "ascii": "prizrna fokusira svjetlost",
+    "correct": "Prizrna fokusira svjetlost."
+  },
+  {
+    "ascii": "zrcalo reflektira sliku",
+    "correct": "Zrcalo reflektira sliku."
+  },
+  {
+    "ascii": "staklo propusta svjetlost",
+    "correct": "Staklo propušta svjetlost."
+  },
+  {
+    "ascii": "kristal lomi svjetlost",
+    "correct": "Kristal lomi svjetlost."
+  },
+  {
+    "ascii": "dijamant bljesti na suncu",
+    "correct": "Dijamant blješti na suncu."
+  },
+  {
+    "ascii": "zlato sjaji zutim sjajem",
+    "correct": "Zlato sjaji žutim sjajem."
+  },
+  {
+    "ascii": "srebro ima bijeli sjaj",
+    "correct": "Srebro ima bijeli sjaj."
+  },
+  {
+    "ascii": "bakar ima crvenkast sjaj",
+    "correct": "Bakar ima crvenkast sjaj."
+  },
+  {
+    "ascii": "zeljezo je cvrsto i trajno",
+    "correct": "Željezo je čvrsto i trajno."
+  },
+  {
+    "ascii": "celik je legura zeljeza",
+    "correct": "Čelik je legura željeza."
+  },
+  {
+    "ascii": "aluminij je lagan metal",
+    "correct": "Aluminij je lagan metal."
+  },
+  {
+    "ascii": "olovo je tezak metal",
+    "correct": "Olovo je težak metal."
+  },
+  {
+    "ascii": "cink stiti od korozije",
+    "correct": "Cink štiti od korozije."
+  },
+  {
+    "ascii": "kositar se koristi za lemljenje",
+    "correct": "Kositar se koristi za lemljenje."
+  },
+  {
+    "ascii": "nikal je otporan na koroziju",
+    "correct": "Nikal je otporan na koroziju."
+  },
+  {
+    "ascii": "krom daje sjajan povrsinu",
+    "correct": "Krom daje sjajan površinu."
+  },
+  {
+    "ascii": "platina je plemenit metal",
+    "correct": "Platina je plemenit metal."
+  },
+  {
+    "ascii": "titan je cvrst i lagan",
+    "correct": "Titan je čvrst i lagan."
+  },
+  {
+    "ascii": "magnezij gori bijelim plamenom",
+    "correct": "Magnezij gori bijelim plamenom."
+  },
+  {
+    "ascii": "kalcij jaca kosti",
+    "correct": "Kalcij jača kosti."
+  },
+  {
+    "ascii": "natrij reagira s vodom",
+    "correct": "Natrij reagira s vodom."
+  },
+  {
+    "ascii": "kalij je vazan za zivce",
+    "correct": "Kalij je važan za živce."
+  },
+  {
+    "ascii": "fosfor svijetli u mraku",
+    "correct": "Fosfor svijetli u mraku."
+  },
+  {
+    "ascii": "sumpora ima neprijatan miris",
+    "correct": "Sumpora ima neprijatan miris."
+  },
+  {
+    "ascii": "klor dezinficira vodu",
+    "correct": "Klor dezinficira vodu."
+  },
+  {
+    "ascii": "jod dezinficira rane",
+    "correct": "Jod dezinficira rane."
+  },
+  {
+    "ascii": "fluor jaca zubnu caklinu",
+    "correct": "Fluor jača zubnu caklinu."
+  },
+  {
+    "ascii": "brom ima crvenkast paru",
+    "correct": "Brom ima crvenkast paru."
+  },
+  {
+    "ascii": "ugljik gradi organske molekule",
+    "correct": "Ugljik gradi organske molekule."
+  },
+  {
+    "ascii": "kisik je potreban za disanje",
+    "correct": "Kisik je potreban za disanje."
+  },
+  {
+    "ascii": "dusik cini vecinu zraka",
+    "correct": "Dušik čini većinu zraka."
+  },
+  {
+    "ascii": "vodik je najlaksi element",
+    "correct": "Vodik je najlakši element."
+  },
+  {
+    "ascii": "helij ispunjava balone",
+    "correct": "Helij ispunjava balone."
+  },
+  {
+    "ascii": "covjek cita knjigu u tisini vlastite sobe",
+    "correct": "Čovjek čita knjigu u tišini vlastite sobe."
+  },
+  {
+    "ascii": "zena seta psa kroz zeleni park",
+    "correct": "Žena šeta psa kroz zeleni park."
+  },
+  {
+    "ascii": "dijete se igra loptom na igralistu",
+    "correct": "Dijete se igra loptom na igralištu."
+  },
+  {
+    "ascii": "starci sjede na klupi i razgovaraju",
+    "correct": "Starci sjede na klupi i razgovaraju."
+  },
+  {
+    "ascii": "ptice lete prema jugu u jesen",
+    "correct": "Ptice lete prema jugu u jesen."
+  },
+  {
+    "ascii": "cvijece cvjeta u proljetnom vrtu",
+    "correct": "Cvijeće cvjeta u proljetnom vrtu."
+  },
+  {
+    "ascii": "drvece gubi lisce u jesen",
+    "correct": "Drveće gubi lišće u jesen."
+  },
+  {
+    "ascii": "snijeg pokriva planinske vrhove",
+    "correct": "Snijeg pokriva planinske vrhove."
+  },
+  {
+    "ascii": "vjetar njise grane drveca",
+    "correct": "Vjetar njiše grane drveća."
+  },
+  {
+    "ascii": "kisa pere prasinu s cesta",
+    "correct": "Kiša pere prašinu s cesta."
+  },
+  {
+    "ascii": "sunce grije cijeli dan",
+    "correct": "Sunce grije cijeli dan."
+  },
+  {
+    "ascii": "mjesec svijetli u noci",
+    "correct": "Mjesec svijetli u noći."
+  },
+  {
+    "ascii": "zvijezde trepere na nebu",
+    "correct": "Zvijezde trepere na nebu."
+  },
+  {
+    "ascii": "oblaci zakrivaju sunce",
+    "correct": "Oblaci zakrivaju sunce."
+  },
+  {
+    "ascii": "magla se spusta u dolinu",
+    "correct": "Magla se spušta u dolinu."
+  },
+  {
+    "ascii": "rosa bljesti na travi",
+    "correct": "Rosa blješti na travi."
+  },
+  {
+    "ascii": "led se topi na suncu",
+    "correct": "Led se topi na suncu."
+  },
+  {
+    "ascii": "suma je tiha i mirna",
+    "correct": "Šuma je tiha i mirna."
+  },
+  {
+    "ascii": "planina se vidi s velikih udaljenosti",
+    "correct": "Planina se vidi s velikih udaljenosti."
+  },
+  {
+    "ascii": "dolina je zelena i plodna",
+    "correct": "Dolina je zelena i plodna."
+  },
+  {
+    "ascii": "rijeka tece kroz grad",
+    "correct": "Rijeka teče kroz grad."
+  },
+  {
+    "ascii": "jezero je mirno i bistro",
+    "correct": "Jezero je mirno i bistro."
+  },
+  {
+    "ascii": "more sumi cijelу noc",
+    "correct": "More šumi cijelу noć."
+  },
+  {
+    "ascii": "obala je puna sljunka",
+    "correct": "Obala je puna šljunka."
+  },
+  {
+    "ascii": "otok lezi usred mora",
+    "correct": "Otok leži usred mora."
+  },
+  {
+    "ascii": "polуotok se pruza u more",
+    "correct": "Polуotok se pruža u more."
+  },
+  {
+    "ascii": "zaliv je zasticen od vjetra",
+    "correct": "Zaliv je zaštićen od vjetra."
+  },
+  {
+    "ascii": "uvala je idealna za kupanje",
+    "correct": "Uvala je idealna za kupanje."
+  },
+  {
+    "ascii": "rtic se pruza u more",
+    "correct": "Rtić se pruža u more."
+  },
+  {
+    "ascii": "poluotok dijeli dva mora",
+    "correct": "Poluotok dijeli dva mora."
+  },
+  {
+    "ascii": "brdo se uzdize iznad grada",
+    "correct": "Brdo se uzdiže iznad grada."
+  },
+  {
+    "ascii": "kotlina je okruzena planinama",
+    "correct": "Kotlina je okružena planinama."
+  },
+  {
+    "ascii": "visoravan se prostire kilometrima",
+    "correct": "Visoravan se prostire kilometrima."
+  }
+]

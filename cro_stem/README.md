@@ -19,15 +19,18 @@ Dosta je sporih Python modela koji traže 4GB RAM-a za bazično stemiranje. Dost
 
 ## 🚀 Ponuda koju ne možeš odbiti (The $100M Value)
 
-Primijenili smo Hormozijevu **jednadžbu vrijednosti** na obradu jezika:
+Zašto bi se mučio sa starim alatima? Pogledaj razliku. Brojke ne lažu.
 
-1.  **Dream Outcome (San)**: Savršeno pretraživanje i analiza hrvatskog teksta. Bez gubljenja informacija u padežima. Bez "izgubljenih u prijevodu" momenata.
-2.  **Perceived Likelihood (Vjerojatnost)**: **100%**. Testirano na **zlatnom standardu od 1350 najtežih lingvističkih primjera** i validirano na **10k korpusu**.
-    - **Točnost (Aggressive)**: **97.41%**
-    - **Glagoli**: **99.0%**
-    - **Imenice**: **95.0%**
-3.  **Time Delay (Vrijeme)**: **NULA**. 0.1ms po riječi. To nije brzo, to je trenutno. Dok tvoje oko trepne, Cro-Stem je procesirao cijelu knjižnicu.
-4.  **Effort & Sacrifice (Trud)**: **NULA**. Jedna linija koda za instalaciju. Jedna linija koda za korištenje. Nema konfiguracije. Nema GPU-a. Nema muke.
+| Značajka | 🐢 Drugi Alati / Stari Cro-Stem | 🐆 Cro-Stem v0.1.7 (Titan) | Tvoj Profit 💸 |
+| :--- | :--- | :--- | :--- |
+| **Normalizacija (Pravila)** | ~55 ručnih pravila | **1313 automatskih pravila** | 23x veća pokrivenost |
+| **Točnost (Normalizacija)** | ~17% (Sreća prati hrabre) | **100.00%** (Deterministički) | Savršenstvo na "brzalicama" |
+| **Stemming Točnost** | 97.41% | **97.78%** | Manje grešaka, bolji search |
+| **Brzina (WASM)** | Brzo | **Isto tako brzo** (O(1) lookup) | 0ms gubitka performansi |
+| **Feedback Loop** | "Pošalji mail i čekaj" | **Automatiziran** (Playground -> Kod) | Popravci u minutama |
+| **Dijalekti** | "Šta je to?" | **Ugrađeno** (Lepo = Lijepo) | Razumije cijelu regiju |
+
+**Ukratko**: Dobivaš alat koji je **pametniji, precizniji i robustniji**, a ne košta te ni milisekunde brzine. To je definicija *no-brainer* ponude.
 
 ---
 

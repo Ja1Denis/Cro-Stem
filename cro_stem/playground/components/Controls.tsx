@@ -20,7 +20,7 @@ export const Controls: React.FC<ControlsProps> = ({ mode, setMode, onPresetClick
     { label: "Učenici su...", text: "ucenici su cerupali ceserke s guscerim zbunja dok su suskale jeze i miseve medu cuskijama." },
     { label: "Šenološki stručnjak...", text: "senoloski strucnjak cesce cisti zlicice salice i case koje jucer jos nisu bile ciste." },
     { label: "Često ćemo...", text: "cesto cemo slusati zalosne price o sumskom cudovistu sto zvace zireve i sisarke." },
-    { label: "Građevinski...", text: "gradjevinski strucnjaci ocerupali su zbunje čistili zlijebove i cesce provjeravali cvrstocu zice." },
+    { label: "Građevinski...", text: "gradjevinski strucnjaci ocerupali su zbunje cistili zlijebove i cesce provjeravali cvrstocu zice." },
     { label: "Šašavi ženščić...", text: "sasavi zenscic je jucer jos cesce cistio carsaf sivajuci zutim koncem kroz scepanac." },
     { label: "Mlađi učitelj...", text: "mladi ucitelj objasnjava cesce kako se grozde bere zito zanje i secerna repa cupa." },
     { label: "Žalosni mišić...", text: "zalosni scapavi misic je zderao zir i secer sto mu je ucitelj cesto cuvao u scepancu." },
@@ -60,8 +60,8 @@ export const Controls: React.FC<ControlsProps> = ({ mode, setMode, onPresetClick
           <button
             onClick={() => setDevMode(!devMode)}
             className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-xs font-mono transition-all border ${devMode
-                ? 'bg-amber-500/10 border-amber-500/30 text-amber-400'
-                : 'bg-slate-800/50 border-slate-700 text-slate-500 hover:text-slate-300'
+              ? 'bg-amber-500/10 border-amber-500/30 text-amber-400'
+              : 'bg-slate-800/50 border-slate-700 text-slate-500 hover:text-slate-300'
               }`}
           >
             <div className={`w-2 h-2 rounded-full ${devMode ? 'bg-amber-400 animate-pulse' : 'bg-slate-600'}`} />

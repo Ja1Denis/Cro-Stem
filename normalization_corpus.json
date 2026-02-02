@@ -1,214 +1,5254 @@
 [
   {
-    "input": "srednjoskolka",
-    "expected": "srednjoškolka"
+    "input": "aranzmane",
+    "expected": "aranžmane"
   },
   {
-    "input": "gradjevinski",
-    "expected": "građevinski"
+    "input": "aromaticna",
+    "expected": "aromatična"
   },
   {
-    "input": "strucnjaci",
-    "expected": "stručnjaci"
+    "input": "azurira",
+    "expected": "ažurira"
   },
   {
-    "input": "ucenici",
-    "expected": "učenici"
+    "input": "azurirati",
+    "expected": "ažurirati"
   },
   {
-    "input": "covjeka",
-    "expected": "čovjeka"
+    "input": "barustine",
+    "expected": "baruštine"
   },
   {
-    "input": "pjevajuci",
-    "expected": "pjevajući"
+    "input": "barustini",
+    "expected": "baruštini"
   },
   {
-    "input": "trcanje",
-    "expected": "trčanje"
+    "input": "bezicni",
+    "expected": "bežični"
   },
   {
-    "input": "peci",
-    "expected": "peći"
+    "input": "bezicno",
+    "expected": "bežično"
   },
   {
-    "input": "rekose",
-    "expected": "rekoše"
+    "input": "biciklisticka",
+    "expected": "biciklistička"
   },
   {
-    "input": "najljepsi",
-    "expected": "najljepši"
+    "input": "biljeske",
+    "expected": "bilješke"
   },
   {
-    "input": "c",
-    "expected": "č"
+    "input": "biljeski",
+    "expected": "bilješki"
   },
   {
-    "input": "pecen",
-    "expected": "pečen"
+    "input": "biljeze",
+    "expected": "bilježe"
   },
   {
-    "input": "vucem",
-    "expected": "vučem"
+    "input": "biljeznica",
+    "expected": "bilježnica"
   },
   {
-    "input": "laksi",
-    "expected": "lakši"
+    "input": "biljeznicu",
+    "expected": "bilježnicu"
   },
   {
-    "input": "pticica",
-    "expected": "ptičica"
+    "input": "bioloska",
+    "expected": "biološka"
   },
   {
-    "input": "covjek",
-    "expected": "čovjek"
+    "input": "bivsih",
+    "expected": "bivših"
   },
   {
-    "input": "rekavsi",
-    "expected": "rekavši"
+    "input": "bljesti",
+    "expected": "blješti"
   },
   {
-    "input": "peces",
-    "expected": "pečeš"
+    "input": "boksac",
+    "expected": "boksač"
   },
   {
-    "input": "jucer",
-    "expected": "jučer"
+    "input": "boksacki",
+    "expected": "boksački"
   },
   {
-    "input": "vidjevsi",
-    "expected": "vidjevši"
+    "input": "bozic",
+    "expected": "božić"
   },
   {
-    "input": "duzi",
-    "expected": "duži"
+    "input": "bozicna",
+    "expected": "božićna"
   },
   {
-    "input": "brzi",
-    "expected": "brži"
+    "input": "bozicnih",
+    "expected": "božićnih"
   },
   {
-    "input": "s",
-    "expected": "š"
+    "input": "bozicno",
+    "expected": "božićno"
   },
   {
-    "input": "djecaci",
-    "expected": "dječaci"
+    "input": "bozicnog",
+    "expected": "božićnog"
   },
   {
-    "input": "najbrzi",
-    "expected": "najbrži"
+    "input": "bozicnoj",
+    "expected": "božićnoj"
   },
   {
-    "input": "djevojcica",
-    "expected": "djevojčica"
+    "input": "bozjih",
+    "expected": "božjih"
   },
   {
-    "input": "pjevas",
-    "expected": "pjevaš"
+    "input": "brace",
+    "expected": "braće"
   },
   {
-    "input": "d",
-    "expected": "đ"
+    "input": "bracni",
+    "expected": "bračni"
   },
   {
-    "input": "duzeg",
-    "expected": "dužeg"
+    "input": "brasno",
+    "expected": "brašno"
   },
   {
-    "input": "z",
-    "expected": "ž"
+    "input": "brise",
+    "expected": "briše"
   },
   {
-    "input": "djecacima",
-    "expected": "dječacima"
+    "input": "brojc",
+    "expected": "brojč"
   },
   {
-    "input": "kuca",
-    "expected": "kuća"
-  },
-  {
-    "input": "macka",
-    "expected": "mačka"
-  },
-  {
-    "input": "skacu",
-    "expected": "skaču"
-  },
-  {
-    "input": "djecaka",
-    "expected": "dječaka"
-  },
-  {
-    "input": "citati",
-    "expected": "čitati"
-  },
-  {
-    "input": "tezi",
-    "expected": "teži"
-  },
-  {
-    "input": "strozi",
-    "expected": "stroži"
-  },
-  {
-    "input": "kucama",
-    "expected": "kućama"
-  },
-  {
-    "input": "kceri",
-    "expected": "kćeri"
-  },
-  {
-    "input": "skocivsi",
-    "expected": "skočivši"
-  },
-  {
-    "input": "vodicima",
-    "expected": "vodičima"
-  },
-  {
-    "input": "suma",
-    "expected": "šuma"
-  },
-  {
-    "input": "govoreci",
-    "expected": "govoreći"
-  },
-  {
-    "input": "brzeg",
-    "expected": "bržeg"
+    "input": "bross",
+    "expected": "brošš"
   },
   {
     "input": "brze",
     "expected": "brže"
   },
   {
-    "input": "najbrze",
-    "expected": "najbrže"
+    "input": "brzeg",
+    "expected": "bržeg"
+  },
+  {
+    "input": "brzi",
+    "expected": "brži"
+  },
+  {
+    "input": "bucno",
+    "expected": "bučno"
+  },
+  {
+    "input": "budenje",
+    "expected": "buđenje"
+  },
+  {
+    "input": "buduce",
+    "expected": "buduće"
+  },
+  {
+    "input": "buduci",
+    "expected": "budući"
+  },
+  {
+    "input": "buducnost",
+    "expected": "budućnost"
+  },
+  {
+    "input": "buducnosti",
+    "expected": "budućnosti"
+  },
+  {
+    "input": "c",
+    "expected": "č"
+  },
+  {
+    "input": "cackao",
+    "expected": "čačkao"
+  },
+  {
+    "input": "cacu",
+    "expected": "ćaću"
+  },
+  {
+    "input": "caj",
+    "expected": "čaj"
+  },
+  {
+    "input": "caja",
+    "expected": "čaja"
+  },
+  {
+    "input": "cak",
+    "expected": "čak"
+  },
+  {
+    "input": "camac",
+    "expected": "čamac"
+  },
+  {
+    "input": "camcem",
+    "expected": "čamcem"
+  },
+  {
+    "input": "carapa",
+    "expected": "čarapa"
+  },
+  {
+    "input": "carape",
+    "expected": "čarape"
+  },
+  {
+    "input": "carobne",
+    "expected": "čarobne"
+  },
+  {
+    "input": "carobnu",
+    "expected": "čarobnu"
+  },
+  {
+    "input": "carsaf",
+    "expected": "čaršaf"
+  },
+  {
+    "input": "casa",
+    "expected": "čaša"
+  },
+  {
+    "input": "case",
+    "expected": "čaše"
+  },
+  {
+    "input": "casice",
+    "expected": "čašice"
+  },
+  {
+    "input": "caskamo",
+    "expected": "ćaskamo"
+  },
+  {
+    "input": "caskanje",
+    "expected": "ćaskanje"
+  },
+  {
+    "input": "casopisu",
+    "expected": "časopisu"
+  },
+  {
+    "input": "cast",
+    "expected": "čast"
+  },
+  {
+    "input": "casu",
+    "expected": "čašu"
+  },
+  {
+    "input": "cavlu",
+    "expected": "čavlu"
+  },
+  {
+    "input": "ce",
+    "expected": "će"
+  },
+  {
+    "input": "cedi",
+    "expected": "ceđi"
+  },
+  {
+    "input": "ceka",
+    "expected": "čeka"
+  },
+  {
+    "input": "cekaju",
+    "expected": "čekaju"
+  },
+  {
+    "input": "cekamo",
+    "expected": "čekamo"
+  },
+  {
+    "input": "cekati",
+    "expected": "čekati"
+  },
+  {
+    "input": "celavi",
+    "expected": "ćelavi"
+  },
+  {
+    "input": "celicnu",
+    "expected": "čeličnu"
+  },
+  {
+    "input": "celik",
+    "expected": "čelik"
+  },
+  {
+    "input": "celika",
+    "expected": "čelika"
+  },
+  {
+    "input": "cemo",
+    "expected": "ćemo"
+  },
+  {
+    "input": "cempresa",
+    "expected": "čempresa"
+  },
+  {
+    "input": "cerupali",
+    "expected": "čerupali"
+  },
+  {
+    "input": "ces",
+    "expected": "ćeš"
+  },
+  {
+    "input": "cesalj",
+    "expected": "češalj"
+  },
+  {
+    "input": "cesce",
+    "expected": "češće"
+  },
+  {
+    "input": "cescom",
+    "expected": "češćom"
+  },
+  {
+    "input": "ceserke",
+    "expected": "češerke"
+  },
+  {
+    "input": "ceslja",
+    "expected": "češlja"
+  },
+  {
+    "input": "cesnjak",
+    "expected": "češnjak"
+  },
+  {
+    "input": "cesnjakom",
+    "expected": "češnjakom"
+  },
+  {
+    "input": "cestitam",
+    "expected": "čestitam"
+  },
+  {
+    "input": "cesto",
+    "expected": "često"
+  },
+  {
+    "input": "cetka",
+    "expected": "četka"
+  },
+  {
+    "input": "cetkica",
+    "expected": "četkica"
+  },
+  {
+    "input": "cetkom",
+    "expected": "četkom"
+  },
+  {
+    "input": "cevapi",
+    "expected": "ćevapi"
+  },
+  {
+    "input": "ceznja",
+    "expected": "čežnja"
+  },
+  {
+    "input": "cijedeni",
+    "expected": "cijeđeni"
+  },
+  {
+    "input": "cim",
+    "expected": "čim"
+  },
+  {
+    "input": "cimbenike",
+    "expected": "čimbenike"
+  },
+  {
+    "input": "cine",
+    "expected": "čine"
+  },
+  {
+    "input": "cini",
+    "expected": "čini"
+  },
+  {
+    "input": "cipkastim",
+    "expected": "čipkastim"
+  },
+  {
+    "input": "ciscenje",
+    "expected": "čišćenje"
+  },
+  {
+    "input": "cista",
+    "expected": "čista"
+  },
+  {
+    "input": "ciste",
+    "expected": "čiste"
+  },
+  {
+    "input": "cisti",
+    "expected": "čisti"
+  },
+  {
+    "input": "cistili",
+    "expected": "čistili"
+  },
+  {
+    "input": "cistinu",
+    "expected": "čistinu"
+  },
+  {
+    "input": "cistio",
+    "expected": "čistio"
+  },
+  {
+    "input": "cistiti",
+    "expected": "čistiti"
+  },
+  {
+    "input": "cistoj",
+    "expected": "čistoj"
+  },
+  {
+    "input": "cistom",
+    "expected": "čistom"
+  },
+  {
+    "input": "cita",
+    "expected": "čita"
+  },
+  {
+    "input": "citam",
+    "expected": "čitam"
+  },
+  {
+    "input": "citanja",
+    "expected": "čitanja"
+  },
+  {
+    "input": "citanje",
+    "expected": "čitanje"
+  },
+  {
+    "input": "citanju",
+    "expected": "čitanju"
+  },
+  {
+    "input": "citao",
+    "expected": "čitao"
+  },
+  {
+    "input": "citati",
+    "expected": "čitati"
+  },
+  {
+    "input": "cizme",
+    "expected": "čizme"
+  },
+  {
+    "input": "clana",
+    "expected": "člana"
+  },
+  {
+    "input": "clanak",
+    "expected": "članak"
+  },
+  {
+    "input": "clanova",
+    "expected": "članova"
+  },
+  {
+    "input": "cokolada",
+    "expected": "čokolada"
+  },
+  {
+    "input": "cokoladama",
+    "expected": "čokoladama"
+  },
+  {
+    "input": "corba",
+    "expected": "čorba"
+  },
+  {
+    "input": "cosak",
+    "expected": "ćošak"
+  },
+  {
+    "input": "covjek",
+    "expected": "čovjek"
+  },
+  {
+    "input": "covjeka",
+    "expected": "čovjeka"
   },
   {
     "input": "covjeku",
     "expected": "čovjeku"
   },
   {
-    "input": "orascici",
-    "expected": "oraščići"
+    "input": "crteze",
+    "expected": "crteže"
   },
   {
-    "input": "rece",
-    "expected": "reče"
+    "input": "crtici",
+    "expected": "crtići"
+  },
+  {
+    "input": "cu",
+    "expected": "ću"
+  },
+  {
+    "input": "cuci",
+    "expected": "čuči"
+  },
+  {
+    "input": "cud",
+    "expected": "ćud"
+  },
+  {
+    "input": "cudnovati",
+    "expected": "čudnovati"
+  },
+  {
+    "input": "cudovista",
+    "expected": "čudovišta"
+  },
+  {
+    "input": "cudovistu",
+    "expected": "čudovištu"
+  },
+  {
+    "input": "cuje",
+    "expected": "čuje"
+  },
+  {
+    "input": "cujem",
+    "expected": "čujem"
+  },
+  {
+    "input": "culi",
+    "expected": "čuli"
+  },
+  {
+    "input": "cup",
+    "expected": "ćup"
+  },
+  {
+    "input": "cupa",
+    "expected": "čupa"
+  },
+  {
+    "input": "cuskijama",
+    "expected": "ćuskijama"
+  },
+  {
+    "input": "cuskije",
+    "expected": "ćuskije"
+  },
+  {
+    "input": "cutati",
+    "expected": "ćutati"
+  },
+  {
+    "input": "cutim",
+    "expected": "ćutim"
+  },
+  {
+    "input": "cuva",
+    "expected": "čuva"
+  },
+  {
+    "input": "cuvaju",
+    "expected": "čuvaju"
+  },
+  {
+    "input": "cuvao",
+    "expected": "čuvao"
+  },
+  {
+    "input": "cuvati",
+    "expected": "čuvati"
+  },
+  {
+    "input": "cvijeca",
+    "expected": "cvijeća"
+  },
+  {
+    "input": "cvijece",
+    "expected": "cvijeće"
+  },
+  {
+    "input": "cvoru",
+    "expected": "čvoru"
+  },
+  {
+    "input": "cvrcak",
+    "expected": "cvrčak"
+  },
+  {
+    "input": "cvrci",
+    "expected": "cvrči"
+  },
+  {
+    "input": "cvrkuce",
+    "expected": "cvrkuće"
+  },
+  {
+    "input": "cvrscu",
+    "expected": "čvršću"
+  },
+  {
+    "input": "cvrst",
+    "expected": "čvrst"
+  },
+  {
+    "input": "cvrste",
+    "expected": "čvrste"
+  },
+  {
+    "input": "cvrstim",
+    "expected": "čvrstim"
+  },
+  {
+    "input": "cvrsto",
+    "expected": "čvrsto"
+  },
+  {
+    "input": "cvrstocu",
+    "expected": "čvrstoću"
+  },
+  {
+    "input": "d",
+    "expected": "đ"
+  },
+  {
+    "input": "desavaju",
+    "expected": "dešavaju"
+  },
+  {
+    "input": "deterdzent",
+    "expected": "deterdžent"
+  },
+  {
+    "input": "dize",
+    "expected": "diže"
+  },
+  {
+    "input": "djecaci",
+    "expected": "dječaci"
+  },
+  {
+    "input": "djecacima",
+    "expected": "dječacima"
+  },
+  {
+    "input": "djecak",
+    "expected": "dječak"
+  },
+  {
+    "input": "djecaka",
+    "expected": "dječaka"
+  },
+  {
+    "input": "djecja",
+    "expected": "dječja"
+  },
+  {
+    "input": "djecje",
+    "expected": "dječje"
+  },
+  {
+    "input": "djecji",
+    "expected": "dječji"
+  },
+  {
+    "input": "djecjoj",
+    "expected": "dječjoj"
+  },
+  {
+    "input": "djevojcica",
+    "expected": "djevojčica"
+  },
+  {
+    "input": "doci",
+    "expected": "doći"
+  },
+  {
+    "input": "dogadaj",
+    "expected": "događaj"
+  },
+  {
+    "input": "dogadaja",
+    "expected": "događaja"
+  },
+  {
+    "input": "dogadaje",
+    "expected": "događaje"
+  },
+  {
+    "input": "dogadaji",
+    "expected": "događaji"
+  },
+  {
+    "input": "dogadajima",
+    "expected": "događajima"
+  },
+  {
+    "input": "domacoj",
+    "expected": "domaćoj"
+  },
+  {
+    "input": "domacu",
+    "expected": "domaću"
+  },
+  {
+    "input": "dorucak",
+    "expected": "doručak"
+  },
+  {
+    "input": "dovidenja",
+    "expected": "doviđenja"
+  },
+  {
+    "input": "dovrsen",
+    "expected": "dovršen"
+  },
+  {
+    "input": "dozivjeti",
+    "expected": "doživjeti"
   },
   {
     "input": "drazi",
     "expected": "draži"
   },
   {
-    "input": "skacem",
-    "expected": "skačem"
+    "input": "drugacijima",
+    "expected": "drugačijima"
+  },
+  {
+    "input": "drustva",
+    "expected": "društva"
+  },
+  {
+    "input": "drustvene",
+    "expected": "društvene"
+  },
+  {
+    "input": "drustvo",
+    "expected": "društvo"
+  },
+  {
+    "input": "drustvu",
+    "expected": "društvu"
+  },
+  {
+    "input": "druzenje",
+    "expected": "druženje"
+  },
+  {
+    "input": "drveca",
+    "expected": "drveća"
+  },
+  {
+    "input": "drvece",
+    "expected": "drveće"
+  },
+  {
+    "input": "drzave",
+    "expected": "države"
+  },
+  {
+    "input": "drzi",
+    "expected": "drži"
+  },
+  {
+    "input": "ducanu",
+    "expected": "dućanu"
+  },
+  {
+    "input": "dugovjecnost",
+    "expected": "dugovječnost"
+  },
+  {
+    "input": "duse",
+    "expected": "duše"
+  },
+  {
+    "input": "dusik",
+    "expected": "dušik"
+  },
+  {
+    "input": "dusu",
+    "expected": "dušu"
+  },
+  {
+    "input": "duzeg",
+    "expected": "dužeg"
+  },
+  {
+    "input": "duzi",
+    "expected": "duži"
+  },
+  {
+    "input": "duznost",
+    "expected": "dužnost"
+  },
+  {
+    "input": "dvoriste",
+    "expected": "dvorište"
+  },
+  {
+    "input": "dvoristu",
+    "expected": "dvorištu"
+  },
+  {
+    "input": "dzepu",
+    "expected": "džepu"
+  },
+  {
+    "input": "ekoloski",
+    "expected": "ekološki"
+  },
+  {
+    "input": "ekonomican",
+    "expected": "ekonomičan"
+  },
+  {
+    "input": "elektricar",
+    "expected": "električar"
+  },
+  {
+    "input": "elektricni",
+    "expected": "električni"
+  },
+  {
+    "input": "elektricnu",
+    "expected": "električnu"
+  },
+  {
+    "input": "elektronicka",
+    "expected": "elektronička"
+  },
+  {
+    "input": "fizicki",
+    "expected": "fizički"
+  },
+  {
+    "input": "fizicko",
+    "expected": "fizičko"
+  },
+  {
+    "input": "fizickog",
+    "expected": "fizičkog"
+  },
+  {
+    "input": "fizicku",
+    "expected": "fizičku"
+  },
+  {
+    "input": "gada",
+    "expected": "gađa"
+  },
+  {
+    "input": "garaza",
+    "expected": "garaža"
+  },
+  {
+    "input": "garazi",
+    "expected": "garaži"
+  },
+  {
+    "input": "garazu",
+    "expected": "garažu"
+  },
+  {
+    "input": "gimnasticarka",
+    "expected": "gimnastičarka"
+  },
+  {
+    "input": "gimnasticko",
+    "expected": "gimnastičko"
+  },
+  {
+    "input": "glacanje",
+    "expected": "glačanje"
+  },
+  {
+    "input": "godisnjica",
+    "expected": "godišnjica"
+  },
+  {
+    "input": "goscu",
+    "expected": "gošću"
+  },
+  {
+    "input": "gosenje",
+    "expected": "gošenje"
+  },
+  {
+    "input": "govoreci",
+    "expected": "govoreći"
+  },
+  {
+    "input": "gracioznoscu",
+    "expected": "gracioznošću"
+  },
+  {
+    "input": "gradana",
+    "expected": "građana"
+  },
+  {
+    "input": "gradani",
+    "expected": "građani"
+  },
+  {
+    "input": "gradanima",
+    "expected": "građanima"
+  },
+  {
+    "input": "gradanina",
+    "expected": "građanina"
+  },
+  {
+    "input": "gradenje",
+    "expected": "građenje"
+  },
+  {
+    "input": "gradevina",
+    "expected": "građevina"
+  },
+  {
+    "input": "gradevinarstvu",
+    "expected": "građevinarstvu"
+  },
+  {
+    "input": "gradevine",
+    "expected": "građevine"
+  },
+  {
+    "input": "gradevinski",
+    "expected": "građevinski"
+  },
+  {
+    "input": "gradjevinski",
+    "expected": "građevinski"
+  },
+  {
+    "input": "gramaticka",
+    "expected": "gramatička"
+  },
+  {
+    "input": "gresaka",
+    "expected": "grešaka"
+  },
+  {
+    "input": "greske",
+    "expected": "greške"
+  },
+  {
+    "input": "gresnike",
+    "expected": "grešnike"
+  },
+  {
+    "input": "grozda",
+    "expected": "grožđa"
+  },
+  {
+    "input": "grozde",
+    "expected": "grožđe"
+  },
+  {
+    "input": "guce",
+    "expected": "guče"
+  },
+  {
+    "input": "guscerice",
+    "expected": "gušćerice"
+  },
+  {
+    "input": "guscerim",
+    "expected": "gušćerim"
+  },
+  {
+    "input": "guster",
+    "expected": "gušter"
+  },
+  {
+    "input": "gvozde",
+    "expected": "gvožđe"
+  },
+  {
+    "input": "hlace",
+    "expected": "hlače"
+  },
+  {
+    "input": "hladnoce",
+    "expected": "hladnoće"
+  },
+  {
+    "input": "hrascine",
+    "expected": "hrašćine"
+  },
+  {
+    "input": "hrcak",
+    "expected": "hrčak"
+  },
+  {
+    "input": "ici",
+    "expected": "ići"
+  },
+  {
+    "input": "igracaka",
+    "expected": "igračaka"
+  },
+  {
+    "input": "igralista",
+    "expected": "igrališta"
+  },
+  {
+    "input": "igraliste",
+    "expected": "igralište"
+  },
+  {
+    "input": "igralistu",
+    "expected": "igralištu"
+  },
+  {
+    "input": "inzenjer",
+    "expected": "inženjer"
+  },
+  {
+    "input": "iscijeden",
+    "expected": "iscijeđen"
+  },
+  {
+    "input": "iskljucuje",
+    "expected": "isključuje"
+  },
+  {
+    "input": "ispricao",
+    "expected": "ispričao"
+  },
+  {
+    "input": "ispusta",
+    "expected": "ispušta"
+  },
+  {
+    "input": "istrazivanja",
+    "expected": "istraživanja"
+  },
+  {
+    "input": "istrazivanje",
+    "expected": "istraživanje"
+  },
+  {
+    "input": "istrazuje",
+    "expected": "istražuje"
+  },
+  {
+    "input": "izasla",
+    "expected": "izašla"
+  },
+  {
+    "input": "izdrzljivost",
+    "expected": "izdržljivost"
+  },
+  {
+    "input": "izlozbama",
+    "expected": "izložbama"
+  },
+  {
+    "input": "izmedu",
+    "expected": "između"
+  },
+  {
+    "input": "iznenadenja",
+    "expected": "iznenađenja"
+  },
+  {
+    "input": "iznenadjujuce",
+    "expected": "iznenadjujuće"
+  },
+  {
+    "input": "izraduje",
+    "expected": "izrađuje"
+  },
+  {
+    "input": "izrazava",
+    "expected": "izražava"
+  },
+  {
+    "input": "izrazavanje",
+    "expected": "izražavanje"
+  },
+  {
+    "input": "izvjestaj",
+    "expected": "izvještaj"
+  },
+  {
+    "input": "izvjestajima",
+    "expected": "izvještajima"
+  },
+  {
+    "input": "izvjestava",
+    "expected": "izvještava"
+  },
+  {
+    "input": "izvodacu",
+    "expected": "izvođaču"
+  },
+  {
+    "input": "jaca",
+    "expected": "jača"
+  },
+  {
+    "input": "jacaju",
+    "expected": "jačaju"
+  },
+  {
+    "input": "jacem",
+    "expected": "jačem"
+  },
+  {
+    "input": "jacima",
+    "expected": "jačima"
+  },
+  {
+    "input": "jez",
+    "expected": "jež"
+  },
+  {
+    "input": "jeze",
+    "expected": "ježe"
+  },
+  {
+    "input": "jos",
+    "expected": "još"
+  },
+  {
+    "input": "jucer",
+    "expected": "jučer"
+  },
+  {
+    "input": "juzne",
+    "expected": "južne"
+  },
+  {
+    "input": "kacket",
+    "expected": "kačket"
+  },
+  {
+    "input": "kafic",
+    "expected": "kafić"
+  },
+  {
+    "input": "kafica",
+    "expected": "kafića"
+  },
+  {
+    "input": "kaficu",
+    "expected": "kafiću"
+  },
+  {
+    "input": "kaloricna",
+    "expected": "kalorična"
+  },
+  {
+    "input": "kamencicima",
+    "expected": "kamenčićima"
+  },
+  {
+    "input": "kasalj",
+    "expected": "kašalj"
+  },
+  {
+    "input": "kasika",
+    "expected": "kašika"
+  },
+  {
+    "input": "kasnjenog",
+    "expected": "kašnjenog"
+  },
+  {
+    "input": "kategoricki",
+    "expected": "kategorički"
+  },
+  {
+    "input": "kaucu",
+    "expected": "kauču"
+  },
+  {
+    "input": "kazaliste",
+    "expected": "kazalište"
+  },
+  {
+    "input": "kazu",
+    "expected": "kažu"
+  },
+  {
+    "input": "kceri",
+    "expected": "kćeri"
+  },
+  {
+    "input": "kisa",
+    "expected": "kiša"
+  },
+  {
+    "input": "kisama",
+    "expected": "kišama"
+  },
+  {
+    "input": "kise",
+    "expected": "kiše"
+  },
+  {
+    "input": "kisi",
+    "expected": "kiši"
+  },
+  {
+    "input": "kisnih",
+    "expected": "kišnih"
   },
   {
     "input": "kisobran",
     "expected": "kišobran"
+  },
+  {
+    "input": "kisobranom",
+    "expected": "kišobranom"
+  },
+  {
+    "input": "kisovit",
+    "expected": "kišovit"
+  },
+  {
+    "input": "kisu",
+    "expected": "kišu"
+  },
+  {
+    "input": "klasicna",
+    "expected": "klasična"
+  },
+  {
+    "input": "kljuc",
+    "expected": "ključ"
+  },
+  {
+    "input": "kljuceve",
+    "expected": "ključeve"
+  },
+  {
+    "input": "kljucevi",
+    "expected": "ključevi"
+  },
+  {
+    "input": "kljucna",
+    "expected": "ključna"
+  },
+  {
+    "input": "kljucni",
+    "expected": "ključni"
+  },
+  {
+    "input": "knjizevne",
+    "expected": "književne"
+  },
+  {
+    "input": "knjizevnost",
+    "expected": "književnost"
+  },
+  {
+    "input": "knjizevnosti",
+    "expected": "književnosti"
+  },
+  {
+    "input": "knjiznica",
+    "expected": "knjižnica"
+  },
+  {
+    "input": "knjiznicarka",
+    "expected": "knjižničarka"
+  },
+  {
+    "input": "kokosi",
+    "expected": "kokoši"
+  },
+  {
+    "input": "kokosinjcu",
+    "expected": "kokošinjcu"
+  },
+  {
+    "input": "kolac",
+    "expected": "kolač"
+  },
+  {
+    "input": "kolaca",
+    "expected": "kolača"
+  },
+  {
+    "input": "kolace",
+    "expected": "kolače"
+  },
+  {
+    "input": "kolicine",
+    "expected": "količine"
+  },
+  {
+    "input": "kolicinu",
+    "expected": "količinu"
+  },
+  {
+    "input": "koristeci",
+    "expected": "koristeći"
+  },
+  {
+    "input": "koristenje",
+    "expected": "korištenje"
+  },
+  {
+    "input": "kornjaca",
+    "expected": "kornjača"
+  },
+  {
+    "input": "kos",
+    "expected": "koš"
+  },
+  {
+    "input": "kosarica",
+    "expected": "košarica"
+  },
+  {
+    "input": "kosarkas",
+    "expected": "košarkaš"
+  },
+  {
+    "input": "kosarkaska",
+    "expected": "košarkaška"
+  },
+  {
+    "input": "koscate",
+    "expected": "koščate"
+  },
+  {
+    "input": "kosnica",
+    "expected": "košnica"
+  },
+  {
+    "input": "kosnicama",
+    "expected": "košnicama"
+  },
+  {
+    "input": "kosnice",
+    "expected": "košnice"
+  },
+  {
+    "input": "kosulja",
+    "expected": "košulja"
+  },
+  {
+    "input": "kosulje",
+    "expected": "košulje"
+  },
+  {
+    "input": "kotaca",
+    "expected": "kotača"
+  },
+  {
+    "input": "kotacice",
+    "expected": "kotačiće"
+  },
+  {
+    "input": "kozmeticarka",
+    "expected": "kozmetičarka"
+  },
+  {
+    "input": "krece",
+    "expected": "kreće"
+  },
+  {
+    "input": "kresti",
+    "expected": "krešti"
+  },
+  {
+    "input": "kriticnim",
+    "expected": "kritičnim"
+  },
+  {
+    "input": "krosnja",
+    "expected": "krošnja"
+  },
+  {
+    "input": "krstenje",
+    "expected": "krštenje"
+  },
+  {
+    "input": "kruzi",
+    "expected": "kruži"
+  },
+  {
+    "input": "kuca",
+    "expected": "kuća"
+  },
+  {
+    "input": "kucama",
+    "expected": "kućama"
+  },
+  {
+    "input": "kuce",
+    "expected": "kuće"
+  },
+  {
+    "input": "kuci",
+    "expected": "kući"
+  },
+  {
+    "input": "kucne",
+    "expected": "kućne"
+  },
+  {
+    "input": "kucnim",
+    "expected": "kućnim"
+  },
+  {
+    "input": "kucom",
+    "expected": "kućom"
+  },
+  {
+    "input": "kucu",
+    "expected": "kuću"
+  },
+  {
+    "input": "kuhaca",
+    "expected": "kuhača"
+  },
+  {
+    "input": "kupaca",
+    "expected": "kupača"
+  },
+  {
+    "input": "kusnje",
+    "expected": "kušnje"
+  },
+  {
+    "input": "lakocom",
+    "expected": "lakoćom"
+  },
+  {
+    "input": "lakse",
+    "expected": "lakše"
+  },
+  {
+    "input": "laksi",
+    "expected": "lakši"
+  },
+  {
+    "input": "laz",
+    "expected": "laž"
+  },
+  {
+    "input": "leca",
+    "expected": "leća"
+  },
+  {
+    "input": "leda",
+    "expected": "leđa"
+  },
+  {
+    "input": "ledima",
+    "expected": "leđima"
+  },
+  {
+    "input": "lezaljka",
+    "expected": "ležaljka"
+  },
+  {
+    "input": "lezerna",
+    "expected": "ležerna"
+  },
+  {
+    "input": "lezi",
+    "expected": "leži"
+  },
+  {
+    "input": "licno",
+    "expected": "lično"
+  },
+  {
+    "input": "licnosti",
+    "expected": "ličnosti"
+  },
+  {
+    "input": "licnostima",
+    "expected": "ličnostima"
+  },
+  {
+    "input": "lijece",
+    "expected": "liječe"
+  },
+  {
+    "input": "lijecenju",
+    "expected": "liječenju"
+  },
+  {
+    "input": "lijeci",
+    "expected": "liječi"
+  },
+  {
+    "input": "lijecnica",
+    "expected": "liječnica"
+  },
+  {
+    "input": "lijecnicka",
+    "expected": "liječnička"
+  },
+  {
+    "input": "lijecnik",
+    "expected": "liječnik"
+  },
+  {
+    "input": "lijecnika",
+    "expected": "liječnika"
+  },
+  {
+    "input": "lisca",
+    "expected": "lišća"
+  },
+  {
+    "input": "lisce",
+    "expected": "lišće"
+  },
+  {
+    "input": "ljepse",
+    "expected": "ljepše"
+  },
+  {
+    "input": "ljesnjake",
+    "expected": "lješnjake"
+  },
+  {
+    "input": "logicno",
+    "expected": "logično"
+  },
+  {
+    "input": "losem",
+    "expected": "lošem"
+  },
+  {
+    "input": "lucki",
+    "expected": "lučki"
+  },
+  {
+    "input": "maceha",
+    "expected": "maćeha"
+  },
+  {
+    "input": "macka",
+    "expected": "mačka"
+  },
+  {
+    "input": "macku",
+    "expected": "mačku"
+  },
+  {
+    "input": "malisan",
+    "expected": "mališan"
+  },
+  {
+    "input": "masaza",
+    "expected": "masaža"
+  },
+  {
+    "input": "masna",
+    "expected": "mašna"
+  },
+  {
+    "input": "mastu",
+    "expected": "maštu"
+  },
+  {
+    "input": "matematicku",
+    "expected": "matematičku"
+  },
+  {
+    "input": "mazete",
+    "expected": "mažete"
+  },
+  {
+    "input": "mec",
+    "expected": "meč"
+  },
+  {
+    "input": "mecava",
+    "expected": "mećava"
+  },
+  {
+    "input": "mece",
+    "expected": "meće"
+  },
+  {
+    "input": "medu",
+    "expected": "među"
+  },
+  {
+    "input": "medunarodna",
+    "expected": "međunarodna"
+  },
+  {
+    "input": "medunarodne",
+    "expected": "međunarodne"
+  },
+  {
+    "input": "medunarodni",
+    "expected": "međunarodni"
+  },
+  {
+    "input": "medusobni",
+    "expected": "međusobni"
+  },
+  {
+    "input": "medusobno",
+    "expected": "međusobno"
+  },
+  {
+    "input": "medutim",
+    "expected": "međutim"
+  },
+  {
+    "input": "menadzer",
+    "expected": "menadžer"
+  },
+  {
+    "input": "mijesa",
+    "expected": "miješa"
+  },
+  {
+    "input": "mirise",
+    "expected": "miriše"
+  },
+  {
+    "input": "mirisu",
+    "expected": "mirišu"
+  },
+  {
+    "input": "mis",
+    "expected": "miš"
+  },
+  {
+    "input": "misa",
+    "expected": "miša"
+  },
+  {
+    "input": "mise",
+    "expected": "miše"
+  },
+  {
+    "input": "miseve",
+    "expected": "miševe"
+  },
+  {
+    "input": "misevi",
+    "expected": "miševi"
+  },
+  {
+    "input": "misic",
+    "expected": "mišić"
+  },
+  {
+    "input": "misice",
+    "expected": "mišiće"
+  },
+  {
+    "input": "misticnom",
+    "expected": "mističnom"
+  },
+  {
+    "input": "mjesecina",
+    "expected": "mjesečina"
+  },
+  {
+    "input": "mjesecini",
+    "expected": "mjesečini"
+  },
+  {
+    "input": "mlade",
+    "expected": "mlađe"
+  },
+  {
+    "input": "mladi",
+    "expected": "mlađi"
+  },
+  {
+    "input": "mladic",
+    "expected": "mladić"
+  },
+  {
+    "input": "mladom",
+    "expected": "mlađom"
+  },
+  {
+    "input": "mladu",
+    "expected": "mlađu"
+  },
+  {
+    "input": "moc",
+    "expected": "moć"
+  },
+  {
+    "input": "mocna",
+    "expected": "moćna"
+  },
+  {
+    "input": "mogucnosti",
+    "expected": "mogućnosti"
+  },
+  {
+    "input": "moze",
+    "expected": "može"
+  },
+  {
+    "input": "mozemo",
+    "expected": "možemo"
+  },
+  {
+    "input": "mozes",
+    "expected": "možeš"
+  },
+  {
+    "input": "mozete",
+    "expected": "možete"
+  },
+  {
+    "input": "mracna",
+    "expected": "mračna"
+  },
+  {
+    "input": "mreze",
+    "expected": "mreže"
+  },
+  {
+    "input": "mrezom",
+    "expected": "mrežom"
+  },
+  {
+    "input": "mrezu",
+    "expected": "mrežu"
+  },
+  {
+    "input": "mrsavljenju",
+    "expected": "mršavljenju"
+  },
+  {
+    "input": "mrznja",
+    "expected": "mržnja"
+  },
+  {
+    "input": "mucilo",
+    "expected": "mučilo"
+  },
+  {
+    "input": "muskarac",
+    "expected": "muškarac"
+  },
+  {
+    "input": "naci",
+    "expected": "naći"
+  },
+  {
+    "input": "nacin",
+    "expected": "način"
+  },
+  {
+    "input": "nacina",
+    "expected": "načina"
+  },
+  {
+    "input": "nacine",
+    "expected": "načine"
+  },
+  {
+    "input": "najbrze",
+    "expected": "najbrže"
+  },
+  {
+    "input": "najbrzetrkace",
+    "expected": "najbržetrkače"
+  },
+  {
+    "input": "najbrzi",
+    "expected": "najbrži"
+  },
+  {
+    "input": "najcesce",
+    "expected": "najčešće"
+  },
+  {
+    "input": "najdraze",
+    "expected": "najdraže"
+  },
+  {
+    "input": "najjaca",
+    "expected": "najjača"
+  },
+  {
+    "input": "najlaksi",
+    "expected": "najlakši"
+  },
+  {
+    "input": "najljepse",
+    "expected": "najljepše"
+  },
+  {
+    "input": "najljepsi",
+    "expected": "najljepši"
+  },
+  {
+    "input": "najmladeg",
+    "expected": "najmlađeg"
+  },
+  {
+    "input": "najplijesi",
+    "expected": "najpliješi"
+  },
+  {
+    "input": "najtezim",
+    "expected": "najtežim"
+  },
+  {
+    "input": "najvaznije",
+    "expected": "najvažnije"
+  },
+  {
+    "input": "najveca",
+    "expected": "najveća"
+  },
+  {
+    "input": "najvisa",
+    "expected": "najviša"
+  },
+  {
+    "input": "najvise",
+    "expected": "najviše"
+  },
+  {
+    "input": "najzivlja",
+    "expected": "najživlja"
+  },
+  {
+    "input": "namjestaj",
+    "expected": "namještaj"
+  },
+  {
+    "input": "namjestaja",
+    "expected": "namještaja"
+  },
+  {
+    "input": "naocale",
+    "expected": "naočale"
+  },
+  {
+    "input": "naplacuje",
+    "expected": "naplaćuje"
+  },
+  {
+    "input": "naranca",
+    "expected": "naranča"
+  },
+  {
+    "input": "narancastim",
+    "expected": "narančastim"
+  },
+  {
+    "input": "narance",
+    "expected": "naranče"
+  },
+  {
+    "input": "naseg",
+    "expected": "našeg"
+  },
+  {
+    "input": "naskoditi",
+    "expected": "naškoditi"
+  },
+  {
+    "input": "nasu",
+    "expected": "našu"
+  },
+  {
+    "input": "nauciti",
+    "expected": "naučiti"
+  },
+  {
+    "input": "nausnice",
+    "expected": "naušnice"
+  },
+  {
+    "input": "navecer",
+    "expected": "navečer"
+  },
+  {
+    "input": "nedace",
+    "expected": "nedaće"
+  },
+  {
+    "input": "neocekivanih",
+    "expected": "neočekivanih"
+  },
+  {
+    "input": "neposlusnu",
+    "expected": "neposlušnu"
+  },
+  {
+    "input": "nesebicna",
+    "expected": "nesebična"
+  },
+  {
+    "input": "nesrece",
+    "expected": "nesreće"
+  },
+  {
+    "input": "nestasice",
+    "expected": "nestašice"
+  },
+  {
+    "input": "nista",
+    "expected": "ništa"
+  },
+  {
+    "input": "nizim",
+    "expected": "nižim"
+  },
+  {
+    "input": "njezno",
+    "expected": "nježno"
+  },
+  {
+    "input": "njeznu",
+    "expected": "nježnu"
+  },
+  {
+    "input": "njise",
+    "expected": "njiše"
+  },
+  {
+    "input": "noc",
+    "expected": "noć"
+  },
+  {
+    "input": "noci",
+    "expected": "noći"
+  },
+  {
+    "input": "nocna",
+    "expected": "noćna"
+  },
+  {
+    "input": "nocnim",
+    "expected": "noćnim"
+  },
+  {
+    "input": "nocnom",
+    "expected": "noćnom"
+  },
+  {
+    "input": "nocu",
+    "expected": "noću"
+  },
+  {
+    "input": "nogometas",
+    "expected": "nogometaš"
+  },
+  {
+    "input": "nogometasi",
+    "expected": "nogometaši"
+  },
+  {
+    "input": "nosac",
+    "expected": "nosač"
+  },
+  {
+    "input": "nosaci",
+    "expected": "nosači"
+  },
+  {
+    "input": "nosenja",
+    "expected": "nošenja"
+  },
+  {
+    "input": "nosenje",
+    "expected": "nošenje"
+  },
+  {
+    "input": "novcanik",
+    "expected": "novčanik"
+  },
+  {
+    "input": "noz",
+    "expected": "nož"
+  },
+  {
+    "input": "nuzan",
+    "expected": "nužan"
+  },
+  {
+    "input": "nuzna",
+    "expected": "nužna"
+  },
+  {
+    "input": "nuzno",
+    "expected": "nužno"
+  },
+  {
+    "input": "obecanja",
+    "expected": "obećanja"
+  },
+  {
+    "input": "obicaje",
+    "expected": "običaje"
+  },
+  {
+    "input": "obicno",
+    "expected": "obično"
+  },
+  {
+    "input": "obiljezava",
+    "expected": "obilježava"
+  },
+  {
+    "input": "obiljezavanje",
+    "expected": "obilježavanje"
+  },
+  {
+    "input": "obiljezena",
+    "expected": "obilježena"
+  },
+  {
+    "input": "objasnjava",
+    "expected": "objašnjava"
+  },
+  {
+    "input": "objesen",
+    "expected": "obješen"
+  },
+  {
+    "input": "oblacan",
+    "expected": "oblačan"
+  },
+  {
+    "input": "obliznje",
+    "expected": "obližnje"
+  },
+  {
+    "input": "obozavanje",
+    "expected": "obožavanje"
+  },
+  {
+    "input": "obraduje",
+    "expected": "obrađuje"
+  },
+  {
+    "input": "obucu",
+    "expected": "obuću"
+  },
+  {
+    "input": "ocekivanja",
+    "expected": "očekivanja"
+  },
+  {
+    "input": "ocerupali",
+    "expected": "očerupali"
+  },
+  {
+    "input": "oci",
+    "expected": "oči"
+  },
+  {
+    "input": "ociju",
+    "expected": "očiju"
+  },
+  {
+    "input": "ocima",
+    "expected": "očima"
+  },
+  {
+    "input": "odjeca",
+    "expected": "odjeća"
+  },
+  {
+    "input": "odjece",
+    "expected": "odjeće"
+  },
+  {
+    "input": "odjeci",
+    "expected": "odjeći"
+  },
+  {
+    "input": "odjecu",
+    "expected": "odjeću"
+  },
+  {
+    "input": "odlicne",
+    "expected": "odlične"
+  },
+  {
+    "input": "odlicnu",
+    "expected": "odličnu"
+  },
+  {
+    "input": "odrazava",
+    "expected": "odražava"
+  },
+  {
+    "input": "odreci",
+    "expected": "odreći"
+  },
+  {
+    "input": "odredistu",
+    "expected": "odredištu"
+  },
+  {
+    "input": "odrzan",
+    "expected": "održan"
+  },
+  {
+    "input": "odrzana",
+    "expected": "održana"
+  },
+  {
+    "input": "odrzava",
+    "expected": "održava"
+  },
+  {
+    "input": "odrzavaju",
+    "expected": "održavaju"
+  },
+  {
+    "input": "odrzavanje",
+    "expected": "održavanje"
+  },
+  {
+    "input": "odrzivost",
+    "expected": "održivost"
+  },
+  {
+    "input": "odusevilo",
+    "expected": "oduševilo"
+  },
+  {
+    "input": "oduseviti",
+    "expected": "oduševiti"
+  },
+  {
+    "input": "odusevljava",
+    "expected": "oduševljava"
+  },
+  {
+    "input": "ograduje",
+    "expected": "ograđuje"
+  },
+  {
+    "input": "ogranicenje",
+    "expected": "ograničenje"
+  },
+  {
+    "input": "okolis",
+    "expected": "okoliš"
+  },
+  {
+    "input": "okolisa",
+    "expected": "okoliša"
+  },
+  {
+    "input": "okruzena",
+    "expected": "okružena"
+  },
+  {
+    "input": "okruzenu",
+    "expected": "okruženu"
+  },
+  {
+    "input": "okruznom",
+    "expected": "okružnom"
+  },
+  {
+    "input": "olaksava",
+    "expected": "olakšava"
+  },
+  {
+    "input": "olaksavaju",
+    "expected": "olakšavaju"
+  },
+  {
+    "input": "omeksa",
+    "expected": "omekša"
+  },
+  {
+    "input": "omeksaju",
+    "expected": "omekšaju"
+  },
+  {
+    "input": "omogucava",
+    "expected": "omogućava"
+  },
+  {
+    "input": "omogucavaju",
+    "expected": "omogućavaju"
+  },
+  {
+    "input": "omogucuje",
+    "expected": "omogućuje"
+  },
+  {
+    "input": "omogucuju",
+    "expected": "omogućuju"
+  },
+  {
+    "input": "opce",
+    "expected": "opće"
+  },
+  {
+    "input": "oprostaj",
+    "expected": "oproštaj"
+  },
+  {
+    "input": "oprzili",
+    "expected": "opržili"
+  },
+  {
+    "input": "opusta",
+    "expected": "opušta"
+  },
+  {
+    "input": "opustanja",
+    "expected": "opuštanja"
+  },
+  {
+    "input": "opustanju",
+    "expected": "opuštanju"
+  },
+  {
+    "input": "orascici",
+    "expected": "oraščići"
+  },
+  {
+    "input": "osigurac",
+    "expected": "osigurač"
+  },
+  {
+    "input": "osjeca",
+    "expected": "osjeća"
+  },
+  {
+    "input": "osjecaj",
+    "expected": "osjećaj"
+  },
+  {
+    "input": "osjecaje",
+    "expected": "osjećaje"
+  },
+  {
+    "input": "oslobodenje",
+    "expected": "oslobođenje"
+  },
+  {
+    "input": "ostar",
+    "expected": "oštar"
+  },
+  {
+    "input": "ostrim",
+    "expected": "oštrim"
+  },
+  {
+    "input": "osuncana",
+    "expected": "osunčana"
+  },
+  {
+    "input": "osvjezava",
+    "expected": "osvježava"
+  },
+  {
+    "input": "osvjezavajuce",
+    "expected": "osvježavajuće"
+  },
+  {
+    "input": "otezava",
+    "expected": "otežava"
+  },
+  {
+    "input": "otisao",
+    "expected": "otišao"
+  },
+  {
+    "input": "otkljucava",
+    "expected": "otključava"
+  },
+  {
+    "input": "otkljucavaju",
+    "expected": "otključavaju"
+  },
+  {
+    "input": "otkrice",
+    "expected": "otkriće"
+  },
+  {
+    "input": "oznacava",
+    "expected": "označava"
+  },
+  {
+    "input": "oznacen",
+    "expected": "označen"
+  },
+  {
+    "input": "oznacio",
+    "expected": "označio"
+  },
+  {
+    "input": "ozujka",
+    "expected": "ožujka"
+  },
+  {
+    "input": "palacinka",
+    "expected": "palačinka"
+  },
+  {
+    "input": "palacinke",
+    "expected": "palačinke"
+  },
+  {
+    "input": "paprikas",
+    "expected": "paprikaš"
+  },
+  {
+    "input": "papuce",
+    "expected": "papuče"
+  },
+  {
+    "input": "pazljivi",
+    "expected": "pažljivi"
+  },
+  {
+    "input": "pazljivo",
+    "expected": "pažljivo"
+  },
+  {
+    "input": "paznjom",
+    "expected": "pažnjom"
+  },
+  {
+    "input": "paznju",
+    "expected": "pažnju"
+  },
+  {
+    "input": "pcela",
+    "expected": "pčela"
+  },
+  {
+    "input": "pcelama",
+    "expected": "pčelama"
+  },
+  {
+    "input": "pcelar",
+    "expected": "pčelar"
+  },
+  {
+    "input": "pcele",
+    "expected": "pčele"
+  },
+  {
+    "input": "pec",
+    "expected": "peć"
+  },
+  {
+    "input": "peca",
+    "expected": "peća"
+  },
+  {
+    "input": "pece",
+    "expected": "peče"
+  },
+  {
+    "input": "pecen",
+    "expected": "pečen"
+  },
+  {
+    "input": "pecena",
+    "expected": "pečena"
+  },
+  {
+    "input": "pecene",
+    "expected": "pečene"
+  },
+  {
+    "input": "peceni",
+    "expected": "pečeni"
+  },
+  {
+    "input": "pecenje",
+    "expected": "pečenje"
+  },
+  {
+    "input": "pecenjem",
+    "expected": "pečenjem"
+  },
+  {
+    "input": "peceno",
+    "expected": "pečeno"
+  },
+  {
+    "input": "peces",
+    "expected": "pečeš"
+  },
+  {
+    "input": "peci",
+    "expected": "peći"
+  },
+  {
+    "input": "pecina",
+    "expected": "pećina"
+  },
+  {
+    "input": "pecnica",
+    "expected": "pećnica"
+  },
+  {
+    "input": "pecnici",
+    "expected": "pećnici"
+  },
+  {
+    "input": "peskir",
+    "expected": "peškir"
+  },
+  {
+    "input": "pice",
+    "expected": "piće"
+  },
+  {
+    "input": "pise",
+    "expected": "piše"
+  },
+  {
+    "input": "pisu",
+    "expected": "pišu"
+  },
+  {
+    "input": "pjesacka",
+    "expected": "pješačka"
+  },
+  {
+    "input": "pjesacki",
+    "expected": "pješački"
+  },
+  {
+    "input": "pjesake",
+    "expected": "pješake"
+  },
+  {
+    "input": "pjescane",
+    "expected": "pješčane"
+  },
+  {
+    "input": "pjevac",
+    "expected": "pjevač"
+  },
+  {
+    "input": "pjevaci",
+    "expected": "pjevači"
+  },
+  {
+    "input": "pjevacica",
+    "expected": "pjevačica"
+  },
+  {
+    "input": "pjevajuci",
+    "expected": "pjevajući"
+  },
+  {
+    "input": "pjevas",
+    "expected": "pjevaš"
+  },
+  {
+    "input": "placa",
+    "expected": "plaća"
+  },
+  {
+    "input": "placama",
+    "expected": "plaćama"
+  },
+  {
+    "input": "placanje",
+    "expected": "plaćanje"
+  },
+  {
+    "input": "plasi",
+    "expected": "plaši"
+  },
+  {
+    "input": "plaza",
+    "expected": "plaža"
+  },
+  {
+    "input": "plazi",
+    "expected": "plaži"
+  },
+  {
+    "input": "plesac",
+    "expected": "plesač"
+  },
+  {
+    "input": "plesaca",
+    "expected": "plesača"
+  },
+  {
+    "input": "plicaku",
+    "expected": "plićaku"
+  },
+  {
+    "input": "plivac",
+    "expected": "plivač"
+  },
+  {
+    "input": "plivaci",
+    "expected": "plivači"
+  },
+  {
+    "input": "plivacki",
+    "expected": "plivački"
+  },
+  {
+    "input": "ploci",
+    "expected": "ploči"
+  },
+  {
+    "input": "plocniku",
+    "expected": "pločniku"
+  },
+  {
+    "input": "plocu",
+    "expected": "ploču"
+  },
+  {
+    "input": "pluca",
+    "expected": "pluća"
+  },
+  {
+    "input": "poboljsanja",
+    "expected": "poboljšanja"
+  },
+  {
+    "input": "poboljsanju",
+    "expected": "poboljšanju"
+  },
+  {
+    "input": "poboljsava",
+    "expected": "poboljšava"
+  },
+  {
+    "input": "poboznost",
+    "expected": "pobožnost"
+  },
+  {
+    "input": "pocela",
+    "expected": "počela"
+  },
+  {
+    "input": "pocetak",
+    "expected": "početak"
+  },
+  {
+    "input": "poceti",
+    "expected": "početi"
+  },
+  {
+    "input": "pocetnicima",
+    "expected": "početnicima"
+  },
+  {
+    "input": "pocinje",
+    "expected": "počinje"
+  },
+  {
+    "input": "pocnes",
+    "expected": "počneš"
+  },
+  {
+    "input": "pocnete",
+    "expected": "počnete"
+  },
+  {
+    "input": "podize",
+    "expected": "podiže"
+  },
+  {
+    "input": "podrska",
+    "expected": "podrška"
+  },
+  {
+    "input": "podrucja",
+    "expected": "područja"
+  },
+  {
+    "input": "podrucjima",
+    "expected": "područjima"
+  },
+  {
+    "input": "podrucju",
+    "expected": "području"
+  },
+  {
+    "input": "podrzavaju",
+    "expected": "podržavaju"
+  },
+  {
+    "input": "podsjecaju",
+    "expected": "podsjećaju"
+  },
+  {
+    "input": "pokazivac",
+    "expected": "pokazivač"
+  },
+  {
+    "input": "pokrivac",
+    "expected": "pokrivač"
+  },
+  {
+    "input": "polozio",
+    "expected": "položio"
+  },
+  {
+    "input": "pomaze",
+    "expected": "pomaže"
+  },
+  {
+    "input": "pomazu",
+    "expected": "pomažu"
+  },
+  {
+    "input": "pomoc",
+    "expected": "pomoć"
+  },
+  {
+    "input": "pomoci",
+    "expected": "pomoći"
+  },
+  {
+    "input": "pomocu",
+    "expected": "pomoću"
+  },
+  {
+    "input": "ponasanja",
+    "expected": "ponašanja"
+  },
+  {
+    "input": "ponasanje",
+    "expected": "ponašanje"
+  },
+  {
+    "input": "posjecujemo",
+    "expected": "posjećujemo"
+  },
+  {
+    "input": "posjecuju",
+    "expected": "posjećuju"
+  },
+  {
+    "input": "posta",
+    "expected": "pošta"
+  },
+  {
+    "input": "postan",
+    "expected": "poštan"
+  },
+  {
+    "input": "postarac",
+    "expected": "poštarac"
+  },
+  {
+    "input": "postenje",
+    "expected": "poštenje"
+  },
+  {
+    "input": "postignuce",
+    "expected": "postignuće"
+  },
+  {
+    "input": "postizu",
+    "expected": "postižu"
+  },
+  {
+    "input": "posto",
+    "expected": "pošto"
+  },
+  {
+    "input": "postovanje",
+    "expected": "poštovanje"
+  },
+  {
+    "input": "postovati",
+    "expected": "poštovati"
+  },
+  {
+    "input": "postu",
+    "expected": "poštu"
+  },
+  {
+    "input": "posuda",
+    "expected": "posuđa"
+  },
+  {
+    "input": "posude",
+    "expected": "posuđe"
+  },
+  {
+    "input": "potraznji",
+    "expected": "potražnji"
+  },
+  {
+    "input": "potresenjem",
+    "expected": "potrešenjem"
+  },
+  {
+    "input": "poucava",
+    "expected": "poučava"
+  },
+  {
+    "input": "poucavanja",
+    "expected": "poučavanja"
+  },
+  {
+    "input": "poucavati",
+    "expected": "poučavati"
+  },
+  {
+    "input": "poucno",
+    "expected": "poučno"
+  },
+  {
+    "input": "povecan",
+    "expected": "povećan"
+  },
+  {
+    "input": "povecava",
+    "expected": "povećava"
+  },
+  {
+    "input": "povrca",
+    "expected": "povrća"
+  },
+  {
+    "input": "povrce",
+    "expected": "povrće"
+  },
+  {
+    "input": "povrsine",
+    "expected": "površine"
+  },
+  {
+    "input": "povrsinu",
+    "expected": "površinu"
+  },
+  {
+    "input": "pozar",
+    "expected": "požar"
+  },
+  {
+    "input": "pozelio",
+    "expected": "poželio"
+  },
+  {
+    "input": "pozeljela",
+    "expected": "poželjela"
+  },
+  {
+    "input": "pozeljno",
+    "expected": "poželjno"
+  },
+  {
+    "input": "pozrtvovnost",
+    "expected": "požrtvovnost"
+  },
+  {
+    "input": "pozurio",
+    "expected": "požurio"
+  },
+  {
+    "input": "pozuriti",
+    "expected": "požuriti"
+  },
+  {
+    "input": "praceno",
+    "expected": "praćeno"
+  },
+  {
+    "input": "praktican",
+    "expected": "praktičan"
+  },
+  {
+    "input": "prakticna",
+    "expected": "praktična"
+  },
+  {
+    "input": "prakticni",
+    "expected": "praktični"
+  },
+  {
+    "input": "prakticno",
+    "expected": "praktično"
+  },
+  {
+    "input": "prakticnom",
+    "expected": "praktičnom"
+  },
+  {
+    "input": "prascic",
+    "expected": "praščić"
+  },
+  {
+    "input": "prasine",
+    "expected": "prašine"
+  },
+  {
+    "input": "prasinu",
+    "expected": "prašinu"
+  },
+  {
+    "input": "praveci",
+    "expected": "praveći"
+  },
+  {
+    "input": "predocen",
+    "expected": "predočen"
+  },
+  {
+    "input": "predvida",
+    "expected": "predviđa"
+  },
+  {
+    "input": "prekidac",
+    "expected": "prekidač"
+  },
+  {
+    "input": "prekrsaj",
+    "expected": "prekršaj"
+  },
+  {
+    "input": "prelazenje",
+    "expected": "prelaženje"
+  },
+  {
+    "input": "prelijecu",
+    "expected": "prelijeću"
+  },
+  {
+    "input": "premasila",
+    "expected": "premašila"
+  },
+  {
+    "input": "preopterecenja",
+    "expected": "preopterećenja"
+  },
+  {
+    "input": "preporucio",
+    "expected": "preporučio"
+  },
+  {
+    "input": "preporucuje",
+    "expected": "preporučuje"
+  },
+  {
+    "input": "preporucujem",
+    "expected": "preporučujem"
+  },
+  {
+    "input": "prevazilazenje",
+    "expected": "prevazilaženje"
+  },
+  {
+    "input": "previse",
+    "expected": "previše"
+  },
+  {
+    "input": "prica",
+    "expected": "priča"
+  },
+  {
+    "input": "pricajuci",
+    "expected": "pričajući"
+  },
+  {
+    "input": "pricama",
+    "expected": "pričama"
+  },
+  {
+    "input": "pricamo",
+    "expected": "pričamo"
+  },
+  {
+    "input": "price",
+    "expected": "priče"
+  },
+  {
+    "input": "pricu",
+    "expected": "priču"
+  },
+  {
+    "input": "prikljucaka",
+    "expected": "priključaka"
+  },
+  {
+    "input": "pristaniste",
+    "expected": "pristanište"
+  },
+  {
+    "input": "pristupacna",
+    "expected": "pristupačna"
+  },
+  {
+    "input": "privlaci",
+    "expected": "privlači"
+  },
+  {
+    "input": "privrzena",
+    "expected": "privržena"
+  },
+  {
+    "input": "proci",
+    "expected": "proći"
+  },
+  {
+    "input": "procitaj",
+    "expected": "pročitaj"
+  },
+  {
+    "input": "procitajte",
+    "expected": "pročitajte"
+  },
+  {
+    "input": "procitao",
+    "expected": "pročitao"
+  },
+  {
+    "input": "procitas",
+    "expected": "pročitaš"
+  },
+  {
+    "input": "procitate",
+    "expected": "pročitate"
+  },
+  {
+    "input": "procjeduje",
+    "expected": "procjeđuje"
+  },
+  {
+    "input": "prodavac",
+    "expected": "prodavač"
+  },
+  {
+    "input": "prodavacica",
+    "expected": "prodavačica"
+  },
+  {
+    "input": "produzava",
+    "expected": "produžava"
+  },
+  {
+    "input": "proljeca",
+    "expected": "proljeća"
+  },
+  {
+    "input": "proljece",
+    "expected": "proljeće"
+  },
+  {
+    "input": "pronaci",
+    "expected": "pronaći"
+  },
+  {
+    "input": "propusta",
+    "expected": "propušta"
+  },
+  {
+    "input": "proracun",
+    "expected": "proračun"
+  },
+  {
+    "input": "prosiruje",
+    "expected": "proširuje"
+  },
+  {
+    "input": "prosle",
+    "expected": "prošle"
+  },
+  {
+    "input": "proslog",
+    "expected": "prošlog"
+  },
+  {
+    "input": "proslosti",
+    "expected": "prošlosti"
+  },
+  {
+    "input": "proslu",
+    "expected": "prošlu"
+  },
+  {
+    "input": "proteze",
+    "expected": "proteže"
+  },
+  {
+    "input": "proucava",
+    "expected": "proučava"
+  },
+  {
+    "input": "prozracne",
+    "expected": "prozračne"
+  },
+  {
+    "input": "pruza",
+    "expected": "pruža"
+  },
+  {
+    "input": "przi",
+    "expected": "prži"
+  },
+  {
+    "input": "psenica",
+    "expected": "pšenica"
+  },
+  {
+    "input": "psenice",
+    "expected": "pšenice"
+  },
+  {
+    "input": "psenicu",
+    "expected": "pšenicu"
+  },
+  {
+    "input": "pticica",
+    "expected": "ptičica"
+  },
+  {
+    "input": "punjac",
+    "expected": "punjač"
+  },
+  {
+    "input": "puse",
+    "expected": "puše"
+  },
+  {
+    "input": "racun",
+    "expected": "račun"
+  },
+  {
+    "input": "racuna",
+    "expected": "računa"
+  },
+  {
+    "input": "racunala",
+    "expected": "računala"
+  },
+  {
+    "input": "racunalo",
+    "expected": "računalo"
+  },
+  {
+    "input": "racunalu",
+    "expected": "računalu"
+  },
+  {
+    "input": "raskrizju",
+    "expected": "raskrižju"
+  },
+  {
+    "input": "raskrscu",
+    "expected": "raskršću"
+  },
+  {
+    "input": "raspolozenje",
+    "expected": "raspoloženje"
+  },
+  {
+    "input": "ravnotezu",
+    "expected": "ravnotežu"
+  },
+  {
+    "input": "razlicite",
+    "expected": "različite"
+  },
+  {
+    "input": "razlicitih",
+    "expected": "različitih"
+  },
+  {
+    "input": "razvlaci",
+    "expected": "razvlači"
+  },
+  {
+    "input": "rece",
+    "expected": "reče"
+  },
+  {
+    "input": "reci",
+    "expected": "reći"
+  },
+  {
+    "input": "rekavsi",
+    "expected": "rekavši"
+  },
+  {
+    "input": "rekose",
+    "expected": "rekoše"
+  },
+  {
+    "input": "reze",
+    "expected": "reže"
+  },
+  {
+    "input": "rezira",
+    "expected": "režira"
+  },
+  {
+    "input": "ribic",
+    "expected": "ribič"
+  },
+  {
+    "input": "rijeci",
+    "expected": "riječi"
+  },
+  {
+    "input": "rijecima",
+    "expected": "riječima"
+  },
+  {
+    "input": "rijecne",
+    "expected": "riječne"
+  },
+  {
+    "input": "rijesiti",
+    "expected": "riješiti"
+  },
+  {
+    "input": "riza",
+    "expected": "riža"
+  },
+  {
+    "input": "rizicno",
+    "expected": "rizično"
+  },
+  {
+    "input": "rjecna",
+    "expected": "rječna"
+  },
+  {
+    "input": "rjecnik",
+    "expected": "rječnik"
+  },
+  {
+    "input": "rjesava",
+    "expected": "rješava"
+  },
+  {
+    "input": "rjesavaju",
+    "expected": "rješavaju"
+  },
+  {
+    "input": "rjesavanje",
+    "expected": "rješavanje"
+  },
+  {
+    "input": "rjesenje",
+    "expected": "rješenje"
+  },
+  {
+    "input": "rodaci",
+    "expected": "rođaci"
+  },
+  {
+    "input": "rodendan",
+    "expected": "rođendan"
+  },
+  {
+    "input": "rodendana",
+    "expected": "rođendana"
+  },
+  {
+    "input": "rodendanska",
+    "expected": "rođendanska"
+  },
+  {
+    "input": "romanticnom",
+    "expected": "romantičnom"
+  },
+  {
+    "input": "rostilja",
+    "expected": "roštilja"
+  },
+  {
+    "input": "rostilju",
+    "expected": "roštilju"
+  },
+  {
+    "input": "rtic",
+    "expected": "rtić"
+  },
+  {
+    "input": "rucak",
+    "expected": "ručak"
+  },
+  {
+    "input": "rucka",
+    "expected": "ručka"
+  },
+  {
+    "input": "rucni",
+    "expected": "ručni"
+  },
+  {
+    "input": "rucnik",
+    "expected": "ručnik"
+  },
+  {
+    "input": "rucnika",
+    "expected": "ručnika"
+  },
+  {
+    "input": "rukometas",
+    "expected": "rukometaš"
+  },
+  {
+    "input": "rusi",
+    "expected": "ruši"
+  },
+  {
+    "input": "ruza",
+    "expected": "ruža"
+  },
+  {
+    "input": "s",
+    "expected": "s"
+  },
+  {
+    "input": "saci",
+    "expected": "šaci"
+  },
+  {
+    "input": "sadrzaja",
+    "expected": "sadržaja"
+  },
+  {
+    "input": "sadrzi",
+    "expected": "sadrži"
+  },
+  {
+    "input": "saka",
+    "expected": "šaka"
+  },
+  {
+    "input": "sal",
+    "expected": "šal"
+  },
+  {
+    "input": "sala",
+    "expected": "šala"
+  },
+  {
+    "input": "sali",
+    "expected": "šali"
+  },
+  {
+    "input": "salica",
+    "expected": "šalica"
+  },
+  {
+    "input": "salice",
+    "expected": "šalice"
+  },
+  {
+    "input": "salje",
+    "expected": "šalje"
+  },
+  {
+    "input": "sampon",
+    "expected": "šampon"
+  },
+  {
+    "input": "saptom",
+    "expected": "šaptom"
+  },
+  {
+    "input": "sapuce",
+    "expected": "šapuće"
+  },
+  {
+    "input": "saputanje",
+    "expected": "šaputanje"
+  },
+  {
+    "input": "saren",
+    "expected": "šaren"
+  },
+  {
+    "input": "sarena",
+    "expected": "šarena"
+  },
+  {
+    "input": "sarene",
+    "expected": "šarene"
+  },
+  {
+    "input": "sareni",
+    "expected": "šareni"
+  },
+  {
+    "input": "sarenih",
+    "expected": "šarenih"
+  },
+  {
+    "input": "sarenim",
+    "expected": "šarenim"
+  },
+  {
+    "input": "sareno",
+    "expected": "šareno"
+  },
+  {
+    "input": "sarenog",
+    "expected": "šarenog"
+  },
+  {
+    "input": "sarm",
+    "expected": "šarm"
+  },
+  {
+    "input": "sarmantni",
+    "expected": "šarmantni"
+  },
+  {
+    "input": "sasavi",
+    "expected": "šašavi"
+  },
+  {
+    "input": "savrseno",
+    "expected": "savršeno"
+  },
+  {
+    "input": "scapavi",
+    "expected": "ščapavi"
+  },
+  {
+    "input": "scapca",
+    "expected": "ščapca"
+  },
+  {
+    "input": "scepanac",
+    "expected": "šćepanac"
+  },
+  {
+    "input": "scepancu",
+    "expected": "šćepancu"
+  },
+  {
+    "input": "secer",
+    "expected": "šećer"
+  },
+  {
+    "input": "secera",
+    "expected": "šećera"
+  },
+  {
+    "input": "secerna",
+    "expected": "šećerna"
+  },
+  {
+    "input": "senoloski",
+    "expected": "šenološki"
+  },
+  {
+    "input": "sesir",
+    "expected": "šešir"
+  },
+  {
+    "input": "sest",
+    "expected": "šest"
+  },
+  {
+    "input": "seta",
+    "expected": "šeta"
+  },
+  {
+    "input": "setacima",
+    "expected": "šetačima"
+  },
+  {
+    "input": "setanja",
+    "expected": "šetanja"
+  },
+  {
+    "input": "setnica",
+    "expected": "šetnica"
+  },
+  {
+    "input": "setnja",
+    "expected": "šetnja"
+  },
+  {
+    "input": "setnje",
+    "expected": "šetnje"
+  },
+  {
+    "input": "setnju",
+    "expected": "šetnju"
+  },
+  {
+    "input": "seva",
+    "expected": "ševa"
+  },
+  {
+    "input": "sikari",
+    "expected": "šikari"
+  },
+  {
+    "input": "siljka",
+    "expected": "šiljka"
+  },
+  {
+    "input": "silt",
+    "expected": "šilt"
+  },
+  {
+    "input": "simbolicko",
+    "expected": "simboličko"
+  },
+  {
+    "input": "simbolicno",
+    "expected": "simbolično"
+  },
+  {
+    "input": "sinama",
+    "expected": "šinama"
+  },
+  {
+    "input": "siri",
+    "expected": "širi"
+  },
+  {
+    "input": "sirocadi",
+    "expected": "siročadi"
+  },
+  {
+    "input": "sirok",
+    "expected": "širok"
+  },
+  {
+    "input": "siroka",
+    "expected": "široka"
+  },
+  {
+    "input": "sirokicim",
+    "expected": "širokicim"
+  },
+  {
+    "input": "sirom",
+    "expected": "širom"
+  },
+  {
+    "input": "sisa",
+    "expected": "šiša"
+  },
+  {
+    "input": "sisao",
+    "expected": "šišao"
+  },
+  {
+    "input": "sisarke",
+    "expected": "šišarke"
+  },
+  {
+    "input": "sismis",
+    "expected": "šišmiš"
+  },
+  {
+    "input": "sitnis",
+    "expected": "sitniš"
+  },
+  {
+    "input": "sivajuci",
+    "expected": "šivajući"
+  },
+  {
+    "input": "sivanje",
+    "expected": "šivanje"
+  },
+  {
+    "input": "sjecam",
+    "expected": "sjećam"
+  },
+  {
+    "input": "sjecas",
+    "expected": "sjećaš"
+  },
+  {
+    "input": "sjevernjaca",
+    "expected": "sjevernjača"
+  },
+  {
+    "input": "skace",
+    "expected": "skače"
+  },
+  {
+    "input": "skacem",
+    "expected": "skačem"
+  },
+  {
+    "input": "skacu",
+    "expected": "skaču"
+  },
+  {
+    "input": "skakuce",
+    "expected": "skakuće"
+  },
+  {
+    "input": "skampe",
+    "expected": "škampe"
+  },
+  {
+    "input": "skarama",
+    "expected": "škarama"
+  },
+  {
+    "input": "skijas",
+    "expected": "skijaš"
+  },
+  {
+    "input": "skijasi",
+    "expected": "skijaši"
+  },
+  {
+    "input": "skijaska",
+    "expected": "skijaška"
+  },
+  {
+    "input": "skladistenje",
+    "expected": "skladištenje"
+  },
+  {
+    "input": "sklonistu",
+    "expected": "skloništu"
+  },
+  {
+    "input": "sklupca",
+    "expected": "sklupča"
+  },
+  {
+    "input": "skocivsi",
+    "expected": "skočivši"
+  },
+  {
+    "input": "skola",
+    "expected": "škola"
+  },
+  {
+    "input": "skole",
+    "expected": "škole"
+  },
+  {
+    "input": "skoljkas",
+    "expected": "školjkaš"
+  },
+  {
+    "input": "skoljke",
+    "expected": "školjke"
+  },
+  {
+    "input": "skolovanja",
+    "expected": "školovanja"
+  },
+  {
+    "input": "skolovanje",
+    "expected": "školovanje"
+  },
+  {
+    "input": "skolska",
+    "expected": "školska"
+  },
+  {
+    "input": "skolski",
+    "expected": "školski"
+  },
+  {
+    "input": "skolskih",
+    "expected": "školskih"
+  },
+  {
+    "input": "skolsko",
+    "expected": "školsko"
+  },
+  {
+    "input": "skolskog",
+    "expected": "školskog"
+  },
+  {
+    "input": "skolskoj",
+    "expected": "školskoj"
+  },
+  {
+    "input": "skolu",
+    "expected": "školu"
+  },
+  {
+    "input": "skripe",
+    "expected": "škripe"
+  },
+  {
+    "input": "skripi",
+    "expected": "škripi"
+  },
+  {
+    "input": "skupljajuci",
+    "expected": "skupljajući"
+  },
+  {
+    "input": "slagom",
+    "expected": "šlagom"
+  },
+  {
+    "input": "sljedeci",
+    "expected": "sljedeći"
+  },
+  {
+    "input": "sljedecu",
+    "expected": "sljedeću"
+  },
+  {
+    "input": "sljiva",
+    "expected": "šljiva"
+  },
+  {
+    "input": "sljive",
+    "expected": "šljive"
+  },
+  {
+    "input": "sljunka",
+    "expected": "šljunka"
+  },
+  {
+    "input": "slozena",
+    "expected": "složena"
+  },
+  {
+    "input": "slozene",
+    "expected": "složene"
+  },
+  {
+    "input": "slozeni",
+    "expected": "složeni"
+  },
+  {
+    "input": "slozenih",
+    "expected": "složenih"
+  },
+  {
+    "input": "slozenija",
+    "expected": "složenija"
+  },
+  {
+    "input": "slozeniji",
+    "expected": "složeniji"
+  },
+  {
+    "input": "slozenu",
+    "expected": "složenu"
+  },
+  {
+    "input": "slusaju",
+    "expected": "slušaju"
+  },
+  {
+    "input": "slusalice",
+    "expected": "slušalice"
+  },
+  {
+    "input": "slusanje",
+    "expected": "slušanje"
+  },
+  {
+    "input": "slusateljima",
+    "expected": "slušateljima"
+  },
+  {
+    "input": "slusati",
+    "expected": "slušati"
+  },
+  {
+    "input": "sluzi",
+    "expected": "služi"
+  },
+  {
+    "input": "smijesak",
+    "expected": "smiješak"
+  },
+  {
+    "input": "smijesio",
+    "expected": "smiješio"
+  },
+  {
+    "input": "smijeskom",
+    "expected": "smiješkom"
+  },
+  {
+    "input": "smijesnu",
+    "expected": "smiješnu"
+  },
+  {
+    "input": "smijezu",
+    "expected": "smiježu"
+  },
+  {
+    "input": "smjestaj",
+    "expected": "smještaj"
+  },
+  {
+    "input": "smjestaja",
+    "expected": "smještaja"
+  },
+  {
+    "input": "smrce",
+    "expected": "smrče"
+  },
+  {
+    "input": "snalazenju",
+    "expected": "snalaženju"
+  },
+  {
+    "input": "snaznija",
+    "expected": "snažnija"
+  },
+  {
+    "input": "snazno",
+    "expected": "snažno"
+  },
+  {
+    "input": "snaznu",
+    "expected": "snažnu"
+  },
+  {
+    "input": "snjezan",
+    "expected": "snježan"
+  },
+  {
+    "input": "snjezna",
+    "expected": "snježna"
+  },
+  {
+    "input": "snjeznih",
+    "expected": "snježnih"
+  },
+  {
+    "input": "snjeznu",
+    "expected": "snježnu"
+  },
+  {
+    "input": "socna",
+    "expected": "sočna"
+  },
+  {
+    "input": "soja",
+    "expected": "šoja"
+  },
+  {
+    "input": "solju",
+    "expected": "šolju"
+  },
+  {
+    "input": "soping",
+    "expected": "šoping"
+  },
+  {
+    "input": "spavaca",
+    "expected": "spavaća"
+  },
+  {
+    "input": "spavace",
+    "expected": "spavače"
+  },
+  {
+    "input": "spice",
+    "expected": "špice"
+  },
+  {
+    "input": "spilja",
+    "expected": "špilja"
+  },
+  {
+    "input": "sportas",
+    "expected": "sportaš"
+  },
+  {
+    "input": "sprjecava",
+    "expected": "sprječava"
+  },
+  {
+    "input": "spusta",
+    "expected": "spušta"
+  },
+  {
+    "input": "spustaju",
+    "expected": "spuštaju"
+  },
+  {
+    "input": "spuzva",
+    "expected": "spužva"
+  },
+  {
+    "input": "sramezljiva",
+    "expected": "sramežljiva"
+  },
+  {
+    "input": "srcanih",
+    "expected": "srčanih"
+  },
+  {
+    "input": "sreca",
+    "expected": "sreća"
+  },
+  {
+    "input": "srece",
+    "expected": "sreće"
+  },
+  {
+    "input": "srecu",
+    "expected": "sreću"
+  },
+  {
+    "input": "srednjoskolka",
+    "expected": "srednjoškolka"
+  },
+  {
+    "input": "srucava",
+    "expected": "sručava"
+  },
+  {
+    "input": "staklenicki",
+    "expected": "staklenički"
+  },
+  {
+    "input": "stala",
+    "expected": "štala"
+  },
+  {
+    "input": "stedi",
+    "expected": "štedi"
+  },
+  {
+    "input": "stednja",
+    "expected": "štednja"
+  },
+  {
+    "input": "stednjak",
+    "expected": "štednjak"
+  },
+  {
+    "input": "stite",
+    "expected": "štite"
+  },
+  {
+    "input": "stiti",
+    "expected": "štiti"
+  },
+  {
+    "input": "sto",
+    "expected": "što"
+  },
+  {
+    "input": "stoci",
+    "expected": "stoči"
+  },
+  {
+    "input": "stolic",
+    "expected": "stolić"
+  },
+  {
+    "input": "stovise",
+    "expected": "štoviše"
+  },
+  {
+    "input": "strascu",
+    "expected": "strašću"
+  },
+  {
+    "input": "strasne",
+    "expected": "strašne"
+  },
+  {
+    "input": "strozi",
+    "expected": "stroži"
+  },
+  {
+    "input": "strucni",
+    "expected": "stručni"
+  },
+  {
+    "input": "strucnjaci",
+    "expected": "stručnjaci"
+  },
+  {
+    "input": "strucnjak",
+    "expected": "stručnjak"
+  },
+  {
+    "input": "stubiste",
+    "expected": "stubište"
+  },
+  {
+    "input": "stubistem",
+    "expected": "stubištem"
+  },
+  {
+    "input": "sudenje",
+    "expected": "suđenje"
+  },
+  {
+    "input": "sudenju",
+    "expected": "suđenju"
+  },
+  {
+    "input": "sulja",
+    "expected": "šulja"
+  },
+  {
+    "input": "suma",
+    "expected": "šuma"
+  },
+  {
+    "input": "sumama",
+    "expected": "šumama"
+  },
+  {
+    "input": "sume",
+    "expected": "šume"
+  },
+  {
+    "input": "sumi",
+    "expected": "šumi"
+  },
+  {
+    "input": "sumom",
+    "expected": "šumom"
+  },
+  {
+    "input": "sumska",
+    "expected": "šumska"
+  },
+  {
+    "input": "sumske",
+    "expected": "šumske"
+  },
+  {
+    "input": "sumskog",
+    "expected": "šumskog"
+  },
+  {
+    "input": "sumskoj",
+    "expected": "šumskoj"
+  },
+  {
+    "input": "sumskom",
+    "expected": "šumskom"
+  },
+  {
+    "input": "sumsku",
+    "expected": "šumsku"
+  },
+  {
+    "input": "sumu",
+    "expected": "šumu"
+  },
+  {
+    "input": "sunca",
+    "expected": "sunča"
+  },
+  {
+    "input": "suncan",
+    "expected": "sunčan"
+  },
+  {
+    "input": "suncane",
+    "expected": "sunčane"
+  },
+  {
+    "input": "suncanje",
+    "expected": "sunčanje"
+  },
+  {
+    "input": "suocavanju",
+    "expected": "suočavanju"
+  },
+  {
+    "input": "suosjecala",
+    "expected": "suosjećala"
+  },
+  {
+    "input": "suosjecanje",
+    "expected": "suosjećanje"
+  },
+  {
+    "input": "supi",
+    "expected": "šupi"
+  },
+  {
+    "input": "susa",
+    "expected": "suša"
+  },
+  {
+    "input": "suseno",
+    "expected": "sušeno"
+  },
+  {
+    "input": "susi",
+    "expected": "suši"
+  },
+  {
+    "input": "susilica",
+    "expected": "sušilica"
+  },
+  {
+    "input": "suska",
+    "expected": "šuška"
+  },
+  {
+    "input": "suskale",
+    "expected": "šuškale"
+  },
+  {
+    "input": "sustanje",
+    "expected": "šuštanje"
+  },
+  {
+    "input": "susti",
+    "expected": "šušti"
+  },
+  {
+    "input": "susu",
+    "expected": "sušu"
+  },
+  {
+    "input": "sutrasnji",
+    "expected": "sutrašnji"
+  },
+  {
+    "input": "svecano",
+    "expected": "svečano"
+  },
+  {
+    "input": "svecanosti",
+    "expected": "svečanosti"
+  },
+  {
+    "input": "svida",
+    "expected": "sviđa"
+  },
+  {
+    "input": "svijecu",
+    "expected": "svijeću"
+  },
+  {
+    "input": "svjecnjak",
+    "expected": "svjećnjak"
+  },
+  {
+    "input": "svjez",
+    "expected": "svjež"
+  },
+  {
+    "input": "svjeza",
+    "expected": "svježa"
+  },
+  {
+    "input": "svjeze",
+    "expected": "svježe"
+  },
+  {
+    "input": "svjezeg",
+    "expected": "svježeg"
+  },
+  {
+    "input": "svjezem",
+    "expected": "svježem"
+  },
+  {
+    "input": "svjezi",
+    "expected": "svježi"
+  },
+  {
+    "input": "svjezom",
+    "expected": "svježom"
+  },
+  {
+    "input": "takoder",
+    "expected": "također"
+  },
+  {
+    "input": "tecaj",
+    "expected": "tečaj"
+  },
+  {
+    "input": "tece",
+    "expected": "teče"
+  },
+  {
+    "input": "tekucinu",
+    "expected": "tekućinu"
+  },
+  {
+    "input": "tenisac",
+    "expected": "tenisač"
+  },
+  {
+    "input": "teskih",
+    "expected": "teških"
+  },
+  {
+    "input": "teskim",
+    "expected": "teškim"
+  },
+  {
+    "input": "tesko",
+    "expected": "teško"
+  },
+  {
+    "input": "teskocama",
+    "expected": "teškoćama"
+  },
+  {
+    "input": "teskoce",
+    "expected": "teškoće"
+  },
+  {
+    "input": "tezak",
+    "expected": "težak"
+  },
+  {
+    "input": "tezi",
+    "expected": "teži"
+  },
+  {
+    "input": "tezinu",
+    "expected": "težinu"
+  },
+  {
+    "input": "tisina",
+    "expected": "tišina"
+  },
+  {
+    "input": "tisini",
+    "expected": "tišini"
+  },
+  {
+    "input": "tisuca",
+    "expected": "tisuća"
+  },
+  {
+    "input": "tisuce",
+    "expected": "tisuće"
+  },
+  {
+    "input": "tjelovjezba",
+    "expected": "tjelovježba"
+  },
+  {
+    "input": "tocno",
+    "expected": "točno"
+  },
+  {
+    "input": "tocnost",
+    "expected": "točnost"
+  },
+  {
+    "input": "trazeci",
+    "expected": "tražeći"
+  },
+  {
+    "input": "trazi",
+    "expected": "traži"
+  },
+  {
+    "input": "trazim",
+    "expected": "tražim"
+  },
+  {
+    "input": "trcanja",
+    "expected": "trčanja"
+  },
+  {
+    "input": "trcanje",
+    "expected": "trčanje"
+  },
+  {
+    "input": "trce",
+    "expected": "trče"
+  },
+  {
+    "input": "trci",
+    "expected": "trči"
+  },
+  {
+    "input": "treceg",
+    "expected": "trećeg"
+  },
+  {
+    "input": "trgovacki",
+    "expected": "trgovački"
+  },
+  {
+    "input": "trkac",
+    "expected": "trkač"
+  },
+  {
+    "input": "trzistu",
+    "expected": "tržištu"
+  },
+  {
+    "input": "trznica",
+    "expected": "tržnica"
+  },
+  {
+    "input": "trznici",
+    "expected": "tržnici"
+  },
+  {
+    "input": "turisticka",
+    "expected": "turistička"
+  },
+  {
+    "input": "turistickim",
+    "expected": "turističkim"
+  },
+  {
+    "input": "turistickoj",
+    "expected": "turističkoj"
+  },
+  {
+    "input": "tus",
+    "expected": "tuš"
+  },
+  {
+    "input": "tuzan",
+    "expected": "tužan"
+  },
+  {
+    "input": "tvrdava",
+    "expected": "tvrđava"
+  },
+  {
+    "input": "uce",
+    "expected": "uče"
+  },
+  {
+    "input": "ucenici",
+    "expected": "učenici"
+  },
+  {
+    "input": "ucenicima",
+    "expected": "učenicima"
+  },
+  {
+    "input": "ucenik",
+    "expected": "učenik"
+  },
+  {
+    "input": "ucenika",
+    "expected": "učenika"
+  },
+  {
+    "input": "uceniku",
+    "expected": "učeniku"
+  },
+  {
+    "input": "ucenja",
+    "expected": "učenja"
+  },
+  {
+    "input": "ucenje",
+    "expected": "učenje"
+  },
+  {
+    "input": "ucenju",
+    "expected": "učenju"
+  },
+  {
+    "input": "uci",
+    "expected": "uči"
+  },
+  {
+    "input": "ucila",
+    "expected": "učila"
+  },
+  {
+    "input": "uciniti",
+    "expected": "učiniti"
+  },
+  {
+    "input": "ucionica",
+    "expected": "učionica"
+  },
+  {
+    "input": "ucitelj",
+    "expected": "učitelj"
+  },
+  {
+    "input": "ucitelje",
+    "expected": "učitelje"
+  },
+  {
+    "input": "uciteljica",
+    "expected": "učiteljica"
+  },
+  {
+    "input": "uciti",
+    "expected": "učiti"
+  },
+  {
+    "input": "ugrozava",
+    "expected": "ugrožava"
+  },
+  {
+    "input": "ukljuciti",
+    "expected": "uključiti"
+  },
+  {
+    "input": "ukljucuje",
+    "expected": "uključuje"
+  },
+  {
+    "input": "ukljucuju",
+    "expected": "uključuju"
+  },
+  {
+    "input": "ukljucujuci",
+    "expected": "uključujući"
+  },
+  {
+    "input": "ukrasava",
+    "expected": "ukrašava"
+  },
+  {
+    "input": "ukrasen",
+    "expected": "ukrašen"
+  },
+  {
+    "input": "ukrasena",
+    "expected": "ukrašena"
+  },
+  {
+    "input": "ukrasenog",
+    "expected": "ukrašenog"
+  },
+  {
+    "input": "umjetnicka",
+    "expected": "umjetnička"
+  },
+  {
+    "input": "unatoc",
+    "expected": "unatoč"
+  },
+  {
+    "input": "unistava",
+    "expected": "uništava"
+  },
+  {
+    "input": "unucadi",
+    "expected": "unučadi"
+  },
+  {
+    "input": "unucice",
+    "expected": "unučice"
+  },
+  {
+    "input": "upravljac",
+    "expected": "upravljač"
+  },
+  {
+    "input": "uredaja",
+    "expected": "uređaja"
+  },
+  {
+    "input": "uredaje",
+    "expected": "uređaje"
+  },
+  {
+    "input": "ushicenje",
+    "expected": "ushićenje"
+  },
+  {
+    "input": "usi",
+    "expected": "uši"
+  },
+  {
+    "input": "usisavac",
+    "expected": "usisavač"
+  },
+  {
+    "input": "uskrsnja",
+    "expected": "uskršnja"
+  },
+  {
+    "input": "usluzuje",
+    "expected": "uslužuje"
+  },
+  {
+    "input": "uspjesna",
+    "expected": "uspješna"
+  },
+  {
+    "input": "uspjesno",
+    "expected": "uspješno"
+  },
+  {
+    "input": "uspjesnom",
+    "expected": "uspješnom"
+  },
+  {
+    "input": "uticnica",
+    "expected": "utičnica"
+  },
+  {
+    "input": "utjece",
+    "expected": "utječe"
+  },
+  {
+    "input": "utjecu",
+    "expected": "utječu"
+  },
+  {
+    "input": "uvjezbavaju",
+    "expected": "uvježbavaju"
+  },
+  {
+    "input": "uzasan",
+    "expected": "užasan"
+  },
+  {
+    "input": "uzasna",
+    "expected": "užasna"
+  },
+  {
+    "input": "uzasno",
+    "expected": "užasno"
+  },
+  {
+    "input": "uzdize",
+    "expected": "uzdiže"
+  },
+  {
+    "input": "uziva",
+    "expected": "uživa"
+  },
+  {
+    "input": "uzivajte",
+    "expected": "uživajte"
+  },
+  {
+    "input": "uzivaju",
+    "expected": "uživaju"
+  },
+  {
+    "input": "uzivanje",
+    "expected": "uživanje"
+  },
+  {
+    "input": "uzivo",
+    "expected": "uživo"
+  },
+  {
+    "input": "uzurbane",
+    "expected": "užurbane"
+  },
+  {
+    "input": "uzurbanu",
+    "expected": "užurbanu"
+  },
+  {
+    "input": "vasu",
+    "expected": "vašu"
+  },
+  {
+    "input": "vazan",
+    "expected": "važan"
+  },
+  {
+    "input": "vazeca",
+    "expected": "važeća"
+  },
+  {
+    "input": "vazna",
+    "expected": "važna"
+  },
+  {
+    "input": "vazne",
+    "expected": "važne"
+  },
+  {
+    "input": "vazni",
+    "expected": "važni"
+  },
+  {
+    "input": "vaznih",
+    "expected": "važnih"
+  },
+  {
+    "input": "vaznija",
+    "expected": "važnija"
+  },
+  {
+    "input": "vaznim",
+    "expected": "važnim"
+  },
+  {
+    "input": "vazno",
+    "expected": "važno"
+  },
+  {
+    "input": "vaznosti",
+    "expected": "važnosti"
+  },
+  {
+    "input": "vec",
+    "expected": "već"
+  },
+  {
+    "input": "veca",
+    "expected": "veća"
+  },
+  {
+    "input": "vecer",
+    "expected": "večer"
+  },
+  {
+    "input": "vecera",
+    "expected": "večera"
+  },
+  {
+    "input": "veceras",
+    "expected": "večeras"
+  },
+  {
+    "input": "vecerati",
+    "expected": "večerati"
+  },
+  {
+    "input": "veceri",
+    "expected": "večeri"
+  },
+  {
+    "input": "vecernje",
+    "expected": "večernje"
+  },
+  {
+    "input": "vecerom",
+    "expected": "večerom"
+  },
+  {
+    "input": "veceru",
+    "expected": "večeru"
+  },
+  {
+    "input": "veci",
+    "expected": "veći"
+  },
+  {
+    "input": "vecina",
+    "expected": "većina"
+  },
+  {
+    "input": "vecine",
+    "expected": "većine"
+  },
+  {
+    "input": "vecinu",
+    "expected": "većinu"
+  },
+  {
+    "input": "velicina",
+    "expected": "veličina"
+  },
+  {
+    "input": "velicinom",
+    "expected": "veličinom"
+  },
+  {
+    "input": "veslac",
+    "expected": "veslač"
+  },
+  {
+    "input": "veslacki",
+    "expected": "veslački"
+  },
+  {
+    "input": "vidjevsi",
+    "expected": "vidjevši"
+  },
+  {
+    "input": "vijecnica",
+    "expected": "vijećnica"
+  },
+  {
+    "input": "vise",
+    "expected": "više"
+  },
+  {
+    "input": "vjecne",
+    "expected": "vječne"
+  },
+  {
+    "input": "vjecnost",
+    "expected": "vječnost"
+  },
+  {
+    "input": "vjencanje",
+    "expected": "vjenčanje"
+  },
+  {
+    "input": "vjesalica",
+    "expected": "vješalica"
+  },
+  {
+    "input": "vjesalici",
+    "expected": "vješalici"
+  },
+  {
+    "input": "vjesticji",
+    "expected": "vještičji"
+  },
+  {
+    "input": "vjestim",
+    "expected": "vještim"
+  },
+  {
+    "input": "vjestina",
+    "expected": "vještina"
+  },
+  {
+    "input": "vjestine",
+    "expected": "vještine"
+  },
+  {
+    "input": "vjestinom",
+    "expected": "vještinom"
+  },
+  {
+    "input": "vjestinu",
+    "expected": "vještinu"
+  },
+  {
+    "input": "vjezba",
+    "expected": "vježba"
+  },
+  {
+    "input": "vjezbaju",
+    "expected": "vježbaju"
+  },
+  {
+    "input": "vjezbanje",
+    "expected": "vježbanje"
+  },
+  {
+    "input": "vjezbanjem",
+    "expected": "vježbanjem"
+  },
+  {
+    "input": "vjezbe",
+    "expected": "vježbe"
+  },
+  {
+    "input": "vjezbom",
+    "expected": "vježbom"
+  },
+  {
+    "input": "voca",
+    "expected": "voća"
+  },
+  {
+    "input": "voce",
+    "expected": "voće"
+  },
+  {
+    "input": "vocna",
+    "expected": "voćna"
+  },
+  {
+    "input": "vocnjak",
+    "expected": "voćnjak"
+  },
+  {
+    "input": "voda",
+    "expected": "vođa"
+  },
+  {
+    "input": "vodenje",
+    "expected": "vođenje"
+  },
+  {
+    "input": "vodicem",
+    "expected": "vodičem"
+  },
+  {
+    "input": "vodicima",
+    "expected": "vodičima"
+  },
+  {
+    "input": "vozace",
+    "expected": "vozače"
+  },
+  {
+    "input": "voznju",
+    "expected": "vožnju"
+  },
+  {
+    "input": "vraca",
+    "expected": "vraća"
+  },
+  {
+    "input": "vrecice",
+    "expected": "vrećice"
+  },
+  {
+    "input": "vrsnjaka",
+    "expected": "vršnjaka"
+  },
+  {
+    "input": "vruc",
+    "expected": "vruć"
+  },
+  {
+    "input": "vruca",
+    "expected": "vruća"
+  },
+  {
+    "input": "vruce",
+    "expected": "vruće"
+  },
+  {
+    "input": "vruceg",
+    "expected": "vrućeg"
+  },
+  {
+    "input": "vrucem",
+    "expected": "vrućem"
+  },
+  {
+    "input": "vruci",
+    "expected": "vrući"
+  },
+  {
+    "input": "vrucini",
+    "expected": "vrućini"
+  },
+  {
+    "input": "vrucoj",
+    "expected": "vrućoj"
+  },
+  {
+    "input": "vuce",
+    "expected": "vuče"
+  },
+  {
+    "input": "vucem",
+    "expected": "vučem"
+  },
+  {
+    "input": "z",
+    "expected": "ž"
+  },
+  {
+    "input": "zaba",
+    "expected": "žaba"
+  },
+  {
+    "input": "zacini",
+    "expected": "začini"
+  },
+  {
+    "input": "zaciniti",
+    "expected": "začiniti"
+  },
+  {
+    "input": "zadaca",
+    "expected": "zadaća"
+  },
+  {
+    "input": "zadacu",
+    "expected": "zadaću"
+  },
+  {
+    "input": "zadrzao",
+    "expected": "zadržao"
+  },
+  {
+    "input": "zaduzivanje",
+    "expected": "zaduživanje"
+  },
+  {
+    "input": "zagadenja",
+    "expected": "zagađenja"
+  },
+  {
+    "input": "zagadenje",
+    "expected": "zagađenje"
+  },
+  {
+    "input": "zahrdalu",
+    "expected": "zahrđalu"
+  },
+  {
+    "input": "zahvaljujuci",
+    "expected": "zahvaljujući"
+  },
+  {
+    "input": "zajednicki",
+    "expected": "zajednički"
+  },
+  {
+    "input": "zakljucavaju",
+    "expected": "zaključavaju"
+  },
+  {
+    "input": "zakljuciti",
+    "expected": "zaključiti"
+  },
+  {
+    "input": "zalim",
+    "expected": "žalim"
+  },
+  {
+    "input": "zalosne",
+    "expected": "žalosne"
+  },
+  {
+    "input": "zalost",
+    "expected": "žalost"
+  },
+  {
+    "input": "zalosti",
+    "expected": "žalosti"
+  },
+  {
+    "input": "zamrzivac",
+    "expected": "zamrzivač"
+  },
+  {
+    "input": "zanje",
+    "expected": "žanje"
+  },
+  {
+    "input": "zao",
+    "expected": "žao"
+  },
+  {
+    "input": "zarulja",
+    "expected": "žarulja"
+  },
+  {
+    "input": "zasluzio",
+    "expected": "zaslužio"
+  },
+  {
+    "input": "zasluzuje",
+    "expected": "zaslužuje"
+  },
+  {
+    "input": "zasticen",
+    "expected": "zaštićen"
+  },
+  {
+    "input": "zastitu",
+    "expected": "zaštitu"
+  },
+  {
+    "input": "zatrazi",
+    "expected": "zatraži"
+  },
+  {
+    "input": "zavrsava",
+    "expected": "završava"
+  },
+  {
+    "input": "zavrsena",
+    "expected": "završena"
+  },
+  {
+    "input": "zavrsetak",
+    "expected": "završetak"
+  },
+  {
+    "input": "zavrsetka",
+    "expected": "završetka"
+  },
+  {
+    "input": "zavrsetku",
+    "expected": "završetku"
+  },
+  {
+    "input": "zavrsio",
+    "expected": "završio"
+  },
+  {
+    "input": "zavrsiti",
+    "expected": "završiti"
+  },
+  {
+    "input": "zbunja",
+    "expected": "žbunja"
+  },
+  {
+    "input": "zbunje",
+    "expected": "žbunje"
+  },
+  {
+    "input": "zderao",
+    "expected": "žderao"
+  },
+  {
+    "input": "zdere",
+    "expected": "ždere"
+  },
+  {
+    "input": "zdral",
+    "expected": "ždral"
+  },
+  {
+    "input": "zed",
+    "expected": "žeđ"
+  },
+  {
+    "input": "zeli",
+    "expected": "želi"
+  },
+  {
+    "input": "zelim",
+    "expected": "želim"
+  },
+  {
+    "input": "zelis",
+    "expected": "želiš"
+  },
+  {
+    "input": "zelja",
+    "expected": "želja"
+  },
+  {
+    "input": "zeljeza",
+    "expected": "željeza"
+  },
+  {
+    "input": "zeljezna",
+    "expected": "željezna"
+  },
+  {
+    "input": "zeljeznica",
+    "expected": "željeznica"
+  },
+  {
+    "input": "zeljeznicke",
+    "expected": "željezničke"
+  },
+  {
+    "input": "zeljeznickom",
+    "expected": "željezničkom"
+  },
+  {
+    "input": "zeljeznicom",
+    "expected": "željeznicom"
+  },
+  {
+    "input": "zeljeznu",
+    "expected": "željeznu"
+  },
+  {
+    "input": "zeljezo",
+    "expected": "željezo"
+  },
+  {
+    "input": "zeludac",
+    "expected": "želudac"
+  },
+  {
+    "input": "zena",
+    "expected": "žena"
+  },
+  {
+    "input": "zene",
+    "expected": "žene"
+  },
+  {
+    "input": "zenscic",
+    "expected": "ženščić"
+  },
+  {
+    "input": "zenske",
+    "expected": "ženske"
+  },
+  {
+    "input": "zenu",
+    "expected": "ženu"
+  },
+  {
+    "input": "zescim",
+    "expected": "žešćim"
+  },
+  {
+    "input": "zestoka",
+    "expected": "žestoka"
+  },
+  {
+    "input": "zestoku",
+    "expected": "žestoku"
+  },
+  {
+    "input": "zetva",
+    "expected": "žetva"
+  },
+  {
+    "input": "zetve",
+    "expected": "žetve"
+  },
+  {
+    "input": "zetvu",
+    "expected": "žetvu"
+  },
+  {
+    "input": "zice",
+    "expected": "žice"
+  },
+  {
+    "input": "zicno",
+    "expected": "žično"
+  },
+  {
+    "input": "zicu",
+    "expected": "žicu"
+  },
+  {
+    "input": "zir",
+    "expected": "žir"
+  },
+  {
+    "input": "zirafa",
+    "expected": "žirafa"
+  },
+  {
+    "input": "zireve",
+    "expected": "žireve"
+  },
+  {
+    "input": "ziri",
+    "expected": "žiri"
+  },
+  {
+    "input": "zito",
+    "expected": "žito"
+  },
+  {
+    "input": "zivce",
+    "expected": "živce"
+  },
+  {
+    "input": "zive",
+    "expected": "žive"
+  },
+  {
+    "input": "zivi",
+    "expected": "živi"
+  },
+  {
+    "input": "zivica",
+    "expected": "živica"
+  },
+  {
+    "input": "zivjele",
+    "expected": "živjele"
+  },
+  {
+    "input": "zivjeti",
+    "expected": "živjeti"
+  },
+  {
+    "input": "zivot",
+    "expected": "život"
+  },
+  {
+    "input": "zivota",
+    "expected": "života"
+  },
+  {
+    "input": "zivotinja",
+    "expected": "životinja"
+  },
+  {
+    "input": "zivotinje",
+    "expected": "životinje"
+  },
+  {
+    "input": "zivotinjskom",
+    "expected": "životinjskom"
+  },
+  {
+    "input": "zivotne",
+    "expected": "životne"
+  },
+  {
+    "input": "zivotnim",
+    "expected": "životnim"
+  },
+  {
+    "input": "zivotom",
+    "expected": "životom"
+  },
+  {
+    "input": "zivotu",
+    "expected": "životu"
+  },
+  {
+    "input": "zlica",
+    "expected": "žlica"
+  },
+  {
+    "input": "zlicice",
+    "expected": "žličice"
+  },
+  {
+    "input": "zlijebove",
+    "expected": "žlijebove"
+  },
+  {
+    "input": "znacajno",
+    "expected": "značajno"
+  },
+  {
+    "input": "znacenje",
+    "expected": "značenje"
+  },
+  {
+    "input": "znaci",
+    "expected": "znači"
+  },
+  {
+    "input": "znatizelji",
+    "expected": "znatiželji"
+  },
+  {
+    "input": "znatizeljinih",
+    "expected": "znatiželjinih"
+  },
+  {
+    "input": "zongler",
+    "expected": "žongler"
+  },
+  {
+    "input": "zonglirati",
+    "expected": "žonglirati"
+  },
+  {
+    "input": "zracna",
+    "expected": "zračna"
+  },
+  {
+    "input": "zracne",
+    "expected": "zračne"
+  },
+  {
+    "input": "zracnih",
+    "expected": "zračnih"
+  },
+  {
+    "input": "zracnom",
+    "expected": "zračnom"
+  },
+  {
+    "input": "zrtvuje",
+    "expected": "žrtvuje"
+  },
+  {
+    "input": "zuja",
+    "expected": "žuja"
+  },
+  {
+    "input": "zuljevi",
+    "expected": "žuljevi"
+  },
+  {
+    "input": "zur",
+    "expected": "žur"
+  },
+  {
+    "input": "zurba",
+    "expected": "žurba"
+  },
+  {
+    "input": "zuri",
+    "expected": "žuri"
+  },
+  {
+    "input": "zurka",
+    "expected": "žurka"
+  },
+  {
+    "input": "zustar",
+    "expected": "žustar"
+  },
+  {
+    "input": "zuta",
+    "expected": "žuta"
+  },
+  {
+    "input": "zute",
+    "expected": "žute"
+  },
+  {
+    "input": "zuti",
+    "expected": "žuti"
+  },
+  {
+    "input": "zutim",
+    "expected": "žutim"
+  },
+  {
+    "input": "zutog",
+    "expected": "žutog"
+  },
+  {
+    "input": "zutoj",
+    "expected": "žutoj"
+  },
+  {
+    "input": "zutom",
+    "expected": "žutom"
+  },
+  {
+    "input": "zvace",
+    "expected": "žvaće"
+  },
+  {
+    "input": "zvacuci",
+    "expected": "žvačući"
+  },
+  {
+    "input": "zvecka",
+    "expected": "zvečka"
+  },
+  {
+    "input": "zvucnik",
+    "expected": "zvučnik"
   }
 ]

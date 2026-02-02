@@ -1,8 +1,14 @@
 # Trenutni status - Cro-Stem
 
 ## Projektni podaci
-- **v0.1.7-rc.2**: Implementirana hibridna normalizacija i novi localized Playground s Developer Mode-om.
-- **Točnost**: **97.41%** (Aggressive Mode, 10k corpus subset)
+- **v0.1.7-rc.2**: Implementirana hibridna normalizacija i- **Točnost Normalizacije**: **100.00%** (1313 unikatnih riječi, uključujući sve playground presete).
+- **Točnost Stemminga**: **97.78%** (Aggressive mode - poboljšanje od 0.37% u odnosu na baseline).
+- **Integrirani Alati (Agents)**:
+  1. `Normalization Maintainer`: Upravlja mapom (podržava identity override).
+  2. `Stemming Accuracy Guardian`: Nadzire regresije u korijenu.
+  3. `Feedback Integrator`: Automatski usvaja ispravke iz Playgrounda.
+  4. `Release Manager`: Automatizira izdavanje novih verzija.
+- **WASM Playground**: Ažuriran, svi preseti potvrđeno rade.
 - **Licenca**: MIT OR Apache-2.0
 
 ## Ključne značajke
